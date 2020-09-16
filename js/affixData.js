@@ -2043,7 +2043,7 @@ let data = {
             ref: "VJ01",
             success: 10
         },
-		{
+        {
             base: [
                 "TK02",
                 "TK03",
@@ -2117,7 +2117,7 @@ let data = {
             ref: "TG31",
             success: 60
         },
-		{
+        {
             base: [
                 "VJ03",
                 "VJ03",
@@ -3423,7 +3423,7 @@ let data = {
             "Factor Catalyst",
             "Necky Smile",
             "Doom Break I",
-			"Doom Break II",
+            "Doom Break II",
             "Extreceptor",
             "All Resist I",
             "All Resist II",
