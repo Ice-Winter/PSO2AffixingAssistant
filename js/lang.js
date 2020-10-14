@@ -861,7 +861,7 @@ const lang = Object.freeze({
         "S1 Add: Collaborator Liberator": {
             en: "S1 Add: Collaborator Liberator",
             jp: "S1追加:戦友の加護",
-            glen: "S1 Add: Comrade's Blessing"
+            glen: "*S1 Add: Comrade's Blessing"
         },
         "S1 Add: Wise Skill": {
             en: "S1 Add: Wise Skill",
@@ -871,7 +871,7 @@ const lang = Object.freeze({
         "S1 Add: Radiating Grace": {
             en: "S1 Add: Radiating Grace",
             jp: "S1追加:輝勢の恵",
-            glen: "*S1 Add: Radiating Grace"
+            glen: "S1 Add: Lucent Grace"
         },
         "S1 Add: Skilled Brilliance": {
             en: "S1 Add: Skilled Brilliance",
@@ -881,32 +881,32 @@ const lang = Object.freeze({
         "S1 Add: Red Petal Flash": {
             en: "S1 Add: Red Petal Flash",
             jp: "S1追加:花ノ赤閃",
-            glen: "S1 Add: Petalgleam"
+            glen: "*S1 Add: Petalgleam"
         },
         "S1 Add: Blue Ocean Flash": {
             en: "S1 Add: Blue Ocean Flash",
             jp: "S1追加:海ノ青閃",
-            glen: "S1 Add: Seagleam"
+            glen: "*S1 Add: Seagleam"
         },
         "S1 Add: White Snow Flash": {
             en: "S1 Add: White Snow Flash",
             jp: "S1追加:雪ノ白閃",
-            glen: "S1 Add: Snowgleam"
+            glen: "*S1 Add: Snowgleam"
         },
         "S1 Add: Yellow Moon Flash": {
             en: "S1 Add: Yellow Moon Flash",
             jp: "S1追加:月ノ黄閃",
-            glen: "S1 Add: Moongleam"
+            glen: "*S1 Add: Moongleam"
         },
         "S1 Add: Green Leaf Flash": {
             en: "S1 Add: Green Leaf Flash",
             jp: "S1追加:葉ノ緑閃",
-            glen: "*1 Add: Leafgleam"
+            glen: "*S1 Add: Leafgleam"
         },
         "S1 Add: Black Shadow Flash": {
             en: "S1 Add: Black Shadow Flash",
             jp: "S1追加:影ノ黒閃",
-            glen: "S1 Add: Shadowgleam"
+            glen: "*S1 Add: Shadowgleam"
         },
         "S1 Add: Skilled Strike": {
             en: "S1 Add: Skilled Strike",
@@ -916,7 +916,7 @@ const lang = Object.freeze({
         "S1 Add: Flowing Exhilaration": {
             en: "S1 Add: Flowing Exhilaration",
             jp: "S1追加:時流活与",
-            glen: "*S1 Add: Flowing Exhilaration"
+            glen: "*S1 Add: Timeflow Vitality"
         },
         "S1 Add: Guardian Armor": {
             en: "S1 Add: Guardian Armor",
@@ -936,17 +936,17 @@ const lang = Object.freeze({
         "S1 Add: Rupturing Intent": {
             en: "S1 Add: Rupturing Intent",
             jp: "S1追加:裂砕の志",
-            glen: "S1 Add: Partbreaker\'s Resolve"
+            glen: "*S1 Add: Partbreaker\'s Resolve"
         },
         "S1 Add: Double-Edged Sword": {
             en: "S1 Add: Double-Edged Sword",
             jp: "S1追加:諸刃の撃",
-            glen: "S1 Add: Double-Edged Sword"
+            glen: "*S1 Add: Double-Edged Sword"
         },
         "S1 Add: Radiant Strike": {
             en: "S1 Add: Radiant Strike",
             jp: "S1追加:輝剰の撃",
-            glen: "*S1 Add: Radiant Strike"
+            glen: "S1 Add: Lucent Strike"
         },
         "S2 Add: Umbrageous Melody": {
             en: "S2 Add: Umbrageous Melody",
@@ -1136,7 +1136,7 @@ const lang = Object.freeze({
         "S3 Add: Cursed Radiance": {
             en: "S3 Add: Cursed Radiance",
             jp: "S3追加:災転輝与",
-            glen: "S3 Add: Catastrophic Photon"
+            glen: "*S3 Add: Catastrophic Photon"
         },
         "S3 Add: Calming Exhilaration": {
             en: "S3 Add: Calming Exhilaration",
@@ -4821,7 +4821,7 @@ const lang = Object.freeze({
     "SB04": {
         name_en: "Fabula Soul",
         name_jp: "ファーブラ・ソール",
-        name_glen: "*Fabula Soul",
+        name_glen: "Fabula Soul",
         effect_en: "S-ATK(+10),<br>R-ATK(+10),<br>T-ATK(+10),<br>HP(+20)",
         effect_jp: "打撃力(+10),<br>射撃力(+10),<br>法撃力(+10),<br>HP(+20)",
         effect_glen: "MEL Pwr(+10),<br>RNG Pwr(+10),<br>TEC Pwr(+10),<br>HP(+20)"
@@ -4829,7 +4829,7 @@ const lang = Object.freeze({
     "SB05": {
         name_en: "Historia Soul",
         name_jp: "イストリア・ソール",
-        name_glen: "*Historia Soul",
+        name_glen: "Historia Soul",
         effect_en: "S-DEF(+25),<br>R-DEF(+25),<br>T-DEF(+25),<br>HP(+30),<br>PP(+2)",
         effect_jp: "打撃防御(+25),<br>射撃防御(+25),<br>法撃防御(+25),<br>HP(+30),<br>PP(+2)",
         effect_glen: "MEL Def(+25),<br>RNG Def(+25),<br>TEC Def(+25),<br>HP(+30),<br>PP(+2)"
@@ -4965,7 +4965,7 @@ const lang = Object.freeze({
     "TK01": {
         name_en: "Omega Reverie",
         name_jp: "オメガ・レヴリー",
-        name_glen: "*Omega Reverie",
+        name_glen: "Omega Reverie",
         effect_en: "S-ATK(+15),<br>R-ATK(+15),<br>T-ATK(+15),<br>HP(+20),<br>PP(+1)",
         effect_jp: "打撃力(+15),<br>射撃力(+15),<br>法撃力(+15),<br>HP(+20),<br>PP(+1)",
         effect_glen: "MEL Pwr(+15),<br>RNG Pwr(+15),<br>TEC Pwr(+15),<br>HP(+20),<br>PP(+1)"
