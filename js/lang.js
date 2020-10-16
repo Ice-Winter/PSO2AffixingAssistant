@@ -4989,7 +4989,7 @@ const lang = Object.freeze({
     "TK04": {
         name_en: "Apprezina Reverie",
         name_jp: "アプレジナ・レヴリー",
-        name_glen: "*Apprentice Reverie",
+        name_glen: "Apprentice Reverie",
         effect_en: "S-ATK(+20),<br>R-ATK(+40),<br>T-ATK(+20),<br>HP(-10),<br>PP(-1)",
         effect_jp: "打撃力(+20),<br>射撃力(+40),<br>法撃力(+20),<br>HP(-10),<br>PP(-1)",
         effect_glen: "MEL Pwr(+20),<br>RNG Pwr(+40),<br>TEC Pwr(+20),<br>HP(-10),<br>PP(-1)"
@@ -5013,7 +5013,7 @@ const lang = Object.freeze({
     "TK10": {
         name_en: "Mana Reverie",
         name_jp: "マナ・レヴリー",
-        name_glen: "Mana Reverie",
+        name_glen: "*Mana Reverie",
         effect_en: "S-ATK(+50),R-ATK(+50),T-ATK(+50),HP(+20),PP(+4)",
         effect_jp: "打撃力(+50),射撃力(+50),法撃力(+50),HP(+20),PP(+4)",
         effect_glen: "MEL Pwr(+50),RNG Pwr(+50),TEC Pwr(+50),HP(+20),PP(+4)"
