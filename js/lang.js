@@ -393,7 +393,7 @@ const lang = Object.freeze({
         trainerLabel: {
             en: "Guidance Trainer +5%",
             jp: "錬成の導き",
-            glen: "Guidance Trainer +5%"
+            glen: "Augment Guidance +5%"
         },
         trainerDescription: {
             en: "Increases affixing success rate by 5% (it must be in the main fodder)",
