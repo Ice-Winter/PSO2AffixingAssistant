@@ -1338,6 +1338,10 @@
       "en": "{replace with english name for S1追加:輝充の志2}",
       "jp": "S1追加:輝充の志2"
     },
+    "S1 Add: Powering Intent": {
+      "en": "S1 Add: Powering Intent",
+      "jp": "S1追加:強闘の志"
+    },
     "S2 Add: Spirited Response": {
       "en": "S2 Add: Spirited Response",
       "jp": "S2追加:気輝応変"
@@ -1393,6 +1397,10 @@
     "{replace with english name for S5追加:領域加勢}": {
       "en": "{replace with english name for S5追加:領域加勢}",
       "jp": "S5追加:領域加勢"
+    },
+    "{replace with english name for S5追加:堅守の秤}": {
+      "en": "{replace with english name for S5追加:堅守の秤}",
+      "jp": "S5追加:堅守の秤"
     },
     "{replace with english name for S6追加:奇跡再演}": {
       "en": "{replace with english name for S6追加:奇跡再演}",

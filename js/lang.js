@@ -4973,7 +4973,7 @@ const lang = Object.freeze({
     "TK02": {
         name_en: "Elder Reverie",
         name_jp: "エルダー・レヴリー",
-        name_glen: "*Elder Reverie",
+        name_glen: "Elder Reverie",
         effect_en: "S-ATK(+40),<br>R-ATK(+20),<br>T-ATK(+20),<br>PP(-2)",
         effect_jp: "打撃力(+40),<br>射撃力(+20),<br>法撃力(+20),<br>PP(-2)",
         effect_glen: "MEL Pwr(+40),<br>RNG Pwr(+20),<br>TEC Pwr(+20),<br>PP(-2)"
@@ -4981,7 +4981,7 @@ const lang = Object.freeze({
     "TK03": {
         name_en: "Loser Reverie",
         name_jp: "ルーサー・レヴリー",
-        name_glen: "*Luther Reverie",
+        name_glen: "Luther Reverie",
         effect_en: "S-ATK(+20),<br>R-ATK(+20),<br>T-ATK(+40),<br>HP(-20)",
         effect_jp: "打撃力(+20),<br>射撃力(+20),<br>法撃力(+40),<br>HP(-20)",
         effect_glen: "MEL Pwr(+20),<br>RNG Pwr(+20),<br>TEC Pwr(+40),<br>HP(-20)"
@@ -4997,7 +4997,7 @@ const lang = Object.freeze({
     "TK05": {
         name_en: "Double Reverie",
         name_jp: "ダブル・レヴリー",
-        name_glen: "*Gemini Reverie",
+        name_glen: "Gemini Reverie",
         effect_en: "S-ATK(-20),<br>R-ATK(-20),<br>T-ATK(-20),<br>HP(+50),<br>PP(+5)",
         effect_jp: "打撃力(-20),<br>射撃力(-20),<br>法撃力(-20),<br>HP(+50),<br>PP(+5)",
         effect_glen: "MEL Pwr(-20),<br>RNG Pwr(-20),<br>TEC Pwr(-20),<br>HP(+50),<br>PP(+5)"
@@ -5005,7 +5005,7 @@ const lang = Object.freeze({
     "TK06": {
         name_en: "Persona Reverie",
         name_jp: "ペルソナ・レヴリー",
-        name_glen: "*Persona Reverie",
+        name_glen: "Persona Reverie",
         effect_en: "S-ATK(+40),R-ATK(+40),T-ATK(+40),S-DEF(-20),R-DEF(-20),T-DEF(-20)",
         effect_jp: "打撃力(+40),射撃力(+40),法撃力(+40),打撃防御(-20),射撃防御(-20),法撃防御(-20)",
         effect_glen: "MEL Pwr(+40),RNG Pwr(+40),TEC Pwr(+40),MEL Def(-20),RNG Def(-20),TEC Def(-20)"
@@ -5013,7 +5013,7 @@ const lang = Object.freeze({
     "TK10": {
         name_en: "Mana Reverie",
         name_jp: "マナ・レヴリー",
-        name_glen: "*Mana Reverie",
+        name_glen: "Mana Reverie",
         effect_en: "S-ATK(+50),R-ATK(+50),T-ATK(+50),HP(+20),PP(+4)",
         effect_jp: "打撃力(+50),射撃力(+50),法撃力(+50),HP(+20),PP(+4)",
         effect_glen: "MEL Pwr(+50),RNG Pwr(+50),TEC Pwr(+50),HP(+20),PP(+4)"
@@ -5493,7 +5493,7 @@ const lang = Object.freeze({
     "TD06": {
         name_en: "Latan Fever",
         name_jp: "ラタン・フィーバー",
-        name_glen: "Rattan Fever",
+        name_glen: "Lantern Fever",
         effect_en: "T-ATK(+10),<br>DEX(+5),<br>PP(+2)",
         effect_jp: "法撃力(+10),<br>技量(+5),<br>PP(+2)",
         effect_glen: "TEC Pwr(+10),<br>DEX(+5),<br>PP(+2)"
@@ -6053,10 +6053,10 @@ const lang = Object.freeze({
     "VO01": {
         name_en: "Guidance Trainer",
         name_jp: "錬成の導き",
-        name_glen: "*Guidance Trainer",
+        name_glen: "Augment Guidance",
         effect_en: "Increase Special Ability Addition success rate by 5%.",
         effect_jp: "特殊能力の成功率を5％上昇させる。",
-        effect_glen: "Increase Augment Addition success rate by 5%."
+        effect_glen: "Increases the probability of Augments successfully affixed to this equipment by 5%."
     },
     "VK05": {
         name_en: "NT Weapon Booster",
