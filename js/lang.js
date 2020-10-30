@@ -5205,7 +5205,7 @@ const lang = Object.freeze({
     "LP01": {
         name_en: "Lesser Power I",
         name_jp: "レッサー・パワーⅠ",
-        name_glen: "*Lesser Might I",
+        name_glen: "Lesser Might I",
         effect_en: "S-ATK(+5)",
         effect_jp: "打撃力(+5)",
         effect_glen: "MEL Pwr(+5)"
@@ -5213,7 +5213,7 @@ const lang = Object.freeze({
     "LP02": {
         name_en: "Lesser Power II",
         name_jp: "レッサー・パワーⅡ",
-        name_glen: "*Lesser Might II",
+        name_glen: "Lesser Might II",
         effect_en: "S-ATK(+15)",
         effect_jp: "打撃力(+15)",
         effect_glen: "MEL Pwr(+15)"
@@ -5221,7 +5221,7 @@ const lang = Object.freeze({
     "LP03": {
         name_en: "Lesser Power III",
         name_jp: "レッサー・パワーⅢ",
-        name_glen: "*Lesser Might III",
+        name_glen: "Lesser Might III",
         effect_en: "S-ATK(+25)",
         effect_jp: "打撃力(+25)",
         effect_glen: "MEL Pwr(+25)"
@@ -5229,7 +5229,7 @@ const lang = Object.freeze({
     "LP04": {
         name_en: "Lesser Power IV",
         name_jp: "レッサー・パワーⅣ",
-        name_glen: "*Lesser Might IV",
+        name_glen: "Lesser Might IV",
         effect_en: "S-ATK(+30)",
         effect_jp: "打撃力(+30)",
         effect_glen: "MEL Pwr(+30)"
@@ -5237,7 +5237,7 @@ const lang = Object.freeze({
     "LP05": {
         name_en: "Lesser Power V",
         name_jp: "レッサー・パワーⅤ",
-        name_glen: "*Lesser Might V",
+        name_glen: "Lesser Might V",
         effect_en: "S-ATK(+35)",
         effect_jp: "打撃力(+35)",
         effect_glen: "MEL Pwr(+35)"
@@ -5245,7 +5245,7 @@ const lang = Object.freeze({
     "LS01": {
         name_en: "Lesser Shoot I",
         name_jp: "レッサー・シュートⅠ",
-        name_glen: "*Lesser Precision I",
+        name_glen: "Lesser Precision I",
         effect_en: "R-ATK(+5)",
         effect_jp: "射撃力(+5)",
         effect_glen: "RNG Pwr(+5)"
@@ -5253,7 +5253,7 @@ const lang = Object.freeze({
     "LS02": {
         name_en: "Lesser Shoot II",
         name_jp: "レッサー・シュートⅡ",
-        name_glen: "*Lesser Precision II",
+        name_glen: "Lesser Precision II",
         effect_en: "R-ATK(+15)",
         effect_jp: "射撃力(+15)",
         effect_glen: "RNG Pwr(+15)"
@@ -5261,7 +5261,7 @@ const lang = Object.freeze({
     "LS03": {
         name_en: "Lesser Shoot III",
         name_jp: "レッサー・シュートⅢ",
-        name_glen: "*Lesser Precision III",
+        name_glen: "Lesser Precision III",
         effect_en: "R-ATK(+25)",
         effect_jp: "射撃力(+25)",
         effect_glen: "RNG Pwr(+25)"
@@ -5269,7 +5269,7 @@ const lang = Object.freeze({
     "LS04": {
         name_en: "Lesser Shoot IV",
         name_jp: "レッサー・シュートⅣ",
-        name_glen: "*Lesser Precision IV",
+        name_glen: "Lesser Precision IV",
         effect_en: "R-ATK(+30)",
         effect_jp: "射撃力(+30)",
         effect_glen: "RNG Pwr(+30)"
@@ -5277,7 +5277,7 @@ const lang = Object.freeze({
     "LS05": {
         name_en: "Lesser Shoot V",
         name_jp: "レッサー・シュートⅤ",
-        name_glen: "*Lesser Precision V",
+        name_glen: "Lesser Precision V",
         effect_en: "R-ATK(+35)",
         effect_jp: "射撃力(+35)",
         effect_glen: "RNG Pwr(+35)"
@@ -5285,7 +5285,7 @@ const lang = Object.freeze({
     "LT01": {
         name_en: "Lesser Technique I",
         name_jp: "レッサー・テクニックⅠ",
-        name_glen: "*Lesser Casting I",
+        name_glen: "Lesser Casting I",
         effect_en: "T-ATK(+5)",
         effect_jp: "法撃力(+5)",
         effect_glen: "TEC Pwr(+5)"
@@ -5293,7 +5293,7 @@ const lang = Object.freeze({
     "LT02": {
         name_en: "Lesser Technique II",
         name_jp: "レッサー・テクニックⅡ",
-        name_glen: "*Lesser Casting II",
+        name_glen: "Lesser Casting II",
         effect_en: "T-ATK(+15)",
         effect_jp: "法撃力(+15)",
         effect_glen: "TEC Pwr(+15)"
@@ -5301,7 +5301,7 @@ const lang = Object.freeze({
     "LT03": {
         name_en: "Lesser Technique III",
         name_jp: "レッサー・テクニックⅢ",
-        name_glen: "*Lesser Casting III",
+        name_glen: "Lesser Casting III",
         effect_en: "T-ATK(+25)",
         effect_jp: "法撃力(+25)",
         effect_glen: "TEC Pwr(+25)"
@@ -5309,7 +5309,7 @@ const lang = Object.freeze({
     "LT04": {
         name_en: "Lesser Technique IV",
         name_jp: "レッサー・テクニックⅣ",
-        name_glen: "*Lesser Casting IV",
+        name_glen: "Lesser Casting IV",
         effect_en: "T-ATK(+30)",
         effect_jp: "法撃力(+30)",
         effect_glen: "TEC Pwr(+30)"
@@ -5317,7 +5317,7 @@ const lang = Object.freeze({
     "LT05": {
         name_en: "Lesser Technique V",
         name_jp: "レッサー・テクニックⅤ",
-        name_glen: "*Lesser Casting V",
+        name_glen: "Lesser Casting V",
         effect_en: "T-ATK(+35)",
         effect_jp: "法撃力(+35)",
         effect_glen: "TEC Pwr(+35)"
@@ -5325,7 +5325,7 @@ const lang = Object.freeze({
     "LM01": {
         name_en: "Lesser Stamina I",
         name_jp: "レッサー・スタミナⅠ",
-        name_glen: "*Lesser Stamina I",
+        name_glen: "Lesser Stamina I",
         effect_en: "HP(+15)",
         effect_jp: "HP(+15)",
         effect_glen: "HP(+15)"
@@ -5333,7 +5333,7 @@ const lang = Object.freeze({
     "LM02": {
         name_en: "Lesser Stamina II",
         name_jp: "レッサー・スタミナⅡ",
-        name_glen: "*Lesser Stamina II",
+        name_glen: "Lesser Stamina II",
         effect_en: "HP(+35)",
         effect_jp: "HP(+35)",
         effect_glen: "HP(+35)"
@@ -5341,7 +5341,7 @@ const lang = Object.freeze({
     "LM03": {
         name_en: "Lesser Stamina III",
         name_jp: "レッサー・スタミナⅢ",
-        name_glen: "*Lesser Stamina III",
+        name_glen: "Lesser Stamina III",
         effect_en: "HP(+45)",
         effect_jp: "HP(+45)",
         effect_glen: "HP(+45)"
@@ -5349,7 +5349,7 @@ const lang = Object.freeze({
     "LM04": {
         name_en: "Lesser Stamina IV",
         name_jp: "レッサー・スタミナⅣ",
-        name_glen: "*Lesser Stamina IV",
+        name_glen: "Lesser Stamina IV",
         effect_en: "HP(+55)",
         effect_jp: "HP(+55)",
         effect_glen: "HP(+55)"
@@ -5357,7 +5357,7 @@ const lang = Object.freeze({
     "LM05": {
         name_en: "Lesser Stamina V",
         name_jp: "レッサー・スタミナⅤ",
-        name_glen: "*Lesser Stamina V",
+        name_glen: "Lesser Stamina V",
         effect_en: "HP(+65)",
         effect_jp: "HP(+65)",
         effect_glen: "HP(+65)"
@@ -5365,7 +5365,7 @@ const lang = Object.freeze({
     "LR01": {
         name_en: "Lesser Spirita I",
         name_jp: "レッサー・スピリタⅠ",
-        name_glen: "*Lesser Spirit I",
+        name_glen: "Lesser Spirit I",
         effect_en: "PP(+1)",
         effect_jp: "PP(+1)",
         effect_glen: "PP(+1)"
@@ -5373,7 +5373,7 @@ const lang = Object.freeze({
     "LR02": {
         name_en: "Lesser Spirita II",
         name_jp: "レッサー・スピリタⅡ",
-        name_glen: "*Lesser Spirit II",
+        name_glen: "Lesser Spirit II",
         effect_en: "PP(+2)",
         effect_jp: "PP(+2)",
         effect_glen: "PP(+2)"
@@ -5381,7 +5381,7 @@ const lang = Object.freeze({
     "LR03": {
         name_en: "Lesser Spirita III",
         name_jp: "レッサー・スピリタⅢ",
-        name_glen: "*Lesser Spirit III",
+        name_glen: "Lesser Spirit III",
         effect_en: "PP(+3)",
         effect_jp: "PP(+3)",
         effect_glen: "PP(+3)"
@@ -5389,7 +5389,7 @@ const lang = Object.freeze({
     "LR04": {
         name_en: "Lesser Spirita IV",
         name_jp: "レッサー・スピリタⅣ",
-        name_glen: "*Lesser Spirit IV",
+        name_glen: "Lesser Spirit IV",
         effect_en: "PP(+4)",
         effect_jp: "PP(+4)",
         effect_glen: "PP(+4)"
@@ -5397,7 +5397,7 @@ const lang = Object.freeze({
     "LR05": {
         name_en: "Lesser Spirita V",
         name_jp: "レッサー・スピリタⅤ",
-        name_glen: "*Lesser Spirit V",
+        name_glen: "Lesser Spirit V",
         effect_en: "PP(+5)",
         effect_jp: "PP(+5)",
         effect_glen: "PP(+5)"
