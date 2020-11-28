@@ -2544,7 +2544,7 @@ const lang = Object.freeze({
         name_glen: "S1:Petalgleam",
         effect_en: "+3% Damage for 30 seconds after<br>inflicting 450,000 damage.",
         effect_jp: "与ダメージ450,000毎に30秒間、3%威力上昇。",
-        effect_glen: "Increases power by 3% for 30 seconds after inflicting 450,000 damage."
+        effect_glen: "Increases power by 3% for 30 seconds after inflicting 450000 damage."
     },
     "LA13": {
         name_en: "S1:Blue Ocean Flash",
@@ -2768,7 +2768,7 @@ const lang = Object.freeze({
         name_glen: "S1:Dance with Death",
         effect_en: "Increase Power every three times you are attacked. Upon being attacked a tenth time, release an explosion that incapacitates you and damages all nearby targets.",
         effect_jp: "被ダメージの回数に応じて威力上昇。最大段階時の被ダメージで自身が戦闘不能になり周囲に与ダメージ。",
-        effect_glen: "Increase Attack Power every three times you are hit.<br>Upon receiving a 10th hit, an explosion will be released that reduces your HP to 1, damages all nearby targets and resets the effect of this skill"
+        effect_glen: "Increase Attack Power every three times you are hit.<br>Upon receiving a 10th hit an explosion will be released that reduces your HP to 1<br>damages all nearby targets and resets the effect of this skill"
     },
     "LA95": {
         name_en: "S1:Eclipsing Decay",
@@ -3416,7 +3416,7 @@ const lang = Object.freeze({
         name_glen: "S3:Petalsea Song",
         effect_en: "Increase damage over time when<br>S1:Red Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、毎秒威力が上昇。最大で5%。",
-        effect_glen: "While Petalgleam, Seagleam, or Snowgleam are active, attack power increases every second.<br>Maxes out at 5% after 37.5 seconds."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>attack power increases every second.<br>Maxes out at 5% after 37.5 seconds."
     },
     "LC1H": {
         name_en: "S3:Nature's Gleam 2",
@@ -3424,7 +3424,7 @@ const lang = Object.freeze({
         name_glen: "S3:Petalsea Lucentrush 2",
         effect_en: "Increase Natural PP Recovery by 25%<br>when S1:Red Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、PP自然回復量25%上昇。",
-        effect_glen: "While Petalgleam/Seagleam, or Snowgleam are active, natural PP recovery is increased by 25%."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>natural PP recovery is increased by 25%."
     },
     "LC1I": {
         name_en: "S3:Flowing Grace",
@@ -3480,7 +3480,7 @@ const lang = Object.freeze({
         name_glen: "S3:Strikeflow Shield",
         effect_en: "Decrease damage taken by 1% for every 300, 000 damage dealt. Maxes at 15%.",
         effect_jp: "与ダメージ300000ごとに被ダメージが1%軽減。（最大15%まで）",
-        effect_glen: "Reduces damage taken by 1% for every 300,000 damage dealt.<br>Maxes at 15%."
+        effect_glen: "Reduces damage taken by 1% for every 300000 damage dealt.<br>Maxes at 15%."
     },
     "LC92": {
         name_en: "S3:Curtailed Strike",
@@ -3488,7 +3488,7 @@ const lang = Object.freeze({
         name_glen: "S3:Strikeflow Descent",
         effect_en: "Decrease PP consumption by 1% for every 300, 000 damage dealt. Maxes at 15%.",
         effect_jp: "与ダメージ300000ごとにPP消費量が1%軽減。（最大15%まで）",
-        effect_glen: "Reduces PP consumption by 1% for every 300,000 damage dealt.<br>Maxes at 15%."
+        effect_glen: "Reduces PP consumption by 1% for every 300000 damage dealt.<br>Maxes at 15%."
     },
     "LC93": {
         name_en: "S3:Wise Strike",
@@ -3496,7 +3496,7 @@ const lang = Object.freeze({
         name_glen: "S3:Strikeflow Adept",
         effect_en: "Increase Critical Hit Rate by 2% for every 300, 000 damage dealt. Maxes at 30%.",
         effect_jp: "与ダメージ300000ごとにクリティカル率が2%上昇。（最大30%まで）",
-        effect_glen: "Increases critical hit rate by 2% for every 300,000 damage dealt.<br>Maxes at 30%."
+        effect_glen: "Increases critical hit rate by 2% for every 300000 damage dealt.<br>Maxes at 30%."
     },
     "LC2B": {
         name_en: "S3:Flowing Courage",
