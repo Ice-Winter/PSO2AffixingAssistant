@@ -2784,7 +2784,7 @@ const lang = Object.freeze({
         name_glen: "*S1:Photon Balance",
         effect_en: "Increases PP consumption by 8%, but boosts PA and Tech damage by 4%.",
         effect_jp: "PP消費量が8％増加する代わりにPAとテクニックの威力が4％上昇する。",
-        effect_glen: "Increases PP consumption by 8%, but boosts PA and Tech damage by 4%."
+        effect_glen: "Increases PP consumption by 8% but boosts PA and Tech damage by 4%."
     },
     "LA2Q": {
         name_en: "S1:Collaborator Liberator",
@@ -2896,7 +2896,7 @@ const lang = Object.freeze({
         name_glen: "S2:Petalsea Adept",
         effect_en: "Increase Critical Hit Rate by 20%<br>when S1:Red Petal Flash, S1:Blue<br>Ocean Flash, or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、クリティカル率20%上昇。",
-        effect_glen: "While Petalgleam, Seagleam, or Snowgleam are active, critical hit rate is increased by 20%."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>critical hit rate is increased by 20%."
     },
     "LB12": {
         name_en: "S2:Nature's Intent",
@@ -2904,7 +2904,7 @@ const lang = Object.freeze({
         name_glen: "S2:Will of the Petalsea",
         effect_en: "Increase damage by 3% when S1:Red<br>Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、与ダメージが3%上昇。",
-        effect_glen: "While Petalgleam, Seagleam, or Snowgleam are active, attack power is increased by 3%."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>attack power is increased by 3%."
     },
     "LB13": {
         name_en: "S2:Nature's Exhilaration",
@@ -2912,7 +2912,7 @@ const lang = Object.freeze({
         name_glen: "S2:Petalsea Vitality",
         effect_en: "Recover 2% HP every second when S1:Red<br>Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、毎秒HPが2%回復。",
-        effect_glen: "While Petalgleam, Seagleam, or Snowgleam are active, recover 2% of max HP every second."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>recover 2% of max HP every second."
     },
     "LB14": {
         name_en: "S2:Nature's Reduction",
@@ -2920,7 +2920,7 @@ const lang = Object.freeze({
         name_glen: "S2:Petalsea Descent",
         effect_en: "Decrease PP consumption by 12% when S1:Red<br>Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、PP消費量を12%軽減。",
-        effect_glen: "While Petalgleam, Seagleam, or Snowgleam are active, PP consumption is reduced by 12%."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>PP consumption is reduced by 12%."
     },
     "LB15": {
         name_en: "S2:Umbrageous Gleam",
@@ -2928,7 +2928,7 @@ const lang = Object.freeze({
         name_glen: "S2:Luminous Moonleaf",
         effect_en: "Increase Natural PP Recovery by 25% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、PP自然回復量25%上昇。",
-        effect_glen: "While Moongleam, Leafgleam, or Shadowgleam are active, natural PP recovery is increased by 25%."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>natural PP recovery is increased by 25%."
     },
     "LB16": {
         name_en: "S2:Umbrageous Guardian",
@@ -2936,7 +2936,7 @@ const lang = Object.freeze({
         name_glen: "S2:Moonleaf Shield",
         effect_en: "Decrease damage taken by 12% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、被ダメージを12%軽減。",
-        effect_glen: "While Moongleam, Leafgleam, or Shadowgleam are active, damage taken is reduced by 12%."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>damage taken is reduced by 12%."
     },
     "LB17": {
         name_en: "S2:Brilliant Ruin",
@@ -3048,7 +3048,7 @@ const lang = Object.freeze({
         name_glen: "S2:Moonleaf Song",
         effect_en: "Increase power over time when<br>S1:Yellow Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.<br>Maxes at 5%",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、毎秒威力が上昇。最大で5%。",
-        effect_glen: "While Moongleam, Leafgleam, or Shadowgleam are active, attack power increases every second.<br>Maxes out at 5% after 37.5 seconds."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>attack power increases every second.<br>Maxes out at 5% after 37.5 seconds."
     },
     "LB1L": {
         name_en: "S2:Nature's Reduction 2",
@@ -3056,7 +3056,7 @@ const lang = Object.freeze({
         name_glen: "S2:Petalsea Descent 2",
         effect_en: "Reduce PP consumption by 14%<br>when S1:Red Petal Flash,<br>S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、PP消費量を14%軽減。",
-        effect_glen: "While Petalgleam, Seagleam, or Snowgleam are active, PP consumption is reduced by 14%."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>PP consumption is reduced by 14%."
     },
     "LB1R": {
         name_en: "S2:Umbrageous Radiance",
@@ -3064,7 +3064,7 @@ const lang = Object.freeze({
         name_glen: "S2:Lustrous Moonleaf",
         effect_en: "Increase Active PP Recovery by 25% when S1:Yellow Moon Flash, S1:Green Leaf Flash, or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、攻撃時PP回復量が25%上昇。",
-        effect_glen: "While Moongleam, Leafgleam, or Shadowgleam are active, active PP recovery is increased by 25%."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>active PP recovery is increased by 25%."
     },
     "LB1M": {
         name_en: "S2:Umbrageous Radiance 2",
@@ -3072,7 +3072,7 @@ const lang = Object.freeze({
         name_glen: "S2:Lustrous Moonleaf 2",
         effect_en: "Increase Active PP Recovery by 28%<br>when S1:Yellow Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、攻撃時PP回復量が28%上昇。",
-        effect_glen: "While Moongleam, Leafgleam, or Shadowgleam are active, active PP recovery is increased by 28%."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>active PP recovery is increased by 28%."
     },
     "LB1N": {
         name_en: "S2:Wise Skill 2",
@@ -3168,7 +3168,7 @@ const lang = Object.freeze({
         name_glen: "*S2:Aegis Gift",
         effect_en: "When you Just Guard at less than 25% HP, recovers HP by 50% and PP by 30%.",
         effect_jp: "HPを25％未満にすると、HPが50％、PPが30％回復します。",
-        effect_glen: "When you Just Guard at less than 25% HP, recovers HP by 50% and PP by 30%."
+        effect_glen: "When you Just Guard at less than 25% HP<br>recovers HP by 50% and PP by 30%."
     },
     "LB2A": {
         name_en: "S2:Heavenly Keeper",
@@ -3176,7 +3176,7 @@ const lang = Object.freeze({
         name_glen: "*S2:Heavenly Keeper",
         effect_en: "In the air, reduces PP consumption by 8%. On the ground, boosts PP regeneration and attack PP recovery by 20%.",
         effect_jp: "空中時では、PP消費量が8％軽減。地上時では自然PP回復量が20％かつ地上での攻撃時ではPP回復量が20％上昇。",
-        effect_glen: "In the air, reduces PP consumption by 8%. On the ground, boosts PP regeneration and attack PP recovery by 20%."
+        effect_glen: "In the air<br>reduces PP consumption by 8%. On the ground<br>boosts PP regeneration and attack PP recovery by 20%."
     },
     "LB2C": {
         name_en: "S2:Flowing Armor",
@@ -3208,7 +3208,7 @@ const lang = Object.freeze({
         name_glen: "S2:Rainbow Will",
         effect_en: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Boosts damage by 5%.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中与ダメージが5%上昇。",
-        effect_glen: "While Petalgleam, Seagleam, Snowgleam, Moongleam, Leafgleam, or Shadowgleam are active, attack power is increased by 5%.<br>35 second cooldown upon activation."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br>attack power is increased by 5%.<br>35 second cooldown upon activation."
     },
     "LB2J": {
         name_en: "S2:Rainbow's Exhilaration",
@@ -3216,7 +3216,7 @@ const lang = Object.freeze({
         name_glen: "S2:Rainbow Vitality",
         effect_en: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Recovers 3% of your<br>HP every second.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中毎秒HPが3%回復。",
-        effect_glen: "While Petalgleam, Seagleam, Snowgleam, Moongleam, Leafgleam, or Shadowgleam are active, recover 3% max HP every second."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br>recover 3% max HP every second."
     },
     "LB98": {
         name_en: "S2:Skilled Brilliance",
@@ -3296,7 +3296,7 @@ const lang = Object.freeze({
         name_glen: "S3:Will of the Moonleaf",
         effect_en: "Increase damage by 3% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、与ダメージが3%上昇。",
-        effect_glen: "While Moongleam, Leafgleam, or Shadowgleam are active, attack power is increased by 3%."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>attack power is increased by 3%."
     },
     "LC12": {
         name_en: "S3:Umbrageous Reduction",
@@ -3304,7 +3304,7 @@ const lang = Object.freeze({
         name_glen: "S3:Moonleaf Descent",
         effect_en: "Decrease PP consumption by 14% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、PP消費量を14%軽減。",
-        effect_glen: "While Moongleam, Leafgleam, or Shadowgleam are active, PP consumption is reduced by 14%."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>PP consumption is reduced by 14%."
     },
     "LC13": {
         name_en: "S3:Umbrageous Exhilaration",
@@ -3312,7 +3312,7 @@ const lang = Object.freeze({
         name_glen: "S3:Moonleaf Vitality",
         effect_en: "Recover 2% HP every second when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、毎秒HPが2%回復。",
-        effect_glen: "While Moongleam, Leafgleam, or Shadowgleam are active, recover 2% of max HP every second."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>recover 2% of max HP every second."
     },
     "LC14": {
         name_en: "S3:Nature's Radiance",
@@ -3352,7 +3352,7 @@ const lang = Object.freeze({
         name_glen: "S3:Petalsea Shield",
         effect_en: "Decrease damage taken by 10%<br>when S1:Red Petal Flash,<br>S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、被ダメージを10%軽減。",
-        effect_glen: "While Petalgleam, Seagleam, or Snowgleam are active, damage taken is reduced by 10%."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>damage taken is reduced by 10%."
     },
     "LC19": {
         name_en: "S3:Umbrageous Skill",
@@ -3360,7 +3360,7 @@ const lang = Object.freeze({
         name_glen: "S3:Moonleaf Adept",
         effect_en: "Increase Critical Hit Rate by 20%<br>when S1:Yellow Moon Flash,<br>S1:Green Leaf Flash, or<br>S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、クリティカル率20%上昇。",
-        effect_glen: "While Moongleam, Leafgleam, or Shadowgleam are active, critical hit rate is increased by 20%."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>critical hit rate is increased by 20%."
     },
     "LC1A": {
         name_en: "S3:Brilliant Ruin",
@@ -3424,7 +3424,7 @@ const lang = Object.freeze({
         name_glen: "S3:Petalsea Lucentrush 2",
         effect_en: "Increase Natural PP Recovery by 25%<br>when S1:Red Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、PP自然回復量25%上昇。",
-        effect_glen: "While Petalgleam, Seagleam, or Snowgleam are active, natural PP recovery is increased by 25%."
+        effect_glen: "While Petalgleam/Seagleam, or Snowgleam are active, natural PP recovery is increased by 25%."
     },
     "LC1I": {
         name_en: "S3:Flowing Grace",
@@ -3464,7 +3464,7 @@ const lang = Object.freeze({
         name_glen: "S3:Luminous Petalsea",
         effect_en: "Increase Natural PP Recovery by 23% when S1:Red Petal Flash, S1:Blue Ocean Flash, or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、PP自然回復量23%上昇。",
-        effect_glen: "While Petalgleam, Seagleam, or Snowgleam are active, natural PP recovery is increased by 23%."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>natural PP recovery is increased by 23%."
     },
     "LC90": {
         name_en: "S3:Calming Exhilaration",
@@ -3520,7 +3520,7 @@ const lang = Object.freeze({
         name_glen: "S3:Petalsea Song 2",
         effect_en: "While Red Petal Flash,<br>Blue Ocean Flash or<br>White Snow Flash is<br>active:<br>Boosts damage by up<br>to 7% over time.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、毎秒威力が上昇。最大で7%。",
-        effect_glen: "While Petalgleam, Seagleam, or Snowgleam are active, attack power increases every second.<br>Maxes out at 7% after 15 seconds."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>attack power increases every second.<br>Maxes out at 7% after 15 seconds."
     },
     "LC98": {
         name_en: "S3:Powering Intent",
@@ -3544,7 +3544,7 @@ const lang = Object.freeze({
         name_glen: "S3:Lustrous Rainbow",
         effect_en: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Boosts attack PP<br>recovery by 45%.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中攻撃時PP回復量が45%上昇。",
-        effect_glen: "While Petalgleam, Seagleam, Snowgleam, Moongleam, Leafgleam, or Shadowgleam are active, active PP recovery is increased by 45%."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br>active PP recovery is increased by 45%."
     },
     "LC1X": {
         name_en: "S3:Rainbow's Gleam",
@@ -3552,7 +3552,7 @@ const lang = Object.freeze({
         name_glen: "S3:Luminous Rainbow",
         effect_en: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Boosts PP regeneration<br>by 40%.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中PP自然回復量40%上昇。",
-        effect_glen: "While Petalgleam, Seagleam, Snowgleam, Moongleam, Leafgleam, or Shadowgleam are active, natural PP recovery is increased by 40%."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br>natural PP recovery is increased by 40%."
     },
     "LD07": {
         name_en: "S4:Marvelous Aegis",
@@ -3728,7 +3728,7 @@ const lang = Object.freeze({
         name_glen: "S4:Rainbow Balance",
         effect_en: "Decrease Natural PP Recovery but decrease PP consumption when S1:Red Petal / Blue Ocean / White Snow / Yellow Moon / Green Leaf / Black Shadow Flash are active.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中、PP自然回復は減少するがPP消費量は低下する。",
-        effect_glen: "While Petalgleam, Seagleam, Snowgleam, Moongleam, Leafgleam, or Shadowgleam are active, natural pp recovery and PP consumption are both reduced by 30%."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br>natural pp recovery and PP consumption are both reduced by 30%."
     },
     "LD0T": {
         name_en: "S4:Raising Pursuit",
@@ -3736,7 +3736,7 @@ const lang = Object.freeze({
         name_glen: "*S4:Raising Pursuit",
         effect_en: "When you hit with a PA/Tech, boosts damage of the next PA/Tech based on the damage you deal in the next 4 seconds.",
         effect_jp: "PA・テクニックの命中後4秒間の与ダメージ量に応じて、次に命中したPA・テクニックに追加ダメージが発生。(上限25万、リキャスト10秒)",
-        effect_glen: "When you hit with a PA/Tech, boosts damage of the next PA/Tech based on the damage you deal in the next 4 seconds."
+        effect_glen: "When you hit with a PA/Tech<br>boosts damage of the next PA/Tech based on the damage you deal in the next 4 seconds."
     },
     "LD0U": {
         name_en: "S4:Pursuing Eclipse",
@@ -3752,7 +3752,7 @@ const lang = Object.freeze({
         name_glen: "S4:Rainbow Adversity",
         effect_en: "While Petal, Ocean, Leaf, Moon, Snow or Shadow Flash is active: Recovers 500 HP each time you take 500 or more damage at once.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中一度に500以上のダメージを受けるとHPが500回復する。",
-        effect_glen: "While Petalgleam, Seagleam, Snowgleam, Moongleam, Leafgleam, or Shadowgleam are active, recover 500 HP when you take 500 or more damage."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br> recover 500 HP when you take 500 or more damage."
     },
     "LD0W": {
         name_en: "S4:Colossal Radiance",
@@ -3776,7 +3776,7 @@ const lang = Object.freeze({
         name_glen: "*S4:Radiant Eclipse",
         effect_en: "Increases active PP recovery by 60% when attacking an enemy affectedw by a Status Effect, Jellen, or Weak Bullet.",
         effect_jp: "状態異常、ジェルン、ウィークバレット効果が発生中のエネミー攻撃時、PP回復量が60%上昇。",
-        effect_glen: "Increases active PP recovery by 60% when attacking an enemy affectedw by a Status Effect, Jellen, or Weak Bullet."
+        effect_glen: "Increases active PP recovery by 60% when attacking an enemy affectedw by a Status Effect<br>Jellen or Weak Bullet."
     },
     "LD0Z": {
         name_en: "S4:Shared Ruin",
@@ -3800,7 +3800,7 @@ const lang = Object.freeze({
         name_glen: "S5:Flashguard Peerless",
         effect_en: "Consume no Gear for 15s after performing a Just Guard. Increase Power by 2%. Wired Lance only.",
         effect_jp: "ジャストガード成功時15秒間ギア消費なし。威力2%上昇。自在槍限定。",
-        effect_glen: "Increases attack power by 2%.<br>Upon successfully executing a Perfect Guard, Gear is no longer consumed for 15 seconds.<br>Wired Lance only."
+        effect_glen: "Increases attack power by 2%.<br>Upon successfully executing a Perfect Guard<br>Gear is no longer consumed for 15 seconds.<br>Wired Lance only."
     },
     "LE03": {
         name_en: "S5:Rushing Bolt",
@@ -3824,7 +3824,7 @@ const lang = Object.freeze({
         name_glen: "S5:Elusive Combo",
         effect_en: "Boost Gear Gauge and unleash a counterattack upon successfully blocking an attack with DS Wind Parrying.Increase Power by 2%. Double Saber only.",
         effect_jp: "DSウィンドパリング成功時、ギアが上昇し強力な連撃で切り刻む。威力上昇2%。両剣限定。",
-        effect_glen: "Increases attack power by 2%.<br>Upon successfully executing a Double Saber Wind Parry, Gear Gauge is set to maximum and unleash a counterattack with Scissor Slash.<br>Double Saber only."
+        effect_glen: "Increases attack power by 2%.<br>Upon successfully executing a Double Saber Wind Parry<br>Gear Gauge is set to maximum and unleash a counterattack with Scissor Slash.<br>Double Saber only."
     },
     "LE06": {
         name_en: "S5:Evasive Meteor",
@@ -3888,7 +3888,7 @@ const lang = Object.freeze({
         name_glen: "S5:Steadfast Shaft",
         effect_en: "Enhance the performance of Normal Attacks and increase the damage of Rod Shoot by 100%. Rod only.",
         effect_jp: "通常攻撃性能が強化されロッドシュートの威力が100%上昇する。長杖限定。",
-        effect_glen: "Increases the attack speed of Rod normal attacks by 1.38x, negates hitstop, and increases the damage of Photon Bullet by 100%.<br>Rod only."
+        effect_glen: "Increases the attack speed of Rod normal attacks by 1.38x<br>negates hitstop and increases the damage of Photon Bullet by 100%.<br>Rod only."
     },
     "LE0E": {
         name_en: "S5:Speedy Support",
@@ -3928,7 +3928,7 @@ const lang = Object.freeze({
         name_glen: "S5:Augment Bloom",
         effect_en: "Doubles the effects of Special Abilities.",
         effect_jp: "特殊能力のステータス変化を2倍にする。",
-        effect_glen: "Doubles the effects of attack, defense, dexterity, HP, and PP augments on this weapon."
+        effect_glen: "Doubles the effects of <br>attack <br>defense <br>dexterity <br>HP and PP augments on this weapon."
     },
     "LE98": {
         name_en: "S5:Instant Invocation",
@@ -3944,7 +3944,7 @@ const lang = Object.freeze({
         name_glen: "S5:Life V Adapation",
         effect_en: "Grants a bonus when<br>your max HP is at<br>1000. Gain additional<br>bonuses per 500 max<br>HP over. Maximum<br>bonuses are reached<br>when max HP is at<br>3000.",
         effect_jp: "最大HP1000から追加効果が発動しHPが500増加ごとに追加効果が発生する。追加効果最大値3000",
-        effect_glen: "Grants bonuses when your max HP is at 1000 and every 500 max HP afterwards, up to 3000 HP"
+        effect_glen: "Grants bonuses when your max HP is at 1000 and every 500 max HP afterwards up to 3000 HP"
     },
     "LE0K": {
         name_en: "S5:Tethered Eclipse",
@@ -3960,7 +3960,7 @@ const lang = Object.freeze({
         name_glen: "*S5:Angelic Respite",
         effect_en: "At maximum gear, no gear is consumed while airborne. Increase Power by 2%. Partizan only.",
         effect_jp: "ギア最大時、空中ではギアを消費しなくなる。威力2%上昇。長槍限定。",
-        effect_glen: "At maximum gear, no gear is consumed while airborne. Increase Might by 2%. Partizan only."
+        effect_glen: "At maximum gear no gear is consumed while airborne. Increase Might by 2%. Partizan only."
     },
     "LF0A": {
         name_en: "S6:Heroic Howl",
