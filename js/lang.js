@@ -5741,10 +5741,10 @@ const lang = Object.freeze({
     "YB51": {
         name_en: "Phrase Decay",
         name_jp: "フレイズ・ディケイ",
-        name_glen: "*Phrase Decay",
+        name_glen: "Phrase Decay",
         effect_en: "Boosts damage inflicted to enemies<br>affected by Jellen by 5%.",
         effect_jp: "ジェルン状態の敵への威力+5%。",
-        effect_glen: "Boosts damage inflicted to enemies<br>affected by Jellen by 5%."
+        effect_glen: "Increase damage inflicted to enemies affected by Jellen by 5%."
     },
     "YB01": {
         name_en: "Phrase Recovery",
@@ -5941,7 +5941,7 @@ const lang = Object.freeze({
     "VQ01": {
         name_en: "Slayer/Armor Type",
         name_jp: "スレイヤー／機甲種",
-        name_glen: "*Slayer/Deftnessor Type",
+        name_glen: "*Slayer: Mechs",
         effect_en: "Boost damage against Lillipa Mechs. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "機甲種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Lillipa Mechs. Effect is reduced as the Weapon Rarity increases."
@@ -5949,7 +5949,7 @@ const lang = Object.freeze({
     "VQ02": {
         name_en: "Slayer/Beast Type",
         name_jp: "スレイヤー／野獣種",
-        name_glen: "*Slayer/Beast Type",
+        name_glen: "*Slayer: Beast",
         effect_en: "Boost damage against Naberius Natives. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "野獣種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Naberius Natives. Effect is reduced as the Weapon Rarity increases."
@@ -5957,7 +5957,7 @@ const lang = Object.freeze({
     "PJ13": {
         name_en: "Slayer/Ocean Type",
         name_jp: "スレイヤー／海王種",
-        name_glen: "*Slayer/Ocean Type",
+        name_glen: "*Slayer: Oceanic",
         effect_en: "Boost damage against Oceanids. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "海王種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Oceanids. Effect is reduced as the Weapon Rarity increases."
@@ -5965,7 +5965,7 @@ const lang = Object.freeze({
     "PK14": {
         name_en: "Slayer/Kuronite Type",
         name_jp: "スレイヤー／黒の民",
-        name_glen: "*Slayer/Kuronite Type",
+        name_glen: "*Slayer: Kuronite",
         effect_en: "Boost damage against Kuronites. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "黒の民のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Kuronites. Effect is reduced as the Weapon Rarity increases."
@@ -5973,7 +5973,7 @@ const lang = Object.freeze({
     "PL15": {
         name_en: "Slayer/Phantoms Type",
         name_jp: "スレイヤー／幻創種",
-        name_glen: "*Slayer/Phantoms Type",
+        name_glen: "*Slayer: Phantoms",
         effect_en: "Boost damage against Phantoms. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "幻創種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Phantoms. Effect is reduced as the Weapon Rarity increases."
@@ -5981,15 +5981,15 @@ const lang = Object.freeze({
     "PM16": {
         name_en: "Slayer/Darkers",
         name_jp: "スレイヤー／ダーカー",
-        name_glen: "*Slayer/Darkers",
+        name_glen: "Slayer: Falspawn",
         effect_en: "Boost damage against Darkers. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "ダーカー種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
-        effect_glen: "Boost damage against Darkers. Effect is reduced as the Weapon Rarity increases."
+        effect_glen: "Increase damage against Falspawn.<br>Effect is reduced as the Weapon Rarity increases."
     },
     "PN17": {
         name_en: "Slayer/Dragonkin",
         name_jp: "スレイヤー／龍族種",
-        name_glen: "*Slayer/Dragonkin",
+        name_glen: "*Slayer: Dragonkin",
         effect_en: "Boost damage against Dragonkin. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "龍族種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Dragonkin. Effect is reduced as the Weapon Rarity increases."
@@ -5997,7 +5997,7 @@ const lang = Object.freeze({
     "PO18": {
         name_en: "Slayer/Luminmech",
         name_jp: "スレイヤー／閃機種",
-        name_glen: "*Slayer/Luminmech",
+        name_glen: "*Slayer: Luminmech",
         effect_en: "Boost damage against Luminmech. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "閃機種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Luminmech. Effect is reduced as the Weapon Rarity increases."
