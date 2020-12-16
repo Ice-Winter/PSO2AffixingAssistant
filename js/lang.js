@@ -993,6 +993,11 @@ const lang = Object.freeze({
             jp: "S1追加:輝充の志2",
 			glen: "*S1 Add: Photonic Will 2"
         },
+        "S1 Add: Powering Intent": {
+            en: "S1 Add: Powering Intent",
+            jp: "S1追加:強闘の志",
+			glen: "*S1 Add: Powering Intent"
+        },
         "S2 Add: Umbrageous Melody": {
             en: "S2 Add: Umbrageous Melody",
             jp: "S2追加:月葉影の歌",
@@ -1864,9 +1869,9 @@ const lang = Object.freeze({
         name_en: "Stamina VI",
         name_jp: "スタミナⅤI",
         name_glen: "Stamina VI",
-        effect_en: "HP(+70)",
-        effect_jp: "HP(+70)",
-        effect_glen: "HP(+70)"
+        effect_en: "HP(+80)",
+        effect_jp: "HP(+80)",
+        effect_glen: "HP(+80)"
     },
     "EB01": {
         name_en: "Spirita I",
@@ -5419,6 +5424,46 @@ const lang = Object.freeze({
         effect_en: "ALL(+40), HP(+30), PP(+3)",
         effect_jp: "ALL(+40), HP(+30), PP(+3)",
 		effect_glen: "ALL(+40), HP(+30), PP(+3)"
+    },
+	"UD01": {
+        name_en: "Ligand Arma",
+        name_jp: "リガンド・アルマ",
+		name_glen: "*Ligand Arma",
+        effect_en: "S-ATK(+40),<br>HP(+30),<br>PP(+3)",
+        effect_jp: "打撃力(+40), HP(+30), PP(+3)",
+		effect_glen: "S-ATK(+40),<br>HP(+30),<br>PP(+3)"
+    },
+    "UD11": {
+        name_en: "Ligand Tiro",
+        name_jp: "リガンド・ティロ",
+		name_glen: "*Ligand Tiro",
+        effect_en: "R-ATK(+40),<br>HP(+30),<br>PP(+3)",
+        effect_jp: "射撃力(+40),<br>HP(+30),<br>PP(+3)",
+		effect_glen: "R-ATK(+40),<br>HP(+30),<br>PP(+3)"
+    },
+    "UD21": {
+        name_en: "Ligand Magia",
+        name_jp: "リガンド・マギア",
+		name_glen: "*Ligand Magia",
+        effect_en: "T-ATK(+40),<br>HP(+30),<br>PP(+3)",
+        effect_jp: "法撃力(+40),<br>HP(+30),<br>PP(+3)",
+		effect_glen: "T-ATK(+40),<br>HP(+30),<br>PP(+3)"
+    },
+    "TD0H": {
+        name_en: "Turkey Fever",
+        name_jp: "リガンド・マギア",
+		name_glen: "Turkey Fever",
+        effect_en: "DEX(+5),<br>T-DEF(+10),<br>HP(+5),<br>PP(+1)",
+        effect_jp: "技量(+5),<br>法撃防御(+10),<br>HP(+5),<br>PP(+1)",
+		effect_glen: "DEX(+5),<br>T-DEF(+10),<br>HP(+5),<br>PP(+1)"
+    },
+    "TD0G": {
+        name_en: "Drago Fever",
+        name_jp: "リガンド・マギア",
+		name_glen: "*Drago Fever",
+        effect_en: "DEX(+5),<br>R-DEF(+10),<br>HP(+5),<br>PP(+1)",
+        effect_jp: "技量(+5),<br>射撃防御(+10),<br>HP(+5),<br>PP(+1)",
+		effect_glen: "DEX(+5),<br>R-DEF(+10),<br>HP(+5),<br>PP(+1)"
     },
     "TF01": {
         name_en: "Spirita Alpha",

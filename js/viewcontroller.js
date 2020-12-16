@@ -646,6 +646,10 @@ class ViewController {
         let targetNode = target.pageTreeNode;
         let page = this.assistant.buildTransplantPage(targetFodder, 0);
         if (!page) return;
+        if (page.size() != 2 || page.fodders[0].affixes.filter(a => a.noEx !== true).length === 0) {
+            this.openReportIssueScreen();
+            return;
+        }
         this.fodderInReview = targetFodder;
         this.pageInReview = page;
         this.transplantAddAbility = null;
@@ -1434,6 +1438,12 @@ class ViewController {
                 $(`div.affix-selection-container .affix-confirm-button`).addClass('disabled');
             }
         }
+        if (this.affixesSelected.filter(a => a.noEx !== true).length === 0) {
+            $(`div.affix-selection-container .transplant-confirm-button`).addClass('disabled');
+        }
+        else {
+            $(`div.affix-selection-container .transplant-confirm-button`).removeClass('disabled');
+        }
     }
 
     updateChoiceSelectionView() {
@@ -1534,7 +1544,7 @@ class ViewController {
         }));
         let transplantChoices = this.assistant.getTransplantChoicesFor(this.fodderInReview, addAbilityIdx);
         if (transplantChoices !== null) {
-            if (minSlot <= transplantChoices.materialAbilities.required.length) {
+            if (minSlot <= transplantChoices.materialAbilities.required.length || minSlot <= 1) {
                 $('div.transplant-container div.button-decrease').addClass('disabled');
             } else {
                 $('div.transplant-container div.button-decrease').removeClass('disabled');
