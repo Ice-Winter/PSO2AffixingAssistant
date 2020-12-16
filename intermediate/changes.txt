@@ -1,14 +1,4 @@
 {
-  "support": {
-    "outdatedInAst": [
-      {
-        "id": "Ability Success Rate +65%",
-        "name": "+65%",
-        "value": "A11",
-        "boost": 65
-      }
-    ]
-  },
   "additional": {
     "outdatedInAst": [
       {
