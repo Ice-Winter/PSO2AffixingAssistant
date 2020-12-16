@@ -1,36 +1,4 @@
 {
-  "additional": {
-    "outdatedInAst": [
-      {
-        "id": "Add Ability (Ether S)",
-        "name": "Ether Soul",
-        "value": "B43",
-        "extend": 100,
-        "effect": "ALL(+15),<br>HP(+15),<br>PP(+2)"
-      },
-      {
-        "id": "Add Ability (Factor C)",
-        "name": "Factor Catalyst",
-        "value": "B44",
-        "extend": 100,
-        "effect": "ALL(+10),<br>PP(+1)"
-      },
-      {
-        "id": "Add Ability (Omega M)",
-        "name": "Omega Memoria",
-        "value": "B45",
-        "extend": 100,
-        "effect": "ALL(+15),<br>HP(+15),<br>PP(+2)"
-      },
-      {
-        "id": "Add Ability (Reverie C)",
-        "name": "Reverie Catalyst",
-        "value": "B46",
-        "extend": 100,
-        "effect": "ALL(+10),<br>PP(+1)"
-      }
-    ]
-  },
   "extendAbility": {
     "outdatedInSim": [
       {

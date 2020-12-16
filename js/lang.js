@@ -651,7 +651,7 @@ const lang = Object.freeze({
         "Add Ability (Grand HP)": {
             en: "Add Ability (Grand HP)",
             jp: "特殊能力(グランドHP)",
-            glen:"*Affix Augment (Grand Stamina)"
+            glen:"Augment (Grand Stamina)"
         },
         "Add Ability (S-ATK&PP)": {
             en: "Add Ability (S-ATK&PP)",
@@ -671,7 +671,7 @@ const lang = Object.freeze({
         "Add Ability (Grand P)": {
             en: "Add Ability (Grand P)",
             jp: "特殊能力(グランドP)",
-            glen:"*Affix Augment (Grand Might)"
+            glen:"Augment (Grand Might)"
         },
         "Add Ability (R-ATK&PP)": {
             en: "Add Ability (R-ATK&PP)",
@@ -691,7 +691,7 @@ const lang = Object.freeze({
         "Add Ability (Grand S)": {
             en: "Add Ability (Grand S)",
             jp: "特殊能力(グランドS)",
-            glen:"*Affix Augment (Grand Might)"
+            glen:"Augment (Grand Precision)"
         },
         "Add Ability (T-ATK&PP)": {
             en: "Add Ability (T-ATK&PP)",
@@ -711,12 +711,12 @@ const lang = Object.freeze({
         "Add Ability (Grand T)": {
             en: "Add Ability (Grand T)",
             jp: "特殊能力(グランドT)",
-            glen:"*Affix Augment (Grand Casting)"
+            glen:"Augment (Grand Casting)"
         },
         "Add Ability (Grand PP)": {
             en: "Add Ability (Grand PP)",
             jp: "特殊能力(グランドPP)",
-            glen:"*Affix Augment (Grand Spirit)"
+            glen:"Augment (Grand Spirit)"
         },
         "Add Ability (Offense Focus)": {
             en: "Add Ability (Offense Focus)",
@@ -771,17 +771,17 @@ const lang = Object.freeze({
         "Add Ability (Sentence P)": {
             en: "Add Ability (Sentence P)",
             jp: "特殊能力(センテンスP)",
-            glen:"*Affix Augment (Sentence P)"
+            glen:"*Affix Augment (Sentence Might)"
         },
         "Add Ability (Sentence S)": {
             en: "Add Ability (Sentence S)",
             jp: "特殊能力(センテンスS)",
-            glen:"*Affix Augment (Sentence S)"
+            glen:"*Affix Augment (Sentence Precision)"
         },
         "Add Ability (Sentence T)": {
             en: "Add Ability (Sentence T)",
             jp: "特殊能力(センテンスT)",
-            glen:"*Affix Augment (Sentence T)"
+            glen:"*Affix Augment (Sentence Casting)"
         },
         "Add Ability (Power VI)": {
             en: "Add Ability (Power VI)",
@@ -822,6 +822,41 @@ const lang = Object.freeze({
             en: "Add Ability (Mark Grif)",
             jp: "特殊能力(マーク・グリフ)",
             glen:"*Affix Augment (Mark Grief)"
+        },
+		'Add Ability (Ether S)': {
+            en: 'Add Ability (Ether S)',
+            jp: '特殊能力(エーテルS)',
+			glen:"*Affix Augment (Ether S)"
+        },
+        'Add Ability (Factor C)': {
+            en: 'Add Ability (Factor C)',
+            jp: '特殊能力(ファクターC)',
+			glen:"*Affix Augment (Factor C)"
+        },
+        'Add Ability (Omega M)': {
+            en: 'Add Ability (Omega M)',
+            jp: '特殊能力(オメガM)',
+			glen:"*Affix Augment (Omega M)"
+        },
+        'Add Ability (Reverie C)': {
+            en: 'Add Ability (Reverie C)',
+            jp: '特殊能力(レヴリーC)',
+			glen:"*Affix Augment (Reverie C)"
+        },
+        'Add Ability (Mana Reverie)': {
+            en: 'Add Ability (Mana Reverie)',
+            jp: '特殊能力(マナレヴリー)',
+			glen:"*Affix Augment (Mana Reverie)"
+        },
+        'Add Ability (Ether F)': {
+            en: 'Add Ability (Ether F)',
+            jp: '特殊能力(エーテルF)',
+			glen:"*Affix Augment (Ether F)"
+        },
+        'Add Ability (Astral S)': {
+            en: 'Add Ability (Astral S)',
+            jp: '特殊能力(アストラルS)',
+			glen:"*Affix Augment (Astral S)"
         },
         "S1 Add: Photon Reduction 2": {
             en: "S1 Add: Photon Reduction 2",
@@ -6368,7 +6403,7 @@ const lang = Object.freeze({
         effect_glen: "TEC Pwr(+60),HP(+20),PP(+5)"
     },
     "XI60": {
-        name_en: "Grace Spirita",
+        name_en: "Grand Spirita",
         name_jp: "グランド・スピリタ",
         name_glen: "Grand Spirit",
         effect_en: "PP(+15)",

@@ -154,7 +154,7 @@ let data = {
             {
                 ref: 531,
                 id: "Add Ability (Grand PP)",
-                name: "Grace Spirita",
+                name: "Grand Spirita",
                 value: "B10d",
                 extend: 100,
                 effect: "PP(+15)"
@@ -439,6 +439,38 @@ let data = {
                 extend: 100,
                 effect: "ALL(+10)"
             },
+			{
+                ref: 325,
+                id: "Add Ability (Ether S)",
+                name: "Ether Soul",
+                value: "B43",
+                extend: 100,
+                effect: "ALL(+15),HP(+15),PP(+2)"
+            },
+            {
+                ref: 444,
+                id: "Add Ability (Factor C)",
+                name: "Factor Catalyst",
+                value: "B44",
+                extend: 100,
+                effect: "ALL(+10),PP(+1)"
+            },
+            {
+                ref: 350,
+                id: "Add Ability (Omega M)",
+                name: "Omega Memoria",
+                value: "B45",
+                extend: 100,
+                effect: "ALL(+15),HP(+15),PP(+2)"
+            },
+            {
+                ref: 445,
+                id: "Add Ability (Reverie C)",
+                name: "Reverie Catalyst",
+                value: "B46",
+                extend: 100,
+                effect: "ALL(+15),HP(+15),PP(+2)"
+            },
             {
                 ref: 5,
                 id: "Add Ability (Power VI)",
@@ -502,6 +534,30 @@ let data = {
                 value: "UC31",
                 extend: 100,
                 effect: "S-DEF(+50),<br>R-DEF(+50),<br>T-DEF(+50),<br>HP(+80)"
+            },
+			{
+                ref: 349,
+                id: "Add Ability (Mana Reverie)",
+                name: "Mana Reverie",
+                value: "TK10",
+                extend: 100,
+                effect: "S-DEF(+50),<br>R-DEF(+50),<br>T-DEF(+50),<br>HP(+80)"
+            },
+            {
+                ref: 342,
+                id: "Add Ability (Ether F)",
+                name: "Ether Factor",
+                value: "TG31",
+                extend: 100,
+                effect: "ALL(+30),<br>HP(+10),<br>PP(+6)"
+            },
+            {
+                ref: 324,
+                id: "Add Ability (Astral S)",
+                name: "Astral Soul",
+                value: "SA01",
+                extend: 100,
+                effect: "ALL(+35),<br>HP(+35),<br>PP(+5)"
             },
             {
                 ref: 160,
@@ -11973,7 +12029,7 @@ let data = {
             ref: 531,
             code: "XI60",
             gid: "E",
-            name: "Grace Spirita",
+            name: "Grand Spirita",
             effect: "PP(+15)"
         },
         {
