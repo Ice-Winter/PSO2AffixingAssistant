@@ -823,39 +823,39 @@ const lang = Object.freeze({
             jp: "特殊能力(マーク・グリフ)",
             glen:"*Affix Augment (Mark Grief)"
         },
-		'Add Ability (Ether S)': {
-            en: 'Add Ability (Ether S)',
-            jp: '特殊能力(エーテルS)',
+		"Add Ability (Ether S)": {
+            en: "Add Ability (Ether S)",
+            jp: "特殊能力(エーテルS)",
 			glen:"*Affix Augment (Aether Soul)"
         },
         'Add Ability (Factor C)': {
-            en: 'Add Ability (Factor C)',
-            jp: '特殊能力(ファクターC)',
+            en: "Add Ability (Factor C)",
+            jp: "特殊能力(ファクターC)",
 			glen:"*Affix Augment (Factor Catalyst)"
         },
-        'Add Ability (Omega M)': {
-            en: 'Add Ability (Omega M)',
-            jp: '特殊能力(オメガM)',
+        "Add Ability (Omega M)": {
+            en: "Add Ability (Omega M)",
+            jp: "特殊能力(オメガM)",
 			glen:"*Affix Augment (Omega Memoria)"
         },
-        'Add Ability (Reverie C)': {
-            en: 'Add Ability (Reverie C)',
-            jp: '特殊能力(レヴリーC)',
+        "Add Ability (Reverie C)": {
+            en: "Add Ability (Reverie C)",
+            jp: "特殊能力(レヴリーC)",
 			glen:"*Affix Augment (Reverie Catalyst)"
         },
-        'Add Ability (Mana Reverie)': {
-            en: 'Add Ability (Mana Reverie)',
-            jp: '特殊能力(マナレヴリー)',
+        "Add Ability (Mana Reverie)": {
+            en: "Add Ability (Mana Reverie)",
+            jp: "特殊能力(マナレヴリー)",
 			glen:"*Affix Augment (Mana Reverie)"
         },
-        'Add Ability (Ether F)': {
-            en: 'Add Ability (Ether F)',
-            jp: '特殊能力(エーテルF)',
+        "Add Ability (Ether F)": {
+            en: "Add Ability (Ether F)",
+            jp: "特殊能力(エーテルF)",
 			glen:"*Affix Augment (Aether Factor)"
         },
-        'Add Ability (Astral S)': {
-            en: 'Add Ability (Astral S)',
-            jp: '特殊能力(アストラルS)',
+        "Add Ability (Astral S)": {
+            en: "Add Ability (Astral S)",
+            jp: "特殊能力(アストラルS)",
 			glen:"*Affix Augment (Astral Soul)"
         },
         "S1 Add: Photon Reduction 2": {
@@ -1409,8 +1409,9 @@ const lang = Object.freeze({
             glen: "*S6 Add: Overlimit"
         },
         "S6 Add: Wondrous Encore": {
-            "en": "S6 Add: Wondrous Encore",
-            "jp": "S6追加:奇跡再演"
+            en: "S6 Add: Wondrous Encore",
+            jp: "S6追加:奇跡再演",
+			glen: "*S6 Add: Wondrous Encore"
         },
         "S7 Add: S-ATK Up": {
             en: "S7 Add: S-ATK Up",
@@ -1453,8 +1454,9 @@ const lang = Object.freeze({
             glen: "*S7 Add: Glowing Grace"
         },
 		"S7 Add: Descried Warrior": {
-            "en": "S7 Add: Descried Warrior",
-            "jp": "S7追加:視敵無双"
+            en: "S7 Add: Descried Warrior",
+            jp: "S7追加:視敵無双",
+			glen: "*S7 Add: Descried Warrior"
         },
         "S8 Add: HP Up": {
             en: "S8 Add: HP Up",
@@ -3709,14 +3711,18 @@ const lang = Object.freeze({
     "LC1Z": {
         name_en: "S3:Puncturing Intent",
         name_jp: "S3:裂砕妙撃の志",
+		name_glen: "*S3:Puncturing Intent",
         effect_en: "Upon landing a<br>Critical Hit on a<br>breakable part,<br>your power is<br>boosted by 9%.",
-        effect_jp: "破壊可能部位への攻撃でクリティカル発動時に威力が9%上昇。"
+        effect_jp: "破壊可能部位への攻撃でクリティカル発動時に威力が9%上昇。",
+		effect_glen: "Upon landing a<br>Critical Hit on a<br>breakable part,<br>your power is<br>boosted by 9%."
     },
     "LC1Q": {
         name_en: "S3:Double-Edged Sword",
         name_jp: "S3:諸刃の撃",
+		name_glen: "*S3:Double-Edged Sword",
         effect_en: "Deal 4% more damage but take 8% more damage when weapon is drawn.",
-        effect_jp: "与ダメージが4%上昇し、抜刀時のみ被ダメージが8%増える。"
+        effect_jp: "与ダメージが4%上昇し、抜刀時のみ被ダメージが8%増える。",
+		effect_glen: "Deal 4% more damage but take 8% more damage when weapon is drawn."
     },
     "LD07": {
         name_en: "S4:Marvelous Aegis",
