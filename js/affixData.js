@@ -118,6 +118,15 @@ let data = {
                 fn: function (a) {
                     return Math.min(a + 60, 100)
                 }
+            },
+			            {
+                ref: 10,
+                id: "Ability Success Rate +65%",
+                name: "+65%",
+                value: "A11",
+                fn: function (a) {
+                    return Math.min(a + 65, 100)
+                }
             }
         ],
         // List of Add Abilities

@@ -393,7 +393,7 @@ const lang = Object.freeze({
         trainerLabel: {
             en: "Guidance Trainer +5%",
             jp: "錬成の導き",
-            glen: "Guidance Trainer +5%"
+            glen: "Augment Guidance +5%"
         },
         trainerDescription: {
             en: "Increases affixing success rate by 5% (it must be in the main fodder)",
@@ -580,6 +580,11 @@ const lang = Object.freeze({
             en: "Ability Success Rate +60%",
             jp: "能力追加成功率+60%",
             glen: "Augmentation Aid +60%"
+        },
+		"Ability Success Rate +65%": {
+            en: "Ability Success Rate +65%",
+            jp: "能力追加成功率+65%",
+            glen: "Augmentation Aid +65%"
         }
     },
     "additional": {
@@ -646,7 +651,7 @@ const lang = Object.freeze({
         "Add Ability (Grand HP)": {
             en: "Add Ability (Grand HP)",
             jp: "特殊能力(グランドHP)",
-            glen:"*Affix Augment (Grand HP)"
+            glen:"*Affix Augment (Grand Stamina)"
         },
         "Add Ability (S-ATK&PP)": {
             en: "Add Ability (S-ATK&PP)",
@@ -666,7 +671,7 @@ const lang = Object.freeze({
         "Add Ability (Grand P)": {
             en: "Add Ability (Grand P)",
             jp: "特殊能力(グランドP)",
-            glen:"*Affix Augment (Grand P)"
+            glen:"*Affix Augment (Grand Might)"
         },
         "Add Ability (R-ATK&PP)": {
             en: "Add Ability (R-ATK&PP)",
@@ -686,7 +691,7 @@ const lang = Object.freeze({
         "Add Ability (Grand S)": {
             en: "Add Ability (Grand S)",
             jp: "特殊能力(グランドS)",
-            glen:"*Affix Augment (Grand S)"
+            glen:"*Affix Augment (Grand Might)"
         },
         "Add Ability (T-ATK&PP)": {
             en: "Add Ability (T-ATK&PP)",
@@ -706,12 +711,12 @@ const lang = Object.freeze({
         "Add Ability (Grand T)": {
             en: "Add Ability (Grand T)",
             jp: "特殊能力(グランドT)",
-            glen:"*Affix Augment (Grand T)"
+            glen:"*Affix Augment (Grand Casting)"
         },
         "Add Ability (Grand PP)": {
             en: "Add Ability (Grand PP)",
             jp: "特殊能力(グランドPP)",
-            glen:"*Affix Augment (Grand PP)"
+            glen:"*Affix Augment (Grand Spirit)"
         },
         "Add Ability (Offense Focus)": {
             en: "Add Ability (Offense Focus)",
@@ -821,37 +826,37 @@ const lang = Object.freeze({
         "S1 Add: Photon Reduction 2": {
             en: "S1 Add: Photon Reduction 2",
             jp: "S1追加:光子縮減2",
-            glen: "*S1 Add: Photon Reduction 2"
+            glen: "S1 Add: Photon Descent 2"
         },
         "S1 Add: Brilliant Ruin 2": {
             en: "S1 Add: Brilliant Ruin 2",
             jp: "S1追加:滅域輝与2",
-            glen: "*S1 Add: Brilliant Ruin 2"
+            glen: "S1 Add: Lucent Domain 2"
         },
         "S1 Add: Flowing Intent": {
             en: "S1 Add: Flowing Intent",
             jp: "S1追加:時流の志",
-            glen: "*S1 Add: Flowing Intent"
+            glen: "S1 Add: Timeflow Will"
         },
         "S1 Add: Lethal Intent": {
             en: "S1 Add: Lethal Intent",
             jp: "S1追加:死中の志",
-            glen: "*S1 Add: Lethal Intent"
+            glen: "S1 Add: Will of the Dying"
         },
         "S1 Add: Reckless Strike": {
             en: "S1 Add: Reckless Strike",
             jp: "S1追加:賭死の撃",
-            glen: "*S1 Add: Reckless Strike"
+            glen: "S1 Add: Dance with Death"
         },
         "S1 Add: Eclipsing Decay": {
             en: "S1 Add: Eclipsing Decay",
             jp: "S1追加:失力の蝕",
-            glen: "*S1 Add: Eclipsing Decay"
+            glen: "S1 Add: Crippling Erode"
         },
         "S1 Add: Augment Intent": {
             en: "S1 Add: Augment Intent",
             jp: "S1追加:錬成の志",
-            glen: "*S1 Add: Augment Intent"
+            glen: "S1 Add: Augment Will"
         },
         "S1 Add: Photon Balance": {
             en: "S1 Add: Photon Balance",
@@ -861,52 +866,52 @@ const lang = Object.freeze({
         "S1 Add: Collaborator Liberator": {
             en: "S1 Add: Collaborator Liberator",
             jp: "S1追加:戦友の加護",
-            glen: "*S1 Add: Comrade's Blessing"
+            glen: "S1 Add: Comrade\'s Blessing"
         },
         "S1 Add: Wise Skill": {
             en: "S1 Add: Wise Skill",
             jp: "S1追加:妙技の巧",
-            glen: "S1 Add: Superior Prowess"
+            glen: "S1 Add: Skillful Adept"
         },
         "S1 Add: Radiating Grace": {
             en: "S1 Add: Radiating Grace",
             jp: "S1追加:輝勢の恵",
-            glen: "S1 Add: Lucent Grace"
+            glen: "S1 Add: Luminous Grace"
         },
         "S1 Add: Skilled Brilliance": {
             en: "S1 Add: Skilled Brilliance",
             jp: "S1追加:輝充の志",
-            glen: "*S1 Add: Skilled Brilliance"
+            glen: "S1 Add: Photonic Will"
         },
         "S1 Add: Red Petal Flash": {
             en: "S1 Add: Red Petal Flash",
             jp: "S1追加:花ノ赤閃",
-            glen: "*S1 Add: Petalgleam"
+            glen: "S1 Add: Petalgleam"
         },
         "S1 Add: Blue Ocean Flash": {
             en: "S1 Add: Blue Ocean Flash",
             jp: "S1追加:海ノ青閃",
-            glen: "*S1 Add: Seagleam"
+            glen: "S1 Add: Seagleam"
         },
         "S1 Add: White Snow Flash": {
             en: "S1 Add: White Snow Flash",
             jp: "S1追加:雪ノ白閃",
-            glen: "*S1 Add: Snowgleam"
+            glen: "S1 Add: Snowgleam"
         },
         "S1 Add: Yellow Moon Flash": {
             en: "S1 Add: Yellow Moon Flash",
             jp: "S1追加:月ノ黄閃",
-            glen: "*S1 Add: Moongleam"
+            glen: "S1 Add: Moongleam"
         },
         "S1 Add: Green Leaf Flash": {
             en: "S1 Add: Green Leaf Flash",
             jp: "S1追加:葉ノ緑閃",
-            glen: "*S1 Add: Leafgleam"
+            glen: "S1 Add: Leafgleam"
         },
         "S1 Add: Black Shadow Flash": {
             en: "S1 Add: Black Shadow Flash",
             jp: "S1追加:影ノ黒閃",
-            glen: "*S1 Add: Shadowgleam"
+            glen: "S1 Add: Shadowgleam"
         },
         "S1 Add: Skilled Strike": {
             en: "S1 Add: Skilled Strike",
@@ -916,62 +921,62 @@ const lang = Object.freeze({
         "S1 Add: Flowing Exhilaration": {
             en: "S1 Add: Flowing Exhilaration",
             jp: "S1追加:時流活与",
-            glen: "*S1 Add: Timeflow Vitality"
+            glen: "S1 Add: Timeflow Vitality"
         },
         "S1 Add: Guardian Armor": {
             en: "S1 Add: Guardian Armor",
             jp: "S1追加:守護の備",
-            glen: "S1 Add: Guardian Gear"
+            glen: "S1 Add: Guardian Shield"
         },
         "S1 Add: Rupturing Excess": {
             en: "S1 Add: Rupturing Excess",
             jp: "S1追加:裂砕の剰",
-            glen: "*S1 Add: Rupturing Excess"
+            glen: "S1 Add: Lustrous Partbreaker"
         },
         "S1 Add: Spirited Response": {
             en: "S1 Add: Spirited Response",
             jp: "S1追加:気輝応変",
-            glen: "*S1 Add: Spirited Response"
+            glen: "S1 Add: Luminous Adaptation"
         },
         "S1 Add: Rupturing Intent": {
             en: "S1 Add: Rupturing Intent",
             jp: "S1追加:裂砕の志",
-            glen: "*S1 Add: Partbreaker\'s Resolve"
+            glen: "S1 Add: Partbreaker\'s Will"
         },
         "S1 Add: Double-Edged Sword": {
             en: "S1 Add: Double-Edged Sword",
             jp: "S1追加:諸刃の撃",
-            glen: "*S1 Add: Double-Edged Sword"
+            glen: "S1 Add: Two-edged Strike"
         },
         "S1 Add: Radiant Strike": {
             en: "S1 Add: Radiant Strike",
             jp: "S1追加:輝剰の撃",
-            glen: "S1 Add: Lucent Strike"
+            glen: "S1 Add: Lustrous Strike"
         },
         "S2 Add: Umbrageous Melody": {
             en: "S2 Add: Umbrageous Melody",
             jp: "S2追加:月葉影の歌",
-            glen: "*S2 Add: Umbrageous Melody"
+            glen: "*S2 Add: Moonleaf Song"
         },
         "S2 Add: Nature's Reduction 2": {
             en: "S2 Add: Nature's Reduction 2",
             jp: "S2追加:花海雪の縮減2",
-            glen: "*S2 Add: Nature's Reduction 2"
+            glen: "S2 Add: Petalsea Descent 2"
         },
         "S2 Add: Umbrageous Radiance 2": {
             en: "S2 Add: Umbrageous Radiance 2",
             jp: "S2追加:月葉影の輝剰2",
-            glen: "*S2 Add: Umbrageous Radiance 2"
+            glen: "S2 Add: Lustrous Moonleaf 2"
         },
         "S2 Add: Wise Skill 2": {
             en: "S2 Add: Wise Skill 2",
             jp: "S2追加:妙技の巧2",
-            glen: "*S2 Add: Wise Skill 2"
+            glen: "S2 Add: Skillful Adept 2"
         },
         "S2 Add: Skilled Strike 2": {
             en: "S2 Add: Skilled Strike 2",
             jp: "S2追加:妙撃の志2",
-            glen: "*S2 Add: Skilled Strike 2"
+            glen: "S2 Add: Precision Will 2"
         },
         "S2 Add: Radiant Strike 2": {
             en: "S2 Add: Radiant Strike 2",
@@ -981,12 +986,12 @@ const lang = Object.freeze({
         "S2 Add: Runner's High": {
             en: "S2 Add: Runner's High",
             jp: "S2追加:走者高揚",
-            glen: "*S2 Add: Runner's High"
+            glen: "S2 Add: Runner\'s High"
         },
         "S2 Add: Skill Reduction": {
             en: "S2 Add: Skill Reduction",
             jp: "S2追加:技巧縮減",
-            glen: "*S2 Add: Skill Reduction"
+            glen: "S2 Add: Prowess in Descent"
         },
         "S2 Add: Heavenly Keeper": {
             en: "S2 Add: Heavenly Keeper",
@@ -1006,72 +1011,72 @@ const lang = Object.freeze({
         "S2 Add: Photon Reduction": {
             en: "S2 Add: Photon Reduction",
             jp: "S2追加:光子縮減",
-            glen: "S2 Add: Photon Reduction"
+            glen: "S2 Add: Photon Descent"
         },
         "S2 Add: Sturdy Recovery": {
             en: "S2 Add: Sturdy Recovery",
             jp: "S2追加:剛乱活与",
-            glen: "*S2 Add: Sturdy Recovery"
+            glen: "S2 Add: Tumultuous Vitality"
         },
         "S2 Add: Cursed Radiance": {
             en: "S2 Add: Cursed Radiance",
             jp: "S2追加:災転輝与",
-            glen: "*S2 Add: Cursed Radiance"
+            glen: "S2 Add: Lucent Adversity"
         },
         "S2 Add: Flowing Grace": {
             en: "S2 Add: Flowing Grace",
             jp: "S2追加:時流の恵",
-            glen: "*S2 Add: Flowing Grace"
+            glen: "*S2 Add: Timeflow Grace"
         },
         "S2 Add: Rupturing Excess": {
             en: "S2 Add: Rupturing Excess",
             jp: "S2追加:裂砕の剰",
-            glen: "*S2 Add: Rupturing Excess"
+            glen: "S2 Add: Lustrous Partbreaker"
         },
         "S2 Add: Double-Edged Sword": {
             en: "S2 Add: Double-Edged Sword",
             jp: "S2追加:諸刃の撃",
-            glen: "*S2 Add: Double-Edged Sword"
+            glen: "S2 Add: Two-edged Strike"
         },
         "S2 Add: Rainbow's Intent": {
             en: "S2 Add: Rainbow's Intent",
             jp: "S2追加:六色の志",
-            glen: "*S2 Add: Rainbow's Intent"
+            glen: "S2 Add: Rainbow Will"
         },
         "S2 Add: Rainbow's Exhilaration": {
             en: "S2 Add: Rainbow's Exhilaration",
             jp: "S2追加:六色の活与",
-            glen: "*S2 Add: Rainbow's Exhilaration"
+            glen: "S2 Add: Rainbow Vitality"
         },
         "S2 Add: Skilled Brilliance": {
             en: "S2 Add: Skilled Brilliance",
             jp: "S2追加:輝充の志",
-            glen: "*S2 Add: Skilled Brilliance"
+            glen: "*S2 Add: Photonic Will"
         },
         "S3 Add: Nature's Melody": {
             en: "S3 Add: Nature's Melody",
             jp: "S3追加:花海雪の歌",
-            glen: "*S3 Add: Nature's Melody"
+            glen: "S3 Add: Petalsea Song"
         },
         "S3 Add: Nature's Gleam 2": {
             en: "S3 Add: Nature's Gleam 2",
             jp: "S3追加:花海雪の輝勢2",
-            glen: "*S3 Add: Nature's Gleam 2"
+            glen: "*S3 Add: Petalsea Lucentrush 2"
         },
         "S3 Add: Flowing Grace": {
             en: "S3 Add: Flowing Grace",
             jp: "S3追加:時流の恵",
-            glen: "*S3 Add: Flowing Grace"
+            glen: "S3 Add: Timeflow Grace"
         },
         "S3 Add: Flowing Exhilaration 2": {
             en: "S3 Add: Flowing Exhilaration 2",
             jp: "S3追加:時流活与2",
-            glen: "*S3 Add: Flowing Exhilaration 2"
+            glen: "S3 Add: Timeflow Vitality 2"
         },
         "S3 Add: Radiating Grace 2": {
             en: "S3 Add: Radiating Grace 2",
             jp: "S3追加:輝勢の恵2",
-            glen: "*S3 Add: Radiating Grace 2"
+            glen: "S3 Add: Luminous Grace 2"
         },
         "S3 Add: Calming Exhilaration": {
             en: "S3 Add: Calming Exhilaration",
@@ -1081,12 +1086,12 @@ const lang = Object.freeze({
         "S3 Add: Curtailed Strike": {
             en: "S3 Add: Curtailed Strike",
             jp: "S3追加:撃流縮減",
-            glen: "*S3 Add: Curtailed Strike"
+            glen: "S3 Add: Strikeflow Descent"
         },
         "S3 Add: Wise Strike": {
             en: "S3 Add: Wise Strike",
             jp: "S3追加:撃流の巧",
-            glen: "*S3 Add: Wise Strike"
+            glen: "S3 Add: Strikeflow Adept"
         },
         "S3 Add: Flowing Courage": {
             en: "S3 Add: Flowing Courage",
@@ -1096,7 +1101,7 @@ const lang = Object.freeze({
         "S3 Add: Fortifying Strike": {
             en: "S3 Add: Fortifying Strike",
             jp: "S3追加:撃流の備",
-            glen: "*S3 Add: Fortifying Strike"
+            glen: "S3 Add: Strikeflow Shield"
         },
         "S3 Add: Radiant Strike": {
             en: "S3 Add: Radiant Strike",
@@ -1116,27 +1121,27 @@ const lang = Object.freeze({
         "S3 Add: Vital Intent": {
             en: "S3 Add: Vital Intent",
             jp: "S3追加:活実の志",
-            glen: "*S3 Add: Vital Intent"
+            glen: "S3 Add: Axiom Will"
         },
         "S3 Add: Wise Skill": {
             en: "S3 Add: Wise Skill",
             jp: "S3追加:妙技の巧",
-            glen: "S3 Add: Superior Prowess"
+            glen: "S3 Add: Skillful Adept"
         },
         "S3 Add: Rupturing Intent": {
             en: "S3 Add: Rupturing Intent",
             jp: "S3追加:裂砕の志",
-            glen: "*S3 Add: Rupturing Intent"
+            glen: "*S3 Add: Partbreaker\'s Will"
         },
         "S3 Add: Brilliant Ruin": {
             en: "S3 Add: Brilliant Ruin",
             jp: "S3追加:滅域輝与",
-            glen: "*S3 Add: Brilliant Ruin"
+            glen: "*S3 Add: Lucent Domain"
         },
         "S3 Add: Cursed Radiance": {
             en: "S3 Add: Cursed Radiance",
             jp: "S3追加:災転輝与",
-            glen: "*S3 Add: Catastrophic Photon"
+            glen: "S3 Add: Lucent Adversity"
         },
         "S3 Add: Calming Exhilaration": {
             en: "S3 Add: Calming Exhilaration",
@@ -1146,7 +1151,7 @@ const lang = Object.freeze({
         "S3 Add: Powering Intent": {
             en: "S3 Add: Powering Intent",
             jp: "S3追加:強闘の志",
-            glen: "*S3 Add: Mighting Intent"
+            glen: "*S3 Add: Goliathslayer\'s Will"
         },
         "S3 Add: Rainbow's Reduction": {
             en: "S3 Add: Rainbow's Reduction",
@@ -1156,17 +1161,17 @@ const lang = Object.freeze({
         "S3 Add: Rainbow's Radiance": {
             en: "S3 Add: Rainbow's Radiance",
             jp: "S3追加:六色の輝剰",
-            glen: "*S3 Add: Rainbow's Radiance"
+            glen: "S3 Add: Lustrous Rainbow"
         },
         "S3 Add: Rainbow's Gleam": {
             en: "S3 Add: Rainbow's Gleam",
             jp: "S3追加:六色の輝勢",
-            glen: "*S3 Add: Rainbow's Gleam"
+            glen: "S3 Add: Luminous Rainbow"
         },
         "S3 Add: Nature's Melody 2": {
             en: "S3 Add: Nature's Melody 2",
             jp: "S3追加:花海雪の歌2",
-            glen: "*S3 Add: Nature's Melody 2"
+            glen: "S3 Add: Petalsea Song 2"
         },
         "S4 Add: Heavenly Protection": {
             en: "S4 Add: Heavenly Protection",
@@ -1191,7 +1196,7 @@ const lang = Object.freeze({
         "S4 Add: Harmonized Rainbow": {
             en: "S4 Add: Harmonized Rainbow",
             jp: "S4追加:六色の輝秤",
-            glen: "*S4 Add: Harmonized Rainbow"
+            glen: "S4 Add: Rainbow Lucentbalance"
         },
         "S4 Add: Raising Pursuit": {
             en: "S4 Add: Raising Pursuit",
@@ -1201,17 +1206,17 @@ const lang = Object.freeze({
         "S4 Add: Pursuing Eclipse": {
             en: "S4 Add: Pursuing Eclipse",
             jp: "S4追加:追蝕の巧",
-            glen: "*S4 Add: Pursuing Eclipse"
+            glen: "S4 Add: Amplified Adept"
         },
         "S4 Add: Cursed Rainbow": {
             en: "S4 Add: Cursed Rainbow",
             jp: "S4追加:六色の災転",
-            glen: "*S4 Add: Cursed Rainbow"
+            glen: "S4 Add: Rainbow Adversity"
         },
         "S4 Add: Colossal Radiance": {
             en: "S4 Add: Colossal Radiance",
             jp: "S4追加:強闘輝与",
-            glen: "*S4 Add: Colossal Radiance"
+            glen: "S4 Add: Goliathslayer Lucent"
         },
         "S4 Add: Evasion Training": {
             en: "S4 Add: Evasion Training",
@@ -1226,12 +1231,12 @@ const lang = Object.freeze({
         "S4 Add: Shared Ruin": {
             en: "S4 Add: Shared Ruin",
             jp: "S4追加:滅域分与",
-            glen: "*S4 Add: Shared Ruin"
+            glen: "S4 Add: Nullzone Bestowal"
         },
         "S5 Add: Anthesis Cultivation": {
             en: "S5 Add: Anthesis Cultivation",
             jp: "S5追加:錬成萌花",
-            glen: "*S5 Add: Anthesis Cultivation"
+            glen: "S5 Add: Augment Bloom"
         },
         "S5 Add: Instant Invocation": {
             en: "S5 Add: Instant Invocation",
@@ -1241,7 +1246,7 @@ const lang = Object.freeze({
         "S5 Add: Tethered Eclipse": {
             en: "S5 Add: Tethered Eclipse",
             jp: "S5追加:追蝕の縛",
-            glen: "*S5 Add: Tethered Eclipse"
+            glen: "S5 Add: Amplified Restraint"
         },
         "S5 Add: Vigorous Response": {
             en: "S5 Add: Vigorous Response",
@@ -1261,7 +1266,7 @@ const lang = Object.freeze({
         "S6 Add: Guardian Armor": {
             en: "S6 Add: Guardian Armor",
             jp: "S6追加:守護の備",
-            glen: "*S6 Add: Guardian Gear"
+            glen: "*S6 Add: Guardian Shield"
         },
         "S6 Add: Heroic Howl": {
             en: "S6 Add: Heroic Howl",
@@ -1281,12 +1286,12 @@ const lang = Object.freeze({
         "S6 Add: Evasion Whistle": {
             en: "S6 Add: Evasion Whistle",
             jp: "S6追加:回避の口笛",
-            glen: "*S6 Add: Evasion Whistle"
+            glen: "*S6 Add: Dodging Whistle"
         },
         "S6 Add: Long Night Star": {
             en: "S6 Add: Long Night Star",
             jp: "S6追加:長夜の明星",
-            glen: "*S6 Add: Long Night Star"
+            glen: "S6 Add: Long Night Star"
         },
         "S6 Add: Overlimit": {
             en: "S6 Add: Overlimit",
@@ -1296,27 +1301,27 @@ const lang = Object.freeze({
         "S7 Add: S-ATK Up": {
             en: "S7 Add: S-ATK Up",
             jp: "S7追加:打撃上昇",
-            glen: "*S7 Add: MEL Pwr Up"
+            glen: "*S7 Add: Fortified Melee"
         },
         "S7 Add: R-ATK Up": {
             en: "S7 Add: R-ATK Up",
             jp: "S7追加:射撃上昇",
-            glen: "*S7 Add: RNG Pwr Up"
+            glen: "*S7 Add: Fortified Ranged"
         },
         "S7 Add: T-ATK Up": {
             en: "S7 Add: T-ATK Up",
             jp: "S7追加:法撃上昇",
-            glen: "*S7 Add: TEC Pwr Up"
+            glen: "*S7 Add: Fortified Technique"
         },
         "S7 Add: Zenith Impact": {
             en: "S7 Add: Zenith Impact",
             jp: "S7追加:瞬撃の極",
-            glen: "*S7 Add: Zenith Impact"
+            glen: "S7 Add: Supreme Perfection"
         },
         "S7 Add: Increased Efficiency": {
             en: "S7 Add: Increased Efficiency",
             jp: "S7追加:薬効増大",
-            glen: "*S7 Add: Increased Efficiency"
+            glen: "S7 Add: Medicinal Potentiation"
         },
         "S7 Add: Mind Merge": {
             en: "S7 Add: Mind Merge",
@@ -1336,17 +1341,17 @@ const lang = Object.freeze({
         "S8 Add: HP Up": {
             en: "S8 Add: HP Up",
             jp: "S8追加:活器上昇",
-            glen: "*S8 Add: HP Up"
+            glen: "S8 Add: Fortified Life Vessel"
         },
         "S8 Add: PP Up": {
             en: "S8 Add: PP Up",
             jp: "S8追加:輝器上昇",
-            glen: "*S8 Add: PP Up"
+            glen: "S8 Add: Fortified Photon V"
         },
         "S8 Add: Strong Potency": {
             en: "S8 Add: Strong Potency",
             jp: "S8追加:服薬強身",
-            glen: "*S8 Add: Strong Potency"
+            glen: "S8 Add: Mighty Medication"
         },
         "S8 Add: High-Minded": {
             en: "S8 Add: High-Minded",
@@ -1356,12 +1361,12 @@ const lang = Object.freeze({
         "S8 Add: HP Up 2": {
             en: "S8 Add: HP Up 2",
             jp: "S8追加:活器上昇2",
-            glen: "*S8 Add: HP Up 2"
+            glen: "S8 Add: Fortified Life Vessel 2"
         },
         "S8 Add: Sky Dance's Boon": {
             en: "S8 Add: Sky Dance's Boon",
             jp: "S8追加:舞空の援",
-            glen: "*S8 Add: Sky Dance's Boon"
+            glen: "S8 Add: Skydance Support"
         }
     },
     "potential": {
@@ -2189,7 +2194,7 @@ const lang = Object.freeze({
     "HZ01": {
         name_en: "All Resist I",
         name_jp: "オールレジストⅠ",
-        name_glen: "Soverign Ward I",
+        name_glen: "Sovereign Ward I",
         effect_en: "All Resist(+1)",
         effect_jp: "全耐性(+1)",
         effect_glen: "All Resist(+1)"
@@ -2197,7 +2202,7 @@ const lang = Object.freeze({
     "HZ02": {
         name_en: "All Resist II",
         name_jp: "オールレジストⅡ",
-        name_glen: "Soverign Ward II",
+        name_glen: "Sovereign Ward II",
         effect_en: "All Resist(+2)",
         effect_jp: "全耐性(+2)",
         effect_glen: "All Resist(+2)"
@@ -2205,7 +2210,7 @@ const lang = Object.freeze({
     "HZ03": {
         name_en: "All Resist III",
         name_jp: "オールレジストⅢ",
-        name_glen: "Soverign Ward III",
+        name_glen: "Sovereign Ward III",
         effect_en: "All Resist(+3)",
         effect_jp: "全耐性(+3)",
         effect_glen: "All Resist(+3)"
@@ -2213,7 +2218,7 @@ const lang = Object.freeze({
     "HZ04": {
         name_en: "All Resist IV",
         name_jp: "オールレジストⅣ",
-        name_glen: "Soverign Ward IV",
+        name_glen: "Sovereign Ward IV",
         effect_en: "All Resist(+4)",
         effect_jp: "全耐性(+4)",
         effect_glen: "All Resist(+4)"
@@ -2221,7 +2226,7 @@ const lang = Object.freeze({
     "HZ05": {
         name_en: "All Resist V",
         name_jp: "オールレジストⅤ",
-        name_glen: "Soverign Ward V",
+        name_glen: "Sovereign Ward V",
         effect_en: "All Resist(+5)",
         effect_jp: "全耐性(+5)",
         effect_glen: "All Resist(+5)"
@@ -2472,12 +2477,12 @@ const lang = Object.freeze({
         name_glen: "S1:Aggressive Will",
         effect_en: "Boosts damage by 2%.",
         effect_jp: "与ダメージが2%上昇。",
-        effect_glen: "Increases attack power by 2%. "
+        effect_glen: "Increases attack power by 2%."
     },
     "LA02": {
         name_en: "S1:Photon Reduction",
         name_jp: "S1:光子縮減",
-        name_glen: "S1:Photon Reduction",
+        name_glen: "S1:Photon Descent",
         effect_en: "PP consumption is reduced by 7%.",
         effect_jp: "PP消費量を7%軽減。",
         effect_glen: "Reduces PP consumption by 7%."
@@ -2485,7 +2490,7 @@ const lang = Object.freeze({
     "LA03": {
         name_en: "S1:Wise Skill",
         name_jp: "S1:妙技の巧",
-        name_glen: "S1:Superior Prowess",
+        name_glen: "S1:Skillful Adept",
         effect_en: "Increases critical rate by 15%.",
         effect_jp: "クリティカル率が15%上昇する。",
         effect_glen: "Increases critical hit rate by 15%."
@@ -2493,23 +2498,23 @@ const lang = Object.freeze({
     "LA2S": {
         name_en: "S1:Wise Skill 2",
         name_jp: "S1:妙技の巧2",
-        name_glen: "*S1:Wise Skill 2",
+        name_glen: "*S1:Skillful Adept 2",
         effect_en: "Increases critical rate by 18%.",
         effect_jp: "クリティカル率が18%上昇する。",
-        effect_glen: "Increases critical rate by 18%."
+        effect_glen: "Increases critical hit rate by 18%."
     },
     "LA04": {
         name_en: "S1:Skilled Brilliance",
         name_jp: "S1:輝充の志",
-        name_glen: "*S1:Skilled Brilliance",
+        name_glen: "S1:Photonic Will",
         effect_en: "Boosts damage by 3% while PP<br>at is 40% or above.",
         effect_jp: "PPが40%以上の時、与ダメージが3%上昇。",
-        effect_glen: "Boosts damage by 3% while PP<br>at is 40% or above."
+        effect_glen: "Increases attack power by 3% while PP is at or above 40%."
     },
     "LA05": {
         name_en: "S1:Double-Edged Sword",
         name_jp: "S1:諸刃の撃",
-        name_glen: "*S1:Double-Edged Sword",
+        name_glen: "S1:Two-edged Strike",
         effect_en: "Deal 4% more damage but take<br>8% more damage.",
         effect_jp: "与ダメージが4%上昇し、抜刀時のみ被ダメージが8%増える。",
         effect_glen: "Increases attack power by 4% but take 8% more damage when your weapon is drawn."
@@ -2517,7 +2522,7 @@ const lang = Object.freeze({
     "LA06": {
         name_en: "S1:Radiating Grace",
         name_jp: "S1:輝勢の恵",
-        name_glen: "S1:Lucent Grace",
+        name_glen: "S1:Luminous Grace",
         effect_en: "PP regeneration increases by 20%.",
         effect_jp: "PPの自然回復速度が20%上昇する。",
         effect_glen: "Increases natural PP recovery by 20%."
@@ -2533,23 +2538,23 @@ const lang = Object.freeze({
     "LA11": {
         name_en: "S1:Immediate Intent",
         name_jp: "S1:瞬連の志",
-        name_glen: "*S1:Immediate Intent",
+        name_glen: "S1:Perfectchain Will",
         effect_en: "Successive Just Attacks will<br>increase damage up to 3%.",
         effect_jp: "連続でジャストアタックに成功すると、最大で3%まで与ダメージが上昇。",
-        effect_glen: "Successive Just Attacks will<br>increase damage up to 3%."
+        effect_glen: "Increases damage by 2% when performing successive Perfect Attack normal attacks.<br>Maxes at 3%."
     },
     "LA12": {
         name_en: "S1:Red Petal Flash",
         name_jp: "S1:花ノ赤閃",
-        name_glen: "*S1:Petalgleam",
+        name_glen: "S1:Petalgleam",
         effect_en: "+3% Damage for 30 seconds after<br>inflicting 450,000 damage.",
         effect_jp: "与ダメージ450,000毎に30秒間、3%威力上昇。",
-        effect_glen: "Increases power by 3% for 30 seconds after inflicting 450,000 damage."
+        effect_glen: "Increases power by 3% for 30 seconds after inflicting 450000 damage."
     },
     "LA13": {
         name_en: "S1:Blue Ocean Flash",
         name_jp: "S1:海ノ青閃",
-        name_glen: "*S1:Seagleam",
+        name_glen: "S1:Seagleam",
         effect_en: "Recover 4% HP every second for 30<br>seconds after taking 600 damage.",
         effect_jp: "被ダメージ600毎に30秒間、毎秒HPが4%回復。",
         effect_glen: "Recover 4% max HP every second for 30 seconds after taking 600 damage. "
@@ -2557,7 +2562,7 @@ const lang = Object.freeze({
     "LA14": {
         name_en: "S1:White Snow Flash",
         name_jp: "S1:雪ノ白閃",
-        name_glen: "*S1:Snowgleam",
+        name_glen: "S1:Snowgleam",
         effect_en: "+20% PP Recovery on attacks for 30<br>seconds after using 150 PP.",
         effect_jp: "発動時PP消費量150毎に30秒間、攻撃時のPP回復量が20%上昇。",
         effect_glen: "Increases Active PP Recovery by 20% for 30 seconds after using 150 PP."
@@ -2565,7 +2570,7 @@ const lang = Object.freeze({
     "LA15": {
         name_en: "S1:Yellow Moon Flash",
         name_jp: "S1:月ノ黄閃",
-        name_glen: "*S1:Moongleam",
+        name_glen: "S1:Moongleam",
         effect_en: "8% PP Consumption Reduction for 20<br>seconds upon Just Guarding.",
         effect_jp: "ジャストガード成功時に20秒間、PP消費量を8%軽減。",
         effect_glen: "Reduces PP consumption by 8% for 20 seconds after performing a Perfect Guard."
@@ -2573,7 +2578,7 @@ const lang = Object.freeze({
     "LA16": {
         name_en: "S1:Green Leaf Flash",
         name_jp: "S1:葉ノ緑閃",
-        name_glen: "*S1:Leafgleam",
+        name_glen: "S1:Leafgleam",
         effect_en: "Every 20 seconds, a barrier will<br>turn on/off. The barrier reduces<br>damage by 8% and prevents flinching.",
         effect_jp: "被ダメージを8%軽減し怯まなくなるバリアが20秒間隔で発生・消滅。",
         effect_glen: "Creates a barrier that reduces damage taken by 8% and nullifies knockback.<br>The barrier will appear and disappear in 20 second intervals. "
@@ -2581,7 +2586,7 @@ const lang = Object.freeze({
     "LA17": {
         name_en: "S1:Black Shadow Flash",
         name_jp: "S1:影ノ黒閃",
-        name_glen: "*S1:Shadowgleam",
+        name_glen: "S1:Shadowgleam",
         effect_en: "Increase Natural PP Recovery for 20<br>seconds after standing still<br>for 5 seconds.",
         effect_jp: "5秒間静止する毎に20秒間、PPの自然回復量が20%上昇。",
         effect_glen: "Increases natural PP recovery for 20 seconds after standing still for 5 seconds."
@@ -2589,15 +2594,15 @@ const lang = Object.freeze({
     "LA18": {
         name_en: "S1:Brilliant Ruin",
         name_jp: "S1:滅域輝与",
-        name_glen: "*S1:Brilliant Ruin",
+        name_glen: "S1:Lucent Domain",
         effect_en: "Recovery PP upon enemies being defeated near you.",
         effect_jp: "一定の範囲内でエネミーが死亡した時、PPが回復する。",
-        effect_glen: "Recovery PP upon enemies being defeated near you."
+        effect_glen: "Recovers 3 PP when a nearby enemy is defeated."
     },
     "LA21": {
         name_en: "S1:Skilled Strike",
         name_jp: "S1:妙撃の志",
-        name_glen: "S1: Precision Will",
+        name_glen: "S1:Precision Will",
         effect_en: "+3% damage on Critical Hits.",
         effect_jp: "クリティカル時の与ダメージが3%上昇。",
         effect_glen: "Increases critical hit damage by 3%."
@@ -2605,10 +2610,10 @@ const lang = Object.freeze({
     "LA22": {
         name_en: "S1:Radiant Strike",
         name_jp: "S1:輝剰の撃",
-        name_glen: "S1:Lucent Strike",
+        name_glen: "S1:Lustrous Strike",
         effect_en: "+17% PP Recovery on attacks.",
         effect_jp: "攻撃時のPP回復量が17%上昇する。",
-        effect_glen: "Increases active PP recovery by 20%."
+        effect_glen: "Increases active PP recovery by 17%."
     },
     "LA23": {
         name_en: "S1:Flowing Exhilaration",
@@ -2621,7 +2626,7 @@ const lang = Object.freeze({
     "LA24": {
         name_en: "S1:Guardian Armor",
         name_jp: "S1:守護の備",
-        name_glen: "S1:Guardian Gear",
+        name_glen: "S1:Guardian Shield",
         effect_en: "Reduces damage taken by 7%.",
         effect_jp: "被ダメージを7%軽減。",
         effect_glen: "Reduces damage taken by 7%."
@@ -2629,10 +2634,10 @@ const lang = Object.freeze({
     "LA25": {
         name_en: "S1:Vigor Enhancement",
         name_jp: "S1:活剰増進",
-        name_glen: "*S1:Vigor Enhancement",
+        name_glen: "S1:Augmented Lifeboon",
         effect_en: "Boost self HP recovery by 40%.",
         effect_jp: "自身のHP回復量が40％上昇する",
-        effect_glen: "Boost self HP recovery by 40%."
+        effect_glen: "Increases HP recovered from self-healing by 40%."
     },
     "LA78": {
         name_en: "S1:Violent Invigoration",
@@ -2653,7 +2658,7 @@ const lang = Object.freeze({
     "LA80": {
         name_en: "S1:Powering Intent",
         name_jp: "S1:強闘の志",
-        name_glen: "*S1:Mighting Intent",
+        name_glen: "S1:Goliathslayer\'s Will",
         effect_en: "Increase damage dealt to bosses by 4%.",
         effect_jp: "強敵への与ダメージが4%上昇する。",
         effect_glen: "Increase damage dealt to bosses by 4%."
@@ -2661,23 +2666,23 @@ const lang = Object.freeze({
     "LA81": {
         name_en: "S1:Rupturing Excess",
         name_jp: "S1:裂砕の剰",
-        name_glen: "*S1:Rupturing Excess",
+        name_glen: "S1:Lustrous Partbreaker",
         effect_en: "Increase PP recovery rate by 40% when attacking breakable parts.",
         effect_jp: "破壊可能な部位を攻撃した際、攻撃時PP回復量が40%上昇。",
-        effect_glen: "Increase PP recovery rate by 40% when attacking breakable parts."
+        effect_glen: "Increases active PP recovery by 40% when attacking breakable parts."
     },
     "LA82": {
         name_en: "S1:Spirited Response",
         name_jp: "S1:気輝応変",
-        name_glen: "*S1:Spirited Response",
+        name_glen: "S1:Luminous Adaptation",
         effect_en: "Increases PP regeneration rate (+80%) while sheathed.",
         effect_jp: "納刀・抜刀を行う事でPP回復速度が変化。",
-        effect_glen: "Increases PP regeneration rate (+80%) while sheathed."
+        effect_glen: "Natural PP regeneration rate increased by 80% while weapon is sheathed."
     },
     "LA83": {
         name_en: "S1:Rupturing Intent",
         name_jp: "S1:裂砕の志",
-        name_glen: "*S1:Partbreaker\'s Resolve",
+        name_glen: "S1:Partbreaker\'s Will",
         effect_en: "Increase damage against breakable parts by 4%.",
         effect_jp: "破壊可能な部位を攻撃した際、威力が4%上昇する。",
         effect_glen: "Increase damage against breakable parts by 4%."
@@ -2693,7 +2698,7 @@ const lang = Object.freeze({
     "LA85": {
         name_en: "S1:Phantasmal Intent",
         name_jp: "S1:幻精の志",
-        name_glen: "S1:Revenant\'s Resolve",
+        name_glen: "S1:Spectre\'s Will",
         effect_en: "Increase Power based on the Photon Blast Gauge.",
         effect_jp: "フォトンブラストゲージに応じて威力が上昇する。",
         effect_glen: "Increases attack power based on the Photon Gauge.<br>Maxes out at 3%."
@@ -2701,7 +2706,7 @@ const lang = Object.freeze({
     "LA86": {
         name_en: "S1:Photon Reduction 2",
         name_jp: "S1:光子縮減2",
-        name_glen: "*S1:Photon Reduction 2",
+        name_glen: "S1:Photon Descent 2",
         effect_en: "Reduce PP consumption by 10%.",
         effect_jp: "PP消費量を10%軽減。",
         effect_glen: "Reduce PP consumption by 10%."
@@ -2709,23 +2714,23 @@ const lang = Object.freeze({
     "LA87": {
         name_en: "S1:Brilliant Ruin 2",
         name_jp: "S1:滅域輝与2",
-        name_glen: "*S1:Brilliant Ruin 2",
+        name_glen: "S1:Lucent Domain 2",
         effect_en: "Recover PP when an enemy near you is defeated. (+4 PP)",
         effect_jp: "一定の範囲内でエネミーが死亡した時、PPが回復する。",
-        effect_glen: "Recover PP when an enemy near you is defeated. (+4 PP)"
+        effect_glen: "Recovers 4 PP when a nearby enemy is defeated."
     },
     "LA88": {
         name_en: "S1:Flowing Intent",
         name_jp: "S1:時流の志",
-        name_glen: "*S1:Flowing Intent",
+        name_glen: "S1:Timeflow Will",
         effect_en: "Increase power every second. Maxes at 4% (30s to MAX).",
         effect_jp: "1秒毎に与ダメージが上昇。最大で4%。",
-        effect_glen: "Increase power every second. Maxes at 4% (30s to MAX)."
+        effect_glen: "Increases attack power every second to a maximum of 4% after 30 seconds. "
     },
     "LA89": {
         name_en: "S1:Lethal Intent",
         name_jp: "S1:死中の志",
-        name_glen: "*S1:Lethal Intent",
+        name_glen: "S1:Will of the Dying",
         effect_en: "Reduce HP by 5% every 20 seconds and increase Power by 4%.",
         effect_jp: "20秒毎に最大HPの5%ダメージを負う代わりに威力が4%上昇する。",
         effect_glen: "Reduce HP by 5% every 20 seconds and increase Might by 4%."
@@ -2733,15 +2738,15 @@ const lang = Object.freeze({
     "LA90": {
         name_en: "S1:Augment Intent",
         name_jp: "S1:錬成の志",
-        name_glen: "*S1:Augment Intent",
+        name_glen: "S1:Augment Will",
         effect_en: "Increase Power based on the number of Special Abilities attached to this weapon. Maxes at 4%.",
         effect_jp: "特殊能力の付与数に応じて威力上昇。最大で4%。",
-        effect_glen: "Increase Might based on the number of Special Abilities attached to this weapon. Maxes at 4%."
+        effect_glen: "Increases attack power by 0.5% for every augment affixed to this weapon.<br>Maxes at 4% for 8 augments."
     },
     "LA91": {
         name_en: "S1:Strike Boost",
         name_jp: "S1:打撃増幅",
-        name_glen: "*S1:Melee Amp",
+        name_glen: "S1:Melee Amp",
         effect_en: "Increase Power by 1% for every 60 S-ATK affixed to this weapon. Increase Power by an additional 2% if at least 200 S-ATK is affixed to this weapon.",
         effect_jp: "特殊能力の追加打撃能力60毎に、威力1%上昇し200以上でさらに2%上昇。",
         effect_glen: "Increase MEL by 1% for every 60 MEL Pwr affixed to this weapon. Increase MEL by an additional 2% if at least 200 MEL Pwr is affixed to this weapon."
@@ -2749,7 +2754,7 @@ const lang = Object.freeze({
     "LA92": {
         name_en: "S1:Shoot Boost",
         name_jp: "S1:射撃増幅",
-        name_glen: "*S1:Ranged Amp",
+        name_glen: "S1:Ranged Amp",
         effect_en: "Increase Power by 1% for every 60 R-ATK affixed to this weapon. Increase Power by an additional 2% if at least 200 R-ATK is affixed to this weapon.",
         effect_jp: "特殊能力の追加射撃能力60毎に、威力1%上昇し200以上でさらに2%上昇。",
         effect_glen: "Increase RNG by 1% for every 60 RNG Pwr affixed to this weapon. Increase RNG by an additional 2% if at least 200 RNG Pwr is affixed to this weapon."
@@ -2757,7 +2762,7 @@ const lang = Object.freeze({
     "LA93": {
         name_en: "S1:Tech Boost",
         name_jp: "S1:法撃増幅",
-        name_glen: "*S1:Technique Amp",
+        name_glen: "S1:Technique Amp",
         effect_en: "Increase Power by 1% for every 60 T-ATK affixed to this weapon. Increase Power by an additional 2% if at least 200 T-ATK is affixed to this weapon.",
         effect_jp: "特殊能力の追加法撃能力60毎に、威力1%上昇し200以上でさらに2%上昇。",
         effect_glen: "Increase TEC by 1% for every 60 TEC Pwr affixed to this weapon. Increase TEC by an additional 2% if at least 200 TEC Pwr is affixed to this weapon."
@@ -2765,18 +2770,18 @@ const lang = Object.freeze({
     "LA94": {
         name_en: "S1:Reckless Strike",
         name_jp: "S1:賭死の撃",
-        name_glen: "*S1:Reckless Strike",
+        name_glen: "S1:Dance with Death",
         effect_en: "Increase Power every three times you are attacked. Upon being attacked a tenth time, release an explosion that incapacitates you and damages all nearby targets.",
         effect_jp: "被ダメージの回数に応じて威力上昇。最大段階時の被ダメージで自身が戦闘不能になり周囲に与ダメージ。",
-        effect_glen: "Increase Power every three times you are attacked. Upon being attacked a tenth time, release an explosion that incapacitates you and damages all nearby targets."
+        effect_glen: "Increase Attack Power every three times you are hit.<br>Upon receiving a 10th hit an explosion will be released that reduces your HP to 1<br>damages all nearby targets and resets the effect of this skill"
     },
     "LA95": {
         name_en: "S1:Eclipsing Decay",
         name_jp: "S1:失力の蝕",
-        name_glen: "*S1:Eclipsing Decay",
+        name_glen: "S1:Crippling Erode",
         effect_en: "Grant a 25% chance to inflict the Jellen status when attacking an enemy.",
         effect_jp: "命中時に25％の確率でジェルンを付与。",
-        effect_glen: "Grant a 25% chance to inflict the Jellen status when attacking an enemy."
+        effect_glen: "Attacking an enemy grants a 25% chance to inflict a target with the Jellen status effect."
     },
     "LA2P": {
         name_en: "S1:Photon Balance",
@@ -2784,12 +2789,12 @@ const lang = Object.freeze({
         name_glen: "*S1:Photon Balance",
         effect_en: "Increases PP consumption by 8%, but boosts PA and Tech damage by 4%.",
         effect_jp: "PP消費量が8％増加する代わりにPAとテクニックの威力が4％上昇する。",
-        effect_glen: "Increases PP consumption by 8%, but boosts PA and Tech damage by 4%."
+        effect_glen: "Increases PP consumption by 8% but boosts PA and Tech damage by 4%."
     },
     "LA2Q": {
         name_en: "S1:Collaborator Liberator",
         name_jp: "S1:戦友の加護",
-        name_glen: "*S1:Comrade's Blessing",
+        name_glen: "S1:Comrade\'s Blessing",
         effect_en: "Reduces PP consumption, boosts critical rate and boosts power based on the number of people in your party (min. 2).",
         effect_jp: "パーティ人数が2人以上の場合、人数に応じて、PP消費軽減、クリティカル率上昇、威力上昇効果が発動。",
         effect_glen: "Provides bonuses based on the number of party members.<br>2 Members: PP consumption -8%<br>3 Members: +10% critical hit rate<br>4 Members: Attack power +3% Bonuses only apply to yourself."
@@ -2797,15 +2802,15 @@ const lang = Object.freeze({
     "LB01": {
         name_en: "S2:Sturdy Recovery",
         name_jp: "S2:剛乱活与",
-        name_glen: "*S2:Sturdy Recovery",
+        name_glen: "S2:Tumultuous Vitality",
         effect_en: "Gives a fixed chance of<br>restoring HP equal to 1%<br>of damage dealt. (Max: 300)",
         effect_jp: "一定確率で与ダメージの1%をHPとして吸収。(上限300)",
-        effect_glen: "Gives a fixed chance of<br>restoring HP equal to 1%<br>of damage dealt. (Max: 300)"
+        effect_glen: "Grants a 10% chance to restore HP equal to 1% of damage dealt.<br>Maximum amount of HP restored is 300."
     },
     "LB02": {
         name_en: "S2:Photon Reduction",
         name_jp: "S2:光子縮減",
-        name_glen: "S2:Photon Reduction",
+        name_glen: "S2:Photon Descent",
         effect_en: "PP consumption is reduced by 10%.",
         effect_jp: "PP消費量を10%軽減。",
         effect_glen: "Reduces PP consumption by 10%."
@@ -2813,7 +2818,7 @@ const lang = Object.freeze({
     "LB2F": {
         name_en: "S2:Photon Reduction 2",
         name_jp: "S2:光子縮減2",
-        name_glen: "*S2:Photon Reduction 2",
+        name_glen: "*S2:Photon Descent 2",
         effect_en: "PP consumption is reduced by 13%.",
         effect_jp: "PP消費量を13%軽減。",
         effect_glen: "PP consumption is reduced by 13%."
@@ -2829,7 +2834,7 @@ const lang = Object.freeze({
     "LB04": {
         name_en: "S2:Radiant Strike",
         name_jp: "S2:輝剰の撃",
-        name_glen: "S2:Lucent Strike",
+        name_glen: "S2:Lustrous Strike",
         effect_en: "Increases attack PP recovery by 17%.",
         effect_jp: "攻撃時のPP回復量が17%上昇する。",
         effect_glen: "Increases active PP recovery by 17%."
@@ -2837,15 +2842,15 @@ const lang = Object.freeze({
     "LB05": {
         name_en: "S2:Cursed Radiance",
         name_jp: "S2:災転輝与",
-        name_glen: "*S2:Cursed Radiance",
+        name_glen: "S2:Lucent Adversity",
         effect_en: "Recovers PP by 15% when taking damage.",
         effect_jp: "ダメージを受けた際にPPを15%回復する。",
-        effect_glen: "Recovers PP by 15% when taking damage."
+        effect_glen: "Recovers 15% of your max PP when you take damage."
     },
     "LB06": {
         name_en: "S2:Guardian Armor",
         name_jp: "S2:守護の備",
-        name_glen: "*S2:Guardian Gear",
+        name_glen: "*S2:Guardian Shield",
         effect_en: "Reduces damage taken by 7%.",
         effect_jp: "被ダメージを7%軽減。",
         effect_glen: "Reduces damage taken by 7%."
@@ -2861,7 +2866,7 @@ const lang = Object.freeze({
     "LB2G": {
         name_en: "S2:Flowing Exhilaration 2",
         name_jp: "S2:時流活与2",
-        name_glen: "*S2:Flowing Exhilaration 2",
+        name_glen: "*S2:Timeflow Vitality 2",
         effect_en: "Recover 75% of your maximum HP at regular intervals.",
         effect_jp: "一定時間ごとにHPを75%回復する。",
         effect_glen: "Recover 75% of your maximum HP at regular intervals."
@@ -2869,7 +2874,7 @@ const lang = Object.freeze({
     "LB08": {
         name_en: "S2:Immediate Profusion",
         name_jp: "S2:瞬撃繚乱",
-        name_glen: "*S2:Dynamo Dance",
+        name_glen: "S2:Dynamo Dance",
         effect_en: "Raises damage by 3% when Just<br>Attacking different PAs or <br>Techniques.",
         effect_jp: "別のPAやテクニックをジャストアタックすると与ダメージが3%上昇。",
         effect_glen: "Increases damage by 3% when linking together PAs or Techniques with Perfect Attacks."
@@ -2877,15 +2882,15 @@ const lang = Object.freeze({
     "LB09": {
         name_en: "S2:Spirited Response",
         name_jp: "S2:気輝応変",
-        name_glen: "*S2:Spirited Response",
+        name_glen: "S2:Luminous Adaptation",
         effect_en: "Increases PP regeneration rate<br>while sheathed.",
         effect_jp: "納刀・抜刀を行う事でPP回復速度が変化。",
-        effect_glen: "Increases PP regeneration rate<br>while sheathed."
+        effect_glen: "Natural PP regeneration rate increased by 100% while weapon is sheathed."
     },
     "LB0A": {
         name_en: "S2:Flowing Grace",
         name_jp: "S2:時流の恵",
-        name_glen: "*S2:Flowing Grace",
+        name_glen: "*S2:Timeflow Grace",
         effect_en: "Regenerate 10 PP every 4 seconds.",
         effect_jp: "4秒ごとにPPを10回復する。",
         effect_glen: "Regenerate 10 PP every 4 seconds."
@@ -2893,55 +2898,55 @@ const lang = Object.freeze({
     "LB11": {
         name_en: "S2:Nature's Skill",
         name_jp: "S2:花海雪の巧",
-        name_glen: "*S2:Nature's Skill",
+        name_glen: "S2:Petalsea Adept",
         effect_en: "Increase Critical Hit Rate by 20%<br>when S1:Red Petal Flash, S1:Blue<br>Ocean Flash, or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、クリティカル率20%上昇。",
-        effect_glen: "Increase Critical Hit Rate by 20%<br>when S1:Red Petal Flash, S1:Blue<br>Ocean Flash, or S1:White Snow Flash are active."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>critical hit rate is increased by 20%."
     },
     "LB12": {
         name_en: "S2:Nature's Intent",
         name_jp: "S2:花海雪の志",
-        name_glen: "*S2:Nature's Intent",
+        name_glen: "S2:Will of the Petalsea",
         effect_en: "Increase damage by 3% when S1:Red<br>Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、与ダメージが3%上昇。",
-        effect_glen: "Increase damage by 3% when S1:Red<br>Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>attack power is increased by 3%."
     },
     "LB13": {
         name_en: "S2:Nature's Exhilaration",
         name_jp: "S2:花海雪の活与",
-        name_glen: "*S2:Nature's Exhilaration",
+        name_glen: "S2:Petalsea Vitality",
         effect_en: "Recover 2% HP every second when S1:Red<br>Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、毎秒HPが2%回復。",
-        effect_glen: "Recover 2% HP every second when S1:Red<br>Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>recover 2% of max HP every second."
     },
     "LB14": {
         name_en: "S2:Nature's Reduction",
         name_jp: "S2:花海雪の縮減",
-        name_glen: "*S2:Nature's Reduction",
+        name_glen: "S2:Petalsea Descent",
         effect_en: "Decrease PP consumption by 12% when S1:Red<br>Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、PP消費量を12%軽減。",
-        effect_glen: "Decrease PP consumption by 12% when S1:Red<br>Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>PP consumption is reduced by 12%."
     },
     "LB15": {
         name_en: "S2:Umbrageous Gleam",
         name_jp: "S2:月葉影の輝勢",
-        name_glen: "*S2:Umbrageous Gleam",
+        name_glen: "S2:Luminous Moonleaf",
         effect_en: "Increase Natural PP Recovery by 25% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、PP自然回復量25%上昇。",
-        effect_glen: "Increase Natural PP Recovery by 25% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>natural PP recovery is increased by 25%."
     },
     "LB16": {
         name_en: "S2:Umbrageous Guardian",
         name_jp: "S2:月葉影の備",
-        name_glen: "*S2:Umbrageous Guardian",
+        name_glen: "S2:Moonleaf Shield",
         effect_en: "Decrease damage taken by 12% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、被ダメージを12%軽減。",
-        effect_glen: "Decrease damage taken by 12% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>damage taken is reduced by 12%."
     },
     "LB17": {
         name_en: "S2:Brilliant Ruin",
         name_jp: "S2:滅域輝与",
-        name_glen: "S2:Wake of Destruction Photon",
+        name_glen: "S2:Lucent Domain",
         effect_en: "Recover PP when an enemy near you<br>is defeated.",
         effect_jp: "一定の範囲内でエネミーが死亡した時、PPが回復する。",
         effect_glen: "Recover 4 PP when a nearby enemy is defeated."
@@ -2949,7 +2954,7 @@ const lang = Object.freeze({
     "LB18": {
         name_en: "S2:Radiating Grace",
         name_jp: "S2:輝勢の恵",
-        name_glen: "S2:Lucent Grace",
+        name_glen: "S2:Luminous Grace",
         effect_en: "Increases Automatic PP Recovery by 17%.",
         effect_jp: "PPの自然回復速度が17%上昇する。",
         effect_glen: "Increases natural PP recovery by 17%."
@@ -2973,7 +2978,7 @@ const lang = Object.freeze({
     "LB1B": {
         name_en: "S2:Rupturing Intent",
         name_jp: "S2:裂砕の志",
-        name_glen: "S2:Partbreaker\'s Resolve",
+        name_glen: "S2:Partbreaker\'s Will",
         effect_en: "Increase damage against breakable parts by 3%.",
         effect_jp: "破壊可能な部位を攻撃した際、威力が3%上昇する。",
         effect_glen: "Increase damage against breakable parts by 3%."
@@ -2981,23 +2986,23 @@ const lang = Object.freeze({
     "LB1C": {
         name_en: "S2:Rupturing Excess",
         name_jp: "S2:裂砕の剰",
-        name_glen: "*S2:Rupturing Excess",
+        name_glen: "S2:Lustrous Partbreaker",
         effect_en: "Increase PP recovery rate by 35%<br>when attacking breakable parts.",
         effect_jp: "破壊可能な部位を攻撃した際、攻撃時PP回復量が35%上昇。",
-        effect_glen: "Increase PP recovery rate by 35%<br>when attacking breakable parts."
+        effect_glen: "Increases active PP recovery by 35% when attacking breakable parts."
     },
     "LB1D": {
         name_en: "S2:Double-Edged Sword",
         name_jp: "S2:諸刃の撃",
-        name_glen: "*S2:Double-Edged Sword",
+        name_glen: "S2:Two-edged Strike",
         effect_en: "Increase Power by 3%<br>but take 6% more damage<br>when weapon is drawn.",
         effect_jp: "与ダメージが3%上昇し、抜刀時のみ被ダメージが6%増える。",
-        effect_glen: "Increases attack power by 3% but take 6% more damage when your weapon is drawn. "
+        effect_glen: "Increases attack power by 3% but take 6% more damage when your weapon is drawn."
     },
     "LB1E": {
         name_en: "S2:Powering Intent",
         name_jp: "S2:強闘の志",
-        name_glen: "S2:Goliathslayer's Resolve",
+        name_glen: "S2:Goliathslayer\'s Will",
         effect_en: "Increase damage dealt to bosses by 3%.",
         effect_jp: "強敵への与ダメージが3%上昇する。",
         effect_glen: "Increase damage dealt to bosses by 3%."
@@ -3005,7 +3010,7 @@ const lang = Object.freeze({
     "LB1F": {
         name_en: "S2:Phantasmal Radiance",
         name_jp: "S2:幻精輝剰",
-        name_glen: "S2:Revenant's Lucentboon",
+        name_glen: "S2:Lustrous Spectre",
         effect_en: "Increase Active PP Recovery based<br>on the Photon Blast Gauge.",
         effect_jp: "フォトンブラストゲージに応じて攻撃時PP回復量が上昇する。",
         effect_glen: "Increases active PP recovery based on the Photon Blast Gauge.<br>Maxes at 25%."
@@ -3013,7 +3018,7 @@ const lang = Object.freeze({
     "LB1G": {
         name_en: "S2:Phantasmal Gleam",
         name_jp: "S2:幻精輝勢",
-        name_glen: "S2:Revenant's Lucentrush",
+        name_glen: "S2:Spectre Apparition",
         effect_en: "Increase Natural PP Recovery based<br>on the Photon Blast Gauge.",
         effect_jp: "フォトンブラストゲージに応じてPP自然回復量が上昇する。",
         effect_glen: "Increases natural PP recovery based on the Photon Blast Gauge.<br>Maxes at 23%."
@@ -3021,7 +3026,7 @@ const lang = Object.freeze({
     "LB1H": {
         name_en: "S2:Phantasmal Guardian",
         name_jp: "S2:幻精の備",
-        name_glen: "S2:Shield of the Revenant",
+        name_glen: "S2:Spectre Shield",
         effect_en: "Reduce damage taken based<br>on the Photon Blast Guage.",
         effect_jp: "フォトンブラストゲージに応じて被ダメージ量が減少する。",
         effect_glen: "Reduces damage taken based on the Photon Blast Gauge.<br>Maxes at 9%."
@@ -3045,39 +3050,39 @@ const lang = Object.freeze({
     "LB1K": {
         name_en: "S2:Umbrageous Melody",
         name_jp: "S2:月葉影の歌",
-        name_glen: "*S2:Umbrageous Melody",
+        name_glen: "S2:Moonleaf Song",
         effect_en: "Increase power over time when<br>S1:Yellow Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.<br>Maxes at 5%",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、毎秒威力が上昇。最大で5%。",
-        effect_glen: "Increase power over time when<br>S1:Yellow Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.<br>Maxes at 5%"
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>attack power increases every second.<br>Maxes out at 5% after 37.5 seconds."
     },
     "LB1L": {
         name_en: "S2:Nature's Reduction 2",
         name_jp: "S2:花海雪の縮減2",
-        name_glen: "*S2:Nature's Reduction 2",
+        name_glen: "S2:Petalsea Descent 2",
         effect_en: "Reduce PP consumption by 14%<br>when S1:Red Petal Flash,<br>S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、PP消費量を14%軽減。",
-        effect_glen: "Reduce PP consumption by 14%<br>when S1:Red Petal Flash,<br>S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>PP consumption is reduced by 14%."
     },
     "LB1R": {
         name_en: "S2:Umbrageous Radiance",
         name_jp: "S2:月葉影の輝剰",
-        name_glen: "*S2:Umbrageous Radiance",
+        name_glen: "S2:Lustrous Moonleaf",
         effect_en: "Increase Active PP Recovery by 25% when S1:Yellow Moon Flash, S1:Green Leaf Flash, or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、攻撃時PP回復量が25%上昇。",
-        effect_glen: "Increase Active PP Recovery by 25% when S1:Yellow Moon Flash, S1:Green Leaf Flash, or S1:Black Shadow Flash are active."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>active PP recovery is increased by 25%."
     },
     "LB1M": {
         name_en: "S2:Umbrageous Radiance 2",
         name_jp: "S2:月葉影の輝剰2",
-        name_glen: "*S2:Umbrageous Radiance 2",
+        name_glen: "S2:Lustrous Moonleaf 2",
         effect_en: "Increase Active PP Recovery by 28%<br>when S1:Yellow Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、攻撃時PP回復量が28%上昇。",
-        effect_glen: "Increase Active PP Recovery by 28%<br>when S1:Yellow Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>active PP recovery is increased by 28%."
     },
     "LB1N": {
         name_en: "S2:Wise Skill 2",
         name_jp: "S2:妙技の巧2",
-        name_glen: "*S2:Wise Skill 2",
+        name_glen: "S2:Skillful Adept 2",
         effect_en: "Increase Critical Hit Rate by 15%.",
         effect_jp: "クリティカル率が15%上昇する。",
         effect_glen: "Increase Critical Hit Rate by 15%."
@@ -3085,7 +3090,7 @@ const lang = Object.freeze({
     "LB1O": {
         name_en: "S2:Skilled Strike 2",
         name_jp: "S2:妙撃の志2",
-        name_glen: "*S2:Skilled Strike 2",
+        name_glen: "S2:Precision Will 2",
         effect_en: "Increase Critical Hit Damage by 4%.",
         effect_jp: "クリティカル時の与ダメージが4%上昇。",
         effect_glen: "Increase Critical Hit Damage by 4%."
@@ -3109,58 +3114,58 @@ const lang = Object.freeze({
     "LB89": {
         name_en: "S2:Instant Reduction",
         name_jp: "S2:瞬乱縮減",
-        name_glen: "*S2:Instant Reduction",
+        name_glen: "S2:Perfect Descent",
         effect_en: "Reduces PP consumption by 12% when Just Attacking different PAs or Techniques.",
         effect_jp: "別のPAやテクニックをジャストアタックするとPP消費量を12%軽減。",
-        effect_glen: "Reduces PP consumption by 12% when Just Attacking different PAs or Techniques."
+        effect_glen: "Reduces PP consumption by 12% when consecutively chaining different PAs or Techniques with Perfect Attacks."
     },
     "LB90": {
         name_en: "S2:Flaming Guard",
         name_jp: "S2:火炎の備志",
-        name_glen: "*S2:Flaming Guard",
+        name_glen: "S2:One with the Flame",
         effect_en: "Increase Fire Attribute and Burn Resistance. Increase damage against enemies weak to Fire.",
         effect_jp: "炎属性、バーン耐性が上昇。敵の弱点属性が炎属性の時、威力上昇",
-        effect_glen: "Increase Fire Attribute and Burn Resistance. Increase damage against enemies weak to Fire."
+        effect_glen: "Increases fire resistance and burn resistance by 30%.<br>Increase damage by 3% against enemies weak to fire."
     },
     "LB91": {
         name_en: "S2:Freezing Guard",
         name_jp: "S2:氷雪の備志",
-        name_glen: "*S2:Freezing Guard",
+        name_glen: "S2:One with the Tundra",
         effect_en: "Increase Ice Attribute and Freeze Resistance. Increase damage against enemies weak to Ice.",
         effect_jp: "氷属性、フリーズ耐性が上昇。敵の弱点属性が氷属性の時、威力上昇",
-        effect_glen: "Increase Ice Attribute and Freeze Resistance. Increase damage against enemies weak to Ice."
+        effect_glen: "Increases ice resistance and freeze resistance by 30%.<br>Increases damage by 3% against enemies weak to ice."
     },
     "LB92": {
         name_en: "S2:Runner's High",
         name_jp: "S2:走者高揚",
-        name_glen: "*S2:Runner's High",
+        name_glen: "S2:Runner\'s High",
         effect_en: "Increase Natural PP Recovery by 100% and restore 15% HP every 5 seconds when running.",
         effect_jp: "ダッシュ状態時PP自然回復量が100%上昇しHPが5秒ごとに回復。",
-        effect_glen: "Increase Natural PP Recovery by 100% and restore 15% HP every 5 seconds when running."
+        effect_glen: "Increases natural PP recovery by 100% and restores 15% of max HP for every 5 seconds you are running."
     },
     "LB93": {
         name_en: "S2:Skill Reduction",
         name_jp: "S2:技巧縮減",
-        name_glen: "*S2:Skill Reduction",
+        name_glen: "S2:Prowess in Descent",
         effect_en: "Reduce PP consumption for 30 seconds upon hitting with a PA/Technique. Has a low chance to grant amplified effects. Triggers Recast upon activation.",
         effect_jp: "フォトンアーツまたはテクニック命中後30秒間、PPの消費量を軽減。また、まれに大きく軽減することがある。効果発動後にリキャストが発生。",
-        effect_glen: "Reduce PP consumption for 30 seconds upon hitting with a PA/Technique. Has a low chance to grant amplified effects. Triggers Recast upon activation."
+        effect_glen: "Reduces PP consumption by 5% for 30 seconds upon landing a PA or Technique.<br>Has a 33% chance to reduce PP consumption by 30% instead.35 second cooldown upon activation."
     },
     "LB1W": {
         name_en: "S2:Lightning Guard",
         name_jp: "S2:轟雷の備志",
-        name_glen: "*S2:Lightning Guard",
+        name_glen: "S2:One with the Thunder",
         effect_en: "Increases your Lightning attribute and Shock resistance. Boosts power against enemies that are weak to Lightning.",
         effect_jp: "雷耐性、ショック耐性が上昇。敵の弱点属性が雷属性の時、威力上昇。",
-        effect_glen: "Increases your Lightning attribute and Shock resistance. Boosts power against enemies that are weak to Lightning."
+        effect_glen: "Increases lightning resistance and shock resistance by 30%.<br>Increases damage by 3% against enemies weak to lightning."
     },
     "LB1Y": {
         name_en: "S2:Storm Guard",
         name_jp: "S2:暴風の備志",
-        name_glen: "*S2:Storm Guard",
+        name_glen: "S2:One with the Storm",
         effect_en: "Increases your Wind attribute and Shock resistance. Boosts power against enemies that are weak to Wind.",
         effect_jp: "風耐性、ショック耐性が上昇。敵の弱点属性が雷属性の時、威力上昇。",
-        effect_glen: "Increases your Wind attribute and Shock resistance. Boosts power against enemies that are weak to Wind."
+        effect_glen: "Increases wind resistance and blind resistance by 30%.<br>Increases damage by 3% against enemies weak to wind."
     },
     "LB1Z": {
         name_en: "S2:Aegis Gift",
@@ -3168,7 +3173,7 @@ const lang = Object.freeze({
         name_glen: "*S2:Aegis Gift",
         effect_en: "When you Just Guard at less than 25% HP, recovers HP by 50% and PP by 30%.",
         effect_jp: "HPを25％未満にすると、HPが50％、PPが30％回復します。",
-        effect_glen: "When you Just Guard at less than 25% HP, recovers HP by 50% and PP by 30%."
+        effect_glen: "When you Just Guard at less than 25% HP<br>recovers HP by 50% and PP by 30%."
     },
     "LB2A": {
         name_en: "S2:Heavenly Keeper",
@@ -3176,7 +3181,7 @@ const lang = Object.freeze({
         name_glen: "*S2:Heavenly Keeper",
         effect_en: "In the air, reduces PP consumption by 8%. On the ground, boosts PP regeneration and attack PP recovery by 20%.",
         effect_jp: "空中時では、PP消費量が8％軽減。地上時では自然PP回復量が20％かつ地上での攻撃時ではPP回復量が20％上昇。",
-        effect_glen: "In the air, reduces PP consumption by 8%. On the ground, boosts PP regeneration and attack PP recovery by 20%."
+        effect_glen: "In the air<br>reduces PP consumption by 8%. On the ground<br>boosts PP regeneration and attack PP recovery by 20%."
     },
     "LB2C": {
         name_en: "S2:Flowing Armor",
@@ -3189,63 +3194,63 @@ const lang = Object.freeze({
     "LB2D": {
         name_en: "S2:Shining Guard",
         name_jp: "S2:光明の備志",
-        name_glen: "*S2:Shining Guard",
+        name_glen: "S2:One with the Light",
         effect_en: "Increase Light Attribute and Panic Resistance. Increase damage against enemies weak to Light.",
         effect_jp: "光耐性、パニック耐性が上昇。敵の弱点属性が光属性の時、威力上昇。",
-        effect_glen: "Increase Light Attribute and Panic Resistance. Increase damage against enemies weak to Light."
+        effect_glen: "Increases light resistance and panic resistance by 30%.<br>Increase damage by 3% against enemies weak to light."
     },
     "LB2E": {
         name_en: "S2:Darkness Guard",
         name_jp: "S2:暗闇の備志",
-        name_glen: "*S2:Darkness Guard",
+        name_glen: "S2:One with the Dark",
         effect_en: "Increases your Dark attribute and Poison resistance. Boosts power against enemies that are weak to Dark.",
         effect_jp: "闇耐性、ポイズン耐性が上昇。敵の弱点属性が闇属性の時、威力上昇。",
-        effect_glen: "Increases your Dark attribute and Poison resistance. Boosts power against enemies that are weak to Dark."
+        effect_glen: "Increases dark resistance and poison resistance by 30%.<br>Increases damage by 3% against enemies weak to dark."
     },
     "LB2I": {
         name_en: "S2:Rainbow's Intent",
         name_jp: "S2:六色の志",
-        name_glen: "*S2:Rainbow's Intent",
+        name_glen: "S2:Rainbow Will",
         effect_en: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Boosts damage by 5%.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中与ダメージが5%上昇。",
-        effect_glen: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Boosts damage by 5%."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br>attack power is increased by 5%.<br>35 second cooldown upon activation."
     },
     "LB2J": {
         name_en: "S2:Rainbow's Exhilaration",
         name_jp: "S2:六色の活与",
-        name_glen: "*S2:Rainbow's Exhilaration",
+        name_glen: "S2:Rainbow Vitality",
         effect_en: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Recovers 3% of your<br>HP every second.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中毎秒HPが3%回復。",
-        effect_glen: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Recovers 3% of your<br>HP every second."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br>recover 3% max HP every second."
     },
     "LB98": {
         name_en: "S2:Skilled Brilliance",
         name_jp: "S2:輝充の志",
-        name_glen: "*S2:Skilled Brilliance",
+        name_glen: "*S2:Photonic Will",
         effect_en: "Boosts damage by 3% while PP at is 40% or above.",
         effect_jp: "PPが40%以上の時、与ダメージが3%上昇。",
-        effect_glen: "Boosts damage by 3% while PP at is 40% or above."
+        effect_glen: "Increases attack power by 3% while PP is at or above 40%."
     },
     "LC01": {
         name_en: "S3:Offensive Intent",
         name_jp: "S3:剛撃の志",
-        name_glen: "*S3:Aggressive Will",
+        name_glen: "S3:Aggressive Will",
         effect_en: "Increase damage by 2%.",
         effect_jp: "与ダメージが2%上昇。",
-        effect_glen: "Increase damage by 2%."
+        effect_glen: "Increases attack power by 2%."
     },
     "LC02": {
         name_en: "S3:Vital Intent",
         name_jp: "S3:活実の志",
-        name_glen: "*S3:Vital Intent",
+        name_glen: "S3:Axiom Will",
         effect_en: "Boosts damage by 3% while HP is 80% or more.",
         effect_jp: "HPが80%以上の時、与ダメージが3%上昇。",
-        effect_glen: "Boosts damage by 3% while HP is 80% or more."
+        effect_glen: "Increases attack power by 3% while HP is above 80%."
     },
     "LC03": {
         name_en: "S3:Radiant Strike",
         name_jp: "S3:輝剰の撃",
-        name_glen: "S3:Lucent Strike",
+        name_glen: "S3:Lustrous Strike",
         effect_en: "Increase Attack PP Recovery by 20%.",
         effect_jp: "攻撃時のPP回復量が20%上昇する。",
         effect_glen: "Increases active PP recovery by 20%."
@@ -3269,7 +3274,7 @@ const lang = Object.freeze({
     "LC1O": {
         name_en: "S3:Skilled Strike 2",
         name_jp: "S3:妙撃の志2",
-        name_glen: "*S3:Skilled Strike 2",
+        name_glen: "*S3:Precision Will 2",
         effect_en: "Increase Critical Hit Damage by 5%.",
         effect_jp: "クリティカル時の与ダメージが5%上昇。",
         effect_glen: "Increase Critical Hit Damage by 5%."
@@ -3277,15 +3282,15 @@ const lang = Object.freeze({
     "LC05": {
         name_en: "S3:Radiating Grace",
         name_jp: "S3:輝勢の恵",
-        name_glen: "S3:Lucent Grace",
+        name_glen: "S3:Luminous Grace",
         effect_en: "Increase Automatic PP Recovery by 17%.",
         effect_jp: "PPの自然回復速度が17%上昇する。",
-        effect_glen: "Increases natural PP recovery by 17%. "
+        effect_glen: "Increases natural PP recovery by 17%."
     },
     "LC06": {
         name_en: "S3:Flowing Exhilaration",
         name_jp: "S3:時流活与",
-        name_glen: " S3:Timeflow Vitality",
+        name_glen: "S3:Timeflow Vitality",
         effect_en: "Recover 40% of your maximum HP at regular intervals.",
         effect_jp: "一定時間ごとにHPを40%回復する。",
         effect_glen: "Restores 40% of your maximum HP every 40 seconds."
@@ -3293,39 +3298,39 @@ const lang = Object.freeze({
     "LC11": {
         name_en: "S3:Umbrageous Intent",
         name_jp: "S3:月葉影の志",
-        name_glen: "*S3:Umbrageous Intent",
+        name_glen: "S3:Will of the Moonleaf",
         effect_en: "Increase damage by 3% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、与ダメージが3%上昇。",
-        effect_glen: "Increase damage by 3% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>attack power is increased by 3%."
     },
     "LC12": {
         name_en: "S3:Umbrageous Reduction",
         name_jp: "S3:月葉影の縮減",
-        name_glen: "*S3:Umbrageous Reduction",
+        name_glen: "S3:Moonleaf Descent",
         effect_en: "Decrease PP consumption by 14% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、PP消費量を14%軽減。",
-        effect_glen: "Decrease PP consumption by 14% when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>PP consumption is reduced by 14%."
     },
     "LC13": {
         name_en: "S3:Umbrageous Exhilaration",
         name_jp: "S3:月葉影の活与",
-        name_glen: "*S3:Umbrageous Exhilaration",
+        name_glen: "S3:Moonleaf Vitality",
         effect_en: "Recover 2% HP every second when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、毎秒HPが2%回復。",
-        effect_glen: "Recover 2% HP every second when S1:Yellow<br>Moon Flash, S1:Green Leaf Flash,<br>or S1:Black Shadow Flash are active."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>recover 2% of max HP every second."
     },
     "LC14": {
         name_en: "S3:Nature's Radiance",
         name_jp: "S3:花海雪の輝剰",
-        name_glen: "*S3:Nature's Radiance",
+        name_glen: "S3:Luminous Petalsea",
         effect_en: "Increase Natural PP Recovery by 28% when<br>S1:Red Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、攻撃時PP回復量が28%上昇。",
-        effect_glen: "Increase Natural PP Recovery by 28% when<br>S1:Red Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>natural PP recovery is increased by 23%."
     },
     "LC15": {
         name_en: "S3:Wise Skill",
         name_jp: "S3:妙技の巧",
-        name_glen: "S3:Superior Prowess",
+        name_glen: "S3:Skillful Adept",
         effect_en: "Increase Critical Hit Rate by 12%.",
         effect_jp: "クリティカル率が12%上昇する。",
         effect_glen: "Increase Critical Hit Rate by 12%."
@@ -3333,15 +3338,15 @@ const lang = Object.freeze({
     "LC16": {
         name_en: "S3:Photon Reduction",
         name_jp: "S3:光子縮減",
-        name_glen: "*S3:Photon Reduction",
+        name_glen: "S3:Photon Descent",
         effect_en: "Reduces PP consumption by 10%.",
         effect_jp: "PP消費量を7%軽減。",
-        effect_glen: "Reduces PP consumption by 10%."
+        effect_glen: "Reduces PP consumption by 7%."
     },
     "LC17": {
         name_en: "S3:Guardian Armor",
         name_jp: "S3:守護の備",
-        name_glen: "S3:Guardian Gear",
+        name_glen: "S3:Guardian Shield",
         effect_en: "Reduces damage taken by 7%.",
         effect_jp: "被ダメージを7%軽減。",
         effect_glen: "Reduces damage taken by 7%."
@@ -3349,23 +3354,23 @@ const lang = Object.freeze({
     "LC18": {
         name_en: "S3:Nature's Guardian",
         name_jp: "S3:花海雪の備",
-        name_glen: "*S3:Nature's Guardian",
+        name_glen: "S3:Petalsea Shield",
         effect_en: "Decrease damage taken by 10%<br>when S1:Red Petal Flash,<br>S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、被ダメージを10%軽減。",
-        effect_glen: "Decrease damage taken by 10%<br>when S1:Red Petal Flash,<br>S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>damage taken is reduced by 10%."
     },
     "LC19": {
         name_en: "S3:Umbrageous Skill",
         name_jp: "S3:月葉影の巧",
-        name_glen: "*S3:Umbrageous Skill",
+        name_glen: "S3:Moonleaf Adept",
         effect_en: "Increase Critical Hit Rate by 20%<br>when S1:Yellow Moon Flash,<br>S1:Green Leaf Flash, or<br>S1:Black Shadow Flash are active.",
         effect_jp: "月ノ黄閃・葉ノ緑閃・影ノ黒閃が発動中、クリティカル率20%上昇。",
-        effect_glen: "Increase Critical Hit Rate by 20%<br>when S1:Yellow Moon Flash,<br>S1:Green Leaf Flash, or<br>S1:Black Shadow Flash are active."
+        effect_glen: "While Moongleam/Leafgleam or Shadowgleam are active<br>critical hit rate is increased by 20%."
     },
     "LC1A": {
         name_en: "S3:Brilliant Ruin",
         name_jp: "S3:滅域輝与",
-        name_glen: "*S3:Wake of Destruction Photon",
+        name_glen: "S3:Lucent Domain",
         effect_en: "Recover PP when a enemy near you is defeated.",
         effect_jp: "一定の範囲内でエネミーが死亡した時、PPが回復する。",
         effect_glen: "Recover 3 PP when a nearby enemy is defeated."
@@ -3373,7 +3378,7 @@ const lang = Object.freeze({
     "LC1B": {
         name_en: "S3:Cursed Radiance",
         name_jp: "S3:災転輝与",
-        name_glen: "*S3:Catastrophic Photon",
+        name_glen: "S3:Lucent Adversity",
         effect_en: "Recovers PP by 15% when taking damage.",
         effect_jp: "ダメージを受けた際にPPを15%回復する。",
         effect_glen: "Recovers 15% of your max PP when you take damage."
@@ -3389,10 +3394,10 @@ const lang = Object.freeze({
     "LC1D": {
         name_en: "S3:Phantasmal Reduction",
         name_jp: "S3:幻精縮減",
-        name_glen: "S3:Revenant\'s Descent",
+        name_glen: "S3:Spectre's Descent",
         effect_en: "Reduce PP consumption based<br>on the Photon Blast Gauge",
         effect_jp: "フォトンブラストゲージに応じてPP消費量が減少する。",
-        effect_glen: "Reduce PP consumption based<br>on the Photon Blast Gauge"
+        effect_glen: "Reduce PP consumption based on the Photon Blast Gauge.<br>4% at 0-3 bars, 8% at 4-7 bars, 12% when fully charged."
     },
     "LC1E": {
         name_en: "S3:Phanatical Advantage",
@@ -3405,7 +3410,7 @@ const lang = Object.freeze({
     "LC1F": {
         name_en: "S3:Immediate Profusion",
         name_jp: "S3:瞬撃繚乱",
-        name_glen: "*S3:Dynamo Dance",
+        name_glen: "S3:Dynamo Dance",
         effect_en: "Raises damage by 3%<br>when Just Attacking different PAs or Techniques.",
         effect_jp: "別のPAやテクニックをジャストアタックすると与ダメージが3%上昇。",
         effect_glen: "Increases damage by 3% when linking together PAs or Techniques with Perfect Attacks."
@@ -3413,23 +3418,23 @@ const lang = Object.freeze({
     "LC1G": {
         name_en: "S3:Nature's Melody",
         name_jp: "S3:花海雪の歌",
-        name_glen: "*S3:Nature's Melody",
+        name_glen: "S3:Petalsea Song",
         effect_en: "Increase damage over time when<br>S1:Red Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、毎秒威力が上昇。最大で5%。",
-        effect_glen: "Increase damage over time when<br>S1:Red Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>attack power increases every second.<br>Maxes out at 5% after 37.5 seconds."
     },
     "LC1H": {
         name_en: "S3:Nature's Gleam 2",
         name_jp: "S3:花海雪の輝勢2",
-        name_glen: "*S3:Nature's Gleam 2",
+        name_glen: "S3:Petalsea Lucentrush 2",
         effect_en: "Increase Natural PP Recovery by 25%<br>when S1:Red Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、PP自然回復量25%上昇。",
-        effect_glen: "Increase Natural PP Recovery by 25%<br>when S1:Red Petal Flash, S1:Blue Ocean Flash,<br>or S1:White Snow Flash are active."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>natural PP recovery is increased by 25%."
     },
     "LC1I": {
         name_en: "S3:Flowing Grace",
         name_jp: "S3:時流の恵",
-        name_glen: "*S3:Flowing Grace",
+        name_glen: "S3:Timeflow Grace",
         effect_en: "Regenerate 7 PP every 4 seconds.",
         effect_jp: "4秒ごとにPPを7回復する。",
         effect_glen: "Regenerate 7 PP every 4 seconds."
@@ -3437,23 +3442,23 @@ const lang = Object.freeze({
     "LC1J": {
         name_en: "S3:Flowing Exhilaration 2",
         name_jp: "S3:時流活与2",
-        name_glen: "*S3:Flowing Exhilaration 2",
+        name_glen: "S3:Timeflow Vitality 2",
         effect_en: "Recover 60% of your maximum HP<br>at regular intervals.",
         effect_jp: "一定時間ごとにHPを60%回復する。",
-        effect_glen: "Recover 60% of your maximum HP<br>at regular intervals."
+        effect_glen: "Restores 60% of your maximum HP every 40 seconds."
     },
     "LC1K": {
         name_en: "S3:Radiating Grace 2",
         name_jp: "S3:輝勢の恵2",
-        name_glen: "*S3:Radiating Grace 2",
+        name_glen: "S3:Luminous Grace 2",
         effect_en: "Increase Automatic PP Recovery by 20%.",
         effect_jp: "PPの自然回復速度が20%上昇する。",
-        effect_glen: "Increase Automatic PP Recovery by 20%."
+        effect_glen: "Increases natural PP recovery by 20%."
     },
     "LC88": {
         name_en: "S3:Rupturing Intent",
         name_jp: "S3:裂砕の志",
-        name_glen: "*S3:Rupturing Intent",
+        name_glen: "*S3:Partbreaker\'s Will",
         effect_en: "Increase damage against breakable parts by 4%.",
         effect_jp: "破壊可能な部位を攻撃した際、威力が4%上昇する。",
         effect_glen: "Increase damage against breakable parts by 4%."
@@ -3461,10 +3466,10 @@ const lang = Object.freeze({
     "LC89": {
         name_en: "S3:Nature's Gleam",
         name_jp: "S3:花海雪の輝勢",
-        name_glen: "*S3:Nature's Gleam",
+        name_glen: "S3:Luminous Petalsea",
         effect_en: "Increase Natural PP Recovery by 23% when S1:Red Petal Flash, S1:Blue Ocean Flash, or S1:White Snow Flash are active.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、PP自然回復量23%上昇。",
-        effect_glen: "Increase Natural PP Recovery by 23% when S1:Red Petal Flash, S1:Blue Ocean Flash, or S1:White Snow Flash are active."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>natural PP recovery is increased by 23%."
     },
     "LC90": {
         name_en: "S3:Calming Exhilaration",
@@ -3477,26 +3482,26 @@ const lang = Object.freeze({
     "LC91": {
         name_en: "S3:Fortifying Strike",
         name_jp: "S3:撃流の備",
-        name_glen: "*S3:Fortifying Strike",
+        name_glen: "S3:Strikeflow Shield",
         effect_en: "Decrease damage taken by 1% for every 300, 000 damage dealt. Maxes at 15%.",
         effect_jp: "与ダメージ300000ごとに被ダメージが1%軽減。（最大15%まで）",
-        effect_glen: "Decrease damage taken by 1% for every 300, 000 damage dealt. Maxes at 15%."
+        effect_glen: "Reduces damage taken by 1% for every 300000 damage dealt.<br>Maxes at 15%."
     },
     "LC92": {
         name_en: "S3:Curtailed Strike",
         name_jp: "S3:撃流縮減",
-        name_glen: "*S3:Curtailed Strike",
+        name_glen: "S3:Strikeflow Descent",
         effect_en: "Decrease PP consumption by 1% for every 300, 000 damage dealt. Maxes at 15%.",
         effect_jp: "与ダメージ300000ごとにPP消費量が1%軽減。（最大15%まで）",
-        effect_glen: "Decrease PP consumption by 1% for every 300, 000 damage dealt. Maxes at 15%."
+        effect_glen: "Reduces PP consumption by 1% for every 300000 damage dealt.<br>Maxes at 15%."
     },
     "LC93": {
         name_en: "S3:Wise Strike",
         name_jp: "S3:撃流の巧",
-        name_glen: "*S3:Wise Strike",
+        name_glen: "S3:Strikeflow Adept",
         effect_en: "Increase Critical Hit Rate by 2% for every 300, 000 damage dealt. Maxes at 30%.",
         effect_jp: "与ダメージ300000ごとにクリティカル率が2%上昇。（最大30%まで）",
-        effect_glen: "Increase Critical Hit Rate by 2% for every 300, 000 damage dealt. Maxes at 30%."
+        effect_glen: "Increases critical hit rate by 2% for every 300000 damage dealt.<br>Maxes at 30%."
     },
     "LC2B": {
         name_en: "S3:Flowing Courage",
@@ -3517,15 +3522,15 @@ const lang = Object.freeze({
     "LC1U": {
         name_en: "S3:Nature's Melody 2",
         name_jp: "S3:花海雪の歌2",
-        name_glen: "*S3:Nature's Melody 2",
+        name_glen: "S3:Petalsea Song 2",
         effect_en: "While Red Petal Flash,<br>Blue Ocean Flash or<br>White Snow Flash is<br>active:<br>Boosts damage by up<br>to 7% over time.",
         effect_jp: "花ノ赤閃・海ノ青閃・雪ノ白閃が発動中、毎秒威力が上昇。最大で7%。",
-        effect_glen: "While Red Petal Flash,<br>Blue Ocean Flash or<br>White Snow Flash is<br>active:<br>Boosts damage by up<br>to 7% over time."
+        effect_glen: "While Petalgleam/Seagleam or Snowgleam are active<br>attack power increases every second.<br>Maxes out at 7% after 15 seconds."
     },
     "LC98": {
         name_en: "S3:Powering Intent",
         name_jp: "S3:強闘の志",
-        name_glen: "*S3:Mighting Intent",
+        name_glen: "*S3:Goliathslayer\'s Will",
         effect_en: "Increase damage dealt to bosses by 4%.",
         effect_jp: "強敵への与ダメージが3%上昇する。",
         effect_glen: "Increase damage dealt to bosses by 4%."
@@ -3541,23 +3546,23 @@ const lang = Object.freeze({
     "LC1W": {
         name_en: "S3:Rainbow's Radiance",
         name_jp: "S3:六色の輝剰",
-        name_glen: "*S3:Rainbow's Radiance",
+        name_glen: "S3:Lustrous Rainbow",
         effect_en: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Boosts attack PP<br>recovery by 45%.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中攻撃時PP回復量が45%上昇。",
-        effect_glen: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Boosts attack PP<br>recovery by 45%."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br>active PP recovery is increased by 45%."
     },
     "LC1X": {
         name_en: "S3:Rainbow's Gleam",
         name_jp: "S3:六色の輝勢",
-        name_glen: "*S3:Rainbow's Gleam",
+        name_glen: "S3:Luminous Rainbow",
         effect_en: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Boosts PP regeneration<br>by 40%.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中PP自然回復量40%上昇。",
-        effect_glen: "While Petal, Ocean,<br>Leaf, Moon, Snow or<br>Shadow Flash is active:<br>Boosts PP regeneration<br>by 40%."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br>natural PP recovery is increased by 40%."
     },
     "LD07": {
         name_en: "S4:Marvelous Aegis",
         name_jp: "S4:瞬護輝与",
-        name_glen: "S4:Instant Guard Photons",
+        name_glen: "S4:Flashguard Lucent",
         effect_en: "Restores PP on a successful Just Guard.",
         effect_jp: "ジャストガード成功時、PPを回復する。",
         effect_glen: "Recover 10 PP when performing a Perfect Guard."
@@ -3573,7 +3578,7 @@ const lang = Object.freeze({
     "LD09": {
         name_en: "S4:Radiant Response",
         name_jp: "S4:輝器応変",
-        name_glen: "S4:Photon Adaptation",
+        name_glen: "S4:Photon V Adaptation",
         effect_en: "Raises PP efficiency based on maximum PP.",
         effect_jp: "最大PPに応じてPP効率が向上する。",
         effect_glen: "Improves natural and active PP recovery and reduces PP consumption based on your maximum PP."
@@ -3605,7 +3610,7 @@ const lang = Object.freeze({
     "LD0D": {
         name_en: "S4:Vampiric Strike",
         name_jp: "S4:奪命の撃",
-        name_glen: "S4:Lifesteal ",
+        name_glen: "S4:Lifesteal Strike ",
         effect_en: "Restores HP equal to 1% of damage dealt.<br>(Max: 30)",
         effect_jp: "攻撃時に与ダメージの1%をHPとして吸収。(上限30)",
         effect_glen: "Restores HP equal to 1% of damage dealt (30 HP Max)."
@@ -3621,7 +3626,7 @@ const lang = Object.freeze({
     "LD0F": {
         name_en: "S4:Lustrous Trap",
         name_jp: "S4:輝剰の罠",
-        name_glen: "S4:Photonic Trap",
+        name_glen: "S4:Lustrous Trap",
         effect_en: "Increases PP recovery from Tactics Trap by<br>20%.",
         effect_jp: "タクティクストラップのPP回復量が20%上昇。",
         effect_glen: "Inreases PP restored by Tactical Trap by 20%."
@@ -3629,7 +3634,7 @@ const lang = Object.freeze({
     "LD0G": {
         name_en: "S4:Dynamic Chain",
         name_jp: "S4:鎖動強身",
-        name_glen: "S4:Impregnable Chain",
+        name_glen: "S4:Mighty Chain",
         effect_en: "Become invincible for 5 seconds when activating<br>Chain Trigger.",
         effect_jp: "チェイントリガー発動時、5秒間無敵になる。",
         effect_glen: "Gain invincibility for 5 seconds when Chain Trigger is activated. "
@@ -3637,7 +3642,7 @@ const lang = Object.freeze({
     "LD0H": {
         name_en: "S4:Refined Providence",
         name_jp: "S4:摂理洗練",
-        name_glen: "S4:Providential Refinement",
+        name_glen: "S4:Refined Providence",
         effect_en: "Enhances Element Conversion.",
         effect_jp: "エレメントコンバージョンが強化される。",
         effect_glen: "Increases the potency of Element Conversion by 5% for non-matching weapon elements."
@@ -3661,7 +3666,7 @@ const lang = Object.freeze({
     "LD0K": {
         name_en: "S4:Gear Reduction",
         name_jp: "S4:刃機放縮",
-        name_glen: "S4:Prolonged Katana Release",
+        name_glen: "S4:Prolonged Blade",
         effect_en: "Decreases rate that Gear gauge empties while<br>Katana Gear is active.",
         effect_jp: "カタナギア解放中、ギアゲージの減少速度が低下する。",
         effect_glen: "Reduces the depletion of the Focus Gauge while Katana Focus is active."
@@ -3669,7 +3674,7 @@ const lang = Object.freeze({
     "LD0L": {
         name_en: "S4:Rapid-fire Arrow",
         name_jp: "S4:迅弓の撃",
-        name_glen: "S4:Swift Arrows",
+        name_glen: "S4:Swift Arrows Strike",
         effect_en: "Bullet Bow damage is boosted by 3% during<br>Rapid Shoot.",
         effect_jp: "ラピッドシュート中、バレットボウ装備時に与ダメージが3%上昇。",
         effect_glen: "Increases the damage of all attacks done with a Bow by 3% when Rapid Fire is active."
@@ -3725,10 +3730,10 @@ const lang = Object.freeze({
     "LD0S": {
         name_en: "S4:Harmonized Rainbow",
         name_jp: "S4:六色の輝秤",
-        name_glen: "*S4:Harmonized Rainbow",
+        name_glen: "S4:Rainbow Balance",
         effect_en: "Decrease Natural PP Recovery but decrease PP consumption when S1:Red Petal / Blue Ocean / White Snow / Yellow Moon / Green Leaf / Black Shadow Flash are active.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中、PP自然回復は減少するがPP消費量は低下する。",
-        effect_glen: "Decrease Natural PP Recovery but decrease PP consumption when S1:Red Petal / Blue Ocean / White Snow / Yellow Moon / Green Leaf / Black Shadow Flash are active."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br>natural pp recovery and PP consumption are both reduced by 30%."
     },
     "LD0T": {
         name_en: "S4:Raising Pursuit",
@@ -3736,28 +3741,28 @@ const lang = Object.freeze({
         name_glen: "*S4:Raising Pursuit",
         effect_en: "When you hit with a PA/Tech, boosts damage of the next PA/Tech based on the damage you deal in the next 4 seconds.",
         effect_jp: "PA・テクニックの命中後4秒間の与ダメージ量に応じて、次に命中したPA・テクニックに追加ダメージが発生。(上限25万、リキャスト10秒)",
-        effect_glen: "When you hit with a PA/Tech, boosts damage of the next PA/Tech based on the damage you deal in the next 4 seconds."
+        effect_glen: "When you hit with a PA/Tech<br>boosts damage of the next PA/Tech based on the damage you deal in the next 4 seconds."
     },
     "LD0U": {
         name_en: "S4:Pursuing Eclipse",
         name_jp: "S4:追蝕の巧",
-        name_glen: "*S4:Pursuing Eclipse",
+        name_glen: "S4:Amplified Adept",
         effect_en: "Boosts critical hit rate by 50% against enemies affected by Jellen, Weak Bullet or a status effect.",
         effect_jp: "状態異常、ジェルン、ウィークバレットが発動中のエネミーへのクリティカル率が50％上昇する。",
-        effect_glen: "Boosts critical hit rate by 50% against enemies affected by Jellen, Weak Bullet or a status effect."
+        effect_glen: "Critical hit rate increased by 50% when attacking an enemy affected by any status effect including Jellen and Blight Ronunds."
     },
     "LD0V": {
         name_en: "S4:Cursed Rainbow",
         name_jp: "S4:六色の災転",
-        name_glen: "*S4:Cursed Rainbow",
+        name_glen: "S4:Rainbow Adversity",
         effect_en: "While Petal, Ocean, Leaf, Moon, Snow or Shadow Flash is active: Recovers 500 HP each time you take 500 or more damage at once.",
         effect_jp: "花・海・葉・月・雪・影のいずれかが発動中一度に500以上のダメージを受けるとHPが500回復する。",
-        effect_glen: "While Petal, Ocean, Leaf, Moon, Snow or Shadow Flash is active: Recovers 500 HP each time you take 500 or more damage at once."
+        effect_glen: "While Petalgleam/Seagleam/Snowgleam/Moongleam/Leafgleam or Shadowgleam are active<br> recover 500 HP when you take 500 or more damage."
     },
     "LD0W": {
         name_en: "S4:Colossal Radiance",
         name_jp: "S4:強闘輝与",
-        name_glen: "*S4:Colossal Radiance",
+        name_glen: "S4:Goliathslayer Lucent",
         effect_en: "Recovers 40 PP every 10 seconds when there is a boss nearby.",
         effect_jp: "一定の範囲内に強敵が居る場合10秒ごとにPPが40回復。",
         effect_glen: "Recovers 40 PP every 10 seconds when there is a boss nearby."
@@ -3776,183 +3781,183 @@ const lang = Object.freeze({
         name_glen: "*S4:Radiant Eclipse",
         effect_en: "Increases active PP recovery by 60% when attacking an enemy affectedw by a Status Effect, Jellen, or Weak Bullet.",
         effect_jp: "状態異常、ジェルン、ウィークバレット効果が発生中のエネミー攻撃時、PP回復量が60%上昇。",
-        effect_glen: "Increases active PP recovery by 60% when attacking an enemy affectedw by a Status Effect, Jellen, or Weak Bullet."
+        effect_glen: "Increases active PP recovery by 60% when attacking an enemy affectedw by a Status Effect<br>Jellen or Weak Bullet."
     },
     "LD0Z": {
         name_en: "S4:Shared Ruin",
         name_jp: "S4:滅域分与",
-        name_glen: "*S4:Shared Ruin",
+        name_glen: "S4:Nullzone Bestowal",
         effect_en: "You and your party<br>recover HP and PP<br>when an enemy dies<br>within range.",
         effect_jp: "一定の範囲内でエネミーが死亡した時PTメンバーと自身のHPとPPを回復。",
-        effect_glen: "You and your party<br>recover HP and PP<br>when an enemy dies<br>within range."
+        effect_glen: "You and all party members recover HP and PP when a nearby enemy or boss dies."
     },
     "LE01": {
         name_en: "S5:Release Parry",
         name_jp: "S5:瞬護解放",
-        name_glen: "*S5:Release Parry",
+        name_glen: "S5:Flashguard Unleashed",
         effect_en: "Performance changes when Just Guarding with a Weapon Action. Sword only.",
         effect_jp: "武器アクションによるジャストガードで性能が変化する。大剣のみ有効。",
-        effect_glen: "Performance changes when Just Guarding with a Weapon Action. Sword only."
+        effect_glen: "The benefits of this SGA chages after a successful perfect guard and revert to base benefits once gear gauge is depelted.<br>Sword only."
     },
     "LE02": {
         name_en: "S5:Unrivaled Parry",
         name_jp: "S5:瞬護無双",
-        name_glen: "*S5:Unrivaled Parry",
+        name_glen: "S5:Flashguard Peerless",
         effect_en: "Consume no Gear for 15s after performing a Just Guard. Increase Power by 2%. Wired Lance only.",
         effect_jp: "ジャストガード成功時15秒間ギア消費なし。威力2%上昇。自在槍限定。",
-        effect_glen: "Consume no Gear for 15s after performing a Just Guard. Increase Might by 2%. Wired Lance only."
+        effect_glen: "Increases attack power by 2%.<br>Upon successfully executing a Perfect Guard<br>Gear is no longer consumed for 15 seconds.<br>Wired Lance only."
     },
     "LE03": {
         name_en: "S5:Rushing Bolt",
         name_jp: "S5:瞬駆突貫",
-        name_glen: "*S5:Rushing Bolt",
+        name_glen: "S5:Furious Charge",
         effect_en: "Inflict damage while running. Unleash a shockwave attack when you stop running. Increase Power by 2%. Partizan only.",
         effect_jp: "ダッシュ状態時接触した敵にダメージ。ダッシュの停止時衝撃波が発生。威力2%上昇。長槍限定。",
-        effect_glen: "Inflict damage while running. Unleash a shockwave attack when you stop running. Increase Might by 2%. Partizan only."
+        effect_glen: "Increases power by 2%.<br>Inflict 300% attack power as damage while running.<br>Unleash a 1000% attack power shockwave when you stop running.<br>Partisan only."
     },
     "LE04": {
         name_en: "S5:Shining Cyclone",
         name_jp: "S5:輝境の旋",
-        name_glen: "*S5:Shining Cyclone",
+        name_glen: "S5:Brilliant Vortex",
         effect_en: "PP recovery and consumption changes when your maximum PP falls below 50%. Twin Daggers only.",
         effect_jp: "PP50%を境にPPの消費量と回復速度が変化。双小剣限定。",
-        effect_glen: "PP recovery and consumption changes when your maximum PP falls below 50%. Twin Daggers only."
+        effect_glen: "Reduces natural PP recovery to 0 while PP is above 50%.<br>Reduces PP consumption by 30% and increases natural PP recovery by 100% while PP is below 50%.<br>Twin Daggers only."
     },
     "LE05": {
         name_en: "S5:Evasive Barrage",
         name_jp: "S5:巧避連撃",
-        name_glen: "*S5:Evasive Barrage",
+        name_glen: "S5:Elusive Combo",
         effect_en: "Boost Gear Gauge and unleash a counterattack upon successfully blocking an attack with DS Wind Parrying.Increase Power by 2%. Double Saber only.",
         effect_jp: "DSウィンドパリング成功時、ギアが上昇し強力な連撃で切り刻む。威力上昇2%。両剣限定。",
-        effect_glen: "Boost Gear Gauge and unleash a counterattack upon successfully blocking an attack with DS Wind Parrying.Increase Might by 2%. Double Saber only."
+        effect_glen: "Increases attack power by 2%.<br>Upon successfully executing a Double Saber Wind Parry<br>Gear Gauge is set to maximum and unleash a counterattack with Scissor Slash.<br>Double Saber only."
     },
     "LE06": {
         name_en: "S5:Evasive Meteor",
         name_jp: "S5:巧避巨拳",
-        name_glen: "*S5:Evasive Meteor",
+        name_glen: "S5:Elusive Smash",
         effect_en: "Successfully evade an attack with Sway to summon a giant fist. Increase Power by 2%. Knuckles only.",
         effect_jp: "スウェーで回避成功時特大の拳を落とす。威力2%上昇。鋼拳限定。",
-        effect_glen: "Successfully evade an attack with Sway to summon a giant fist. Increase Might by 2%. Knuckles only."
+        effect_glen: "Increases attack power by 2%.<br>Upon successfully evading an attack with Sway, unleash a counterattack with a large Meteor Fist.<br>Knuckles only."
     },
     "LE07": {
         name_en: "S5:Hangeki Edge",
         name_jp: "S5:反撃鋭刃",
-        name_glen: "*S5:Hangeki Edge",
+        name_glen: "S5:Counter Blade",
         effect_en: "Increase the damage of Counter by 15%. Restore Braver Gear Gauge to its maximum value when you successfully perform Katana Counter.Increase Power by 2%. Katana only.",
         effect_jp: "カウンター威力が上昇。ブレイバーでのカウンター成功時ギアが最大まで上昇。威力2%上昇。抜剣限定。",
-        effect_glen: "Increase the damage of Counter by 15%. Restore Braver Gear Gauge to its maximum value when you successfully perform Katana Counter.Increase Might by 2%. Katana only."
+        effect_glen: "Increases attack power by 2%.Increases the damage dealt with Braver's Counter Edge by 15% and Phantom's Dodge Counter Bullet by 10%.<br>Generates Braver Gear Gauge when you successfully counter an attack.<br>Katana only."
     },
     "LE08": {
         name_en: "S5:Thundering Pursuit",
         name_jp: "S5:雷光追撃",
-        name_glen: "*S5:Thundering Pursuit",
+        name_glen: "S5:Lightning Pursuit",
         effect_en: "When using a PA, lightning-charged Photon Blades are generated. (Power: ?%). Dual Blades only.",
         effect_jp: "PAを使用すると雷光を纏ったフォトンの追撃が発生。飛翔剣限定。",
-        effect_glen: "When using a PA, lightning-charged Photon Blades are generated. (Might: ?%). Dual Blades only."
+        effect_glen: "Using PAs will cause blades of lightning equal to 200% attack power to assault the enemy.<br>Soaring Blades only."
     },
     "LE09": {
         name_en: "S5:Fiery End",
         name_jp: "S5:烈終焉弾",
-        name_glen: "*S5:Fiery End",
+        name_glen: "S5:Fatal Round",
         effect_en: "Enhance the performance of End Attract with a one minute Recast. Recast resets upon successfully evading an attack with Dive Roll. Increase Power by 2%. Assault Rifle only.",
         effect_jp: "エンドアトラクト強化と同時にリキャスト発生。ダイブロール回避成功時リキャスト時間短縮。威力2%上昇。長銃限定。",
-        effect_glen: "Enhance the performance of End Attract with a one minute Recast. Recast resets upon successfully evading an attack with Dive Roll. Increase Might by 2%. Assault Rifle only."
+        effect_glen: "Increases attack power by 2%.<br>Increases Positron Blast's damage by 5% and reduces its cost to 1 PP.<br>Has a 60 second cooldown.Cooldown resets upon successfully evading an attack with Dive Roll.<br>Assault Rifle only."
     },
     "LE0A": {
         name_en: "S5:Fiery Zero",
         name_jp: "S5:烈零射砲",
-        name_glen: "*S5:Fiery Zero",
+        name_glen: "S5:Obliterating Blast",
         effect_en: "Enhance the performance of Zero Distance with a one minute Recast. Recast resets upon successfully evading an attack with Dive Roll. Increase Power by 2%. Launcher only.",
         effect_jp: "ゼロディスタンス強化と同時にリキャスト発生。ダイブロール回避成功時リキャスト時間短縮。威力2%上昇。大砲限定。",
-        effect_glen: "Enhance the performance of Zero Distance with a one minute Recast. Recast resets upon successfully evading an attack with Dive Roll. Increase Might by 2%. Launcher only."
+        effect_glen: "Increases attack power by 2%.<br>Increases Contact Blast's damage by 5% and reduces its cost to 1 PP.<br>Has a 60 second cooldown.Cooldown resets upon successfully evading an attack with Dive Roll.<br>Launcher only."
     },
     "LE0B": {
         name_en: "S5:Bright Escape",
         name_jp: "S5:巧避輝与",
-        name_glen: "*S5:Bright Escape",
+        name_glen: "S5:Elusive Lucent",
         effect_en: "Successfully evade an attack with Hero Step or Stylish Roll to restore PP. Effect is negated if damage is taken.Twin Machineguns only.",
         effect_jp: "SロールかHrステップで回避成功時PP回復効果。被ダメージで効果消失。双機銃限定。",
-        effect_glen: "Successfully evade an attack with Hero Step or Stylish Roll to restore PP. Effect is negated if damage is taken.Twin Machineguns only."
+        effect_glen: "Successfully evading an attack with Hero Step or Stylish Roll restores an initial 30 PP and an additional 10 PP every 3 seconds afterwards.<br>The effect is lost upon taking damage.<br>Twin Machineguns only."
     },
     "LE0C": {
         name_en: "S5:Auxiliary Arrow",
         name_jp: "S5:追射剛矢",
-        name_glen: "*S5:Auxiliary Arrow",
+        name_glen: "S5:Homing Bolt",
         effect_en: "Produces a Chase Arrow when a PA (except Banish Arrow) hits an enemy. Boosts the power of this ability's Chase Arrow for 15 seconds after successfully dodging an attack with Step.Bullet Bow only.",
         effect_jp: "バニッシュアロウ以外のPA命中時、追撃が発生。ステップ回避成功後にPA命中後15秒間追撃が強化。強弓限定。",
-        effect_glen: "Produces a Chase Arrow when a PA (except Banish Arrow) hits an enemy. Boosts the power of this ability's Chase Arrow for 15 seconds after successfully dodging an attack with Step.Bullet Bow only."
+        effect_glen: "All Bow PAs except for Banishing Arrow will produce a Chaser Arrow upon hitting an enemy.<br>Successfully evading an attack will boost Chaser Arrow's power by 100% for 15 seconds.<br>Bow only."
     },
     "LE0D": {
         name_en: "S5:Calming Bullet",
         name_jp: "S5:静心杖弾",
-        name_glen: "*S5:Calming Bullet",
+        name_glen: "S5:Steadfast Shaft",
         effect_en: "Enhance the performance of Normal Attacks and increase the damage of Rod Shoot by 100%. Rod only.",
         effect_jp: "通常攻撃性能が強化されロッドシュートの威力が100%上昇する。長杖限定。",
-        effect_glen: "Enhance the performance of Normal Attacks and increase the damage of Rod Precision by 100%. Rod only."
+        effect_glen: "Increases the attack speed of Rod normal attacks by 1.38x<br>negates hitstop and increases the damage of Photon Bullet by 100%.<br>Rod only."
     },
     "LE0E": {
         name_en: "S5:Speedy Support",
         name_jp: "S5:急速補助",
-        name_glen: "*S5:Speedy Support",
+        name_glen: "S5:Rapid Support",
         effect_en: "Shorten the charge time of Support Techniques. The power of Zondeel is reduced. Talis only.",
         effect_jp: "補助テクニックのチャージ時間を短縮。ゾンディールの威力減少。導具限定。",
-        effect_glen: "Shorten the charge time of Support Techniques. The power of Zondeel is reduced. Talis only."
+        effect_glen: "All support techniques have instant charge time.<br>The power of Zondeel is reduced by 34%.<br>Talis only."
     },
     "LE0F": {
         name_en: "S5:Calming Shockwave",
         name_jp: "S5:静心衝杖",
-        name_glen: "*S5:Calming Shockwave",
+        name_glen: "S5:Steadfast Harpoon",
         effect_en: "Generates a wave attack on the third Normal Attack. Increase Power by 2%. Wand only.",
         effect_jp: "通常攻撃の3段目に衝撃波が発生。威力が2%上昇。短杖限定。",
-        effect_glen: "Generates a wave attack on the third Normal Attack. Increase Might by 2%. Wand only."
+        effect_glen: "Increases power by 2% and negates hitstop.<br>Every 3rd hit of a normal attack combo will generate a shockwave.<br>Wand only."
     },
     "LE0G": {
         name_en: "S5:Rhythmic Pursuer",
         name_jp: "S5:追災律動",
-        name_glen: "*S5:Rhythmic Pursuer",
+        name_glen: "S5:Cataclysmic Rhythm",
         effect_en: "Boost the potency of Elemental Burst by 30% and automatically activate Elemental Burst when using a Photon Art.Jet Boots only.",
         effect_jp: "エレメンタルバーストの威力が30%上昇しPA派生攻撃時自動的に発動する。魔装脚限定。",
-        effect_glen: "Boost the potency of Elemental Burst by 30% and automatically activate Elemental Burst when using a Photon Art.Jet Boots only."
+        effect_glen: "Increases Elemental Burst potency by 30%.<br>Automatically activates Elemental Burst upon using Jet Boots Variant Attacks.<br>Jet Boots only."
     },
     "LE0H": {
         name_en: "S5:Mysterious Intent",
         name_jp: "S5:妙の巧志",
-        name_glen: "*S5:Mysterious Intent",
+        name_glen: "S5:Skillful Adept Will ",
         effect_en: "Increase Critical Hit Rate by 20%. On a Critical Hit, deal an additional 2% damage and recover 1% of damage dealt as HP (30 MAX).",
         effect_jp: "クリティカル率が20%上昇。発生時に威力2%上昇、与ダメージの1%をHP回復(上限30)",
-        effect_glen: "Increase Critical Hit Rate by 20%. On a Critical Hit, deal an additional 2% damage and recover 1% of damage dealt as HP (30 MAX)."
+        effect_glen: "Increases critical hit rate by 20%. Critical hits will deal an additional 2% damage and recover 1% of the damage dealt as HP (30 max)."
     },
     "LE0I": {
         name_en: "S5:Anthesis Cultivation",
         name_jp: "S5:錬成萌花",
-        name_glen: "*S5:Anthesis Cultivation",
+        name_glen: "S5:Augment Bloom",
         effect_en: "Doubles the effects of Special Abilities.",
         effect_jp: "特殊能力のステータス変化を2倍にする。",
-        effect_glen: "Doubles the effects of Special Abilities."
+        effect_glen: "Doubles the effects of <br>attack <br>defense <br>dexterity <br>HP and PP augments on this weapon."
     },
     "LE98": {
         name_en: "S5:Instant Invocation",
         name_jp: "S5:錬成萌花",
-        name_glen: "*S5:Instant Invocation",
+        name_glen: "S5:Sleight Incantation ",
         effect_en: "Technique damage is<br>decreased by 40%, but<br>using the same<br>Technique with a JA<br>substantially<br>decreases charge<br>time.",
         effect_jp: "テクニックの与ダメージが常時40%減少するがテクニック使用後に同属性テクニックJAでチャージ時間大幅短縮。",
-        effect_glen: "Technique damage is<br>decreased by 40%, but<br>using the same<br>Technique with a JA<br>substantially<br>decreases charge<br>time."
+        effect_glen: "Reduces technique damage by 40%.<br>Same element techniques that are chained together with a Perfect Attack will have instant charge times."
     },
     "LE0J": {
         name_en: "S5:Vigorous Response",
         name_jp: "S5:錬成萌花",
-        name_glen: "*S5:Vigorous Response",
+        name_glen: "S5:Life V Adapation",
         effect_en: "Grants a bonus when<br>your max HP is at<br>1000. Gain additional<br>bonuses per 500 max<br>HP over. Maximum<br>bonuses are reached<br>when max HP is at<br>3000.",
         effect_jp: "最大HP1000から追加効果が発動しHPが500増加ごとに追加効果が発生する。追加効果最大値3000",
-        effect_glen: "Grants a bonus when<br>your max HP is at<br>1000. Gain additional<br>bonuses per 500 max<br>HP over. Maximum<br>bonuses are reached<br>when max HP is at<br>3000."
+        effect_glen: "Grants bonuses when your max HP is at 1000 and every 500 max HP afterwards up to 3000 HP"
     },
     "LE0K": {
         name_en: "S5:Tethered Eclipse",
         name_jp: "S5:錬成萌花",
-        name_glen: "*S5:Tethered Eclipse",
+        name_glen: "S5:Amplified Restraint",
         effect_en: "Boosts damage by 3%<br>against enemies<br>inflicted with a<br>status effect. Also<br>gives a chance to<br>inflict Bind by 40%.",
         effect_jp: "状態異常中のエネミーに対して威力が3%上昇し40%の確率でバインド状態にする。",
-        effect_glen: "Boosts damage by 3%<br>against enemies<br>inflicted with a<br>status effect. Also<br>gives a chance to<br>inflict Bind by 40%."
+        effect_glen: "Deal 3% more damage against enemies inflicted with a status effect.<br>40% chance to inflict bind on enemies inflicted with a status effect."
     },
     "LE97": {
         name_en: "S5:Angelic Respite",
@@ -3960,7 +3965,7 @@ const lang = Object.freeze({
         name_glen: "*S5:Angelic Respite",
         effect_en: "At maximum gear, no gear is consumed while airborne. Increase Power by 2%. Partizan only.",
         effect_jp: "ギア最大時、空中ではギアを消費しなくなる。威力2%上昇。長槍限定。",
-        effect_glen: "At maximum gear, no gear is consumed while airborne. Increase Might by 2%. Partizan only."
+        effect_glen: "At maximum gear no gear is consumed while airborne. Increase Might by 2%. Partizan only."
     },
     "LF0A": {
         name_en: "S6:Heroic Howl",
@@ -3997,7 +4002,7 @@ const lang = Object.freeze({
     "LF0E": {
         name_en: "S6:Wise Skill",
         name_jp: "S6:妙技の巧",
-        name_glen: "*S6:Wise Skill",
+        name_glen: "*S6:Skillful Adept",
         effect_en: "Increases your critical hit rate by 15%.",
         effect_jp: "クリティカル率が15％上昇する。",
         effect_glen: "Increases your critical hit rate by 15%."
@@ -4013,7 +4018,7 @@ const lang = Object.freeze({
     "LF0G": {
         name_en: "S6:S-ATK Up",
         name_jp: "S6:打撃上昇",
-        name_glen: "*S6:MEL Pwr Up",
+        name_glen: "*S6:Fortified Melee",
         effect_en: "S-ATK(+30)",
         effect_jp: "打撃力(+30)",
         effect_glen: "MEL Pwr(+30)"
@@ -4021,7 +4026,7 @@ const lang = Object.freeze({
     "LF0H": {
         name_en: "S6:R-ATK Up",
         name_jp: "S6:射撃上昇",
-        name_glen: "*S6:RNG Pwr Up",
+        name_glen: "*S6:Fortified Ranged",
         effect_en: "R-ATK(+30)",
         effect_jp: "射撃力(+30)",
         effect_glen: "RNG Pwr(+30)"
@@ -4029,7 +4034,7 @@ const lang = Object.freeze({
     "LF0I": {
         name_en: "S6:T-ATK Up",
         name_jp: "S6:法撃上昇",
-        name_glen: "*S6:TEC Pwr Up",
+        name_glen: "*S6:Fortified Technique",
         effect_en: "T-ATK(+30)",
         effect_jp: "法撃力(+30)",
         effect_glen: "TEC Pwr(+30)"
@@ -4045,7 +4050,7 @@ const lang = Object.freeze({
     "LF0K": {
         name_en: "S6:PP Up",
         name_jp: "S6:輝器上昇",
-        name_glen: "*S6:PP Up",
+        name_glen: "*S6:Fortified Photon V",
         effect_en: "PP(+4)",
         effect_jp: "PP(+4)",
         effect_glen: "PP(+4)"
@@ -4053,7 +4058,7 @@ const lang = Object.freeze({
     "LF0L": {
         name_en: "S6:Brilliant Ruin",
         name_jp: "S6:滅域輝与",
-        name_glen: "*S6:Brilliant Ruin",
+        name_glen: "*S6:Lucent Domain",
         effect_en: "Recover 5 PP when an enemy near you is defeated.",
         effect_jp: "一定の範囲内でエネミーが死亡した時、PPが回復する。",
         effect_glen: "Recover 5 PP when an enemy near you is defeated."
@@ -4077,7 +4082,7 @@ const lang = Object.freeze({
     "LF0O": {
         name_en: "S6:Long Night Star",
         name_jp: "S6:長夜の明星",
-        name_glen: "*S6:Long Night Star",
+        name_glen: "S6:Evernight Star",
         effect_en: "Reduce Etoile Boost's decay per second by 50%.",
         effect_jp: "エトワールブーストの秒間軽減減少率を50％緩和する。",
         effect_glen: "Reduce Etoile Boost's decay per second by 50%."
@@ -4085,7 +4090,7 @@ const lang = Object.freeze({
     "LF0P": {
         name_en: "S6:Evasion Whistle",
         name_jp: "S6:回避の口笛",
-        name_glen: "*S6:Evasion Whistle",
+        name_glen: "*S6:Dodging Whistle",
         effect_en: "Dodging will cause your pet to return back to you.",
         effect_jp: "回避行動に合わせてペットが戻ってくる。",
         effect_glen: "Dodging will cause your pet to return back to you."
@@ -4117,7 +4122,7 @@ const lang = Object.freeze({
     "LG0B": {
         name_en: "S7:S-ATK Up",
         name_jp: "S7:打撃上昇",
-        name_glen: "*S7:MEL Pwr Up",
+        name_glen: "*S7:Fortified Melee",
         effect_en: "S-ATK(+30)",
         effect_jp: "打撃力(+30)",
         effect_glen: "MEL Pwr(+30)"
@@ -4125,7 +4130,7 @@ const lang = Object.freeze({
     "LG0C": {
         name_en: "S7:R-ATK Up",
         name_jp: "S7:射撃上昇",
-        name_glen: "*S7:RNG Pwr Up",
+        name_glen: "*S7:Fortified Ranged",
         effect_en: "R-ATK(+30)",
         effect_jp: "射撃力(+30)",
         effect_glen: "RNG Pwr(+30)"
@@ -4133,7 +4138,7 @@ const lang = Object.freeze({
     "LG0D": {
         name_en: "S7:T-ATK Up",
         name_jp: "S7:法撃上昇",
-        name_glen: "*S7:TEC Pwr Up",
+        name_glen: "*S7:Fortified Technique",
         effect_en: "T-ATK(+30)",
         effect_jp: "法撃力(+30)",
         effect_glen: "TEC Pwr(+30)"
@@ -4149,7 +4154,7 @@ const lang = Object.freeze({
     "LG0F": {
         name_en: "S7:PP Up",
         name_jp: "S7:輝器上昇",
-        name_glen: "*S7:PP Up",
+        name_glen: "*S7:Fortified Photon V",
         effect_en: "PP(+4)",
         effect_jp: "PP(+4)",
         effect_glen: "PP(+4)"
@@ -4157,7 +4162,7 @@ const lang = Object.freeze({
     "LG0G": {
         name_en: "S7:S-Atk Up 2",
         name_jp: "S7:打撃上昇2",
-        name_glen: "*S7:S-Atk Up 2",
+        name_glen: "*S7:Fortified Melee 2",
         effect_en: "S-ATK(+50)",
         effect_jp: "打撃力(+50)",
         effect_glen: "MEL Pwr(+50)"
@@ -4165,7 +4170,7 @@ const lang = Object.freeze({
     "LG0H": {
         name_en: "S7:R-ATK Up 2",
         name_jp: "S7:射撃上昇2",
-        name_glen: "*S7:RNG Pwr Up 2",
+        name_glen: "*S7:Fortified Ranged 2",
         effect_en: "R-ATK(+50)",
         effect_jp: "射撃力(+50)",
         effect_glen: "RNG Pwr(+50)"
@@ -4173,7 +4178,7 @@ const lang = Object.freeze({
     "LG0I": {
         name_en: "S7:T-ATK Up 2",
         name_jp: "S7:法撃上昇2",
-        name_glen: "*S7:TEC Pwr Up 2",
+        name_glen: "*S7:Fortified Technique 2",
         effect_en: "T-ATK(+50)",
         effect_jp: "法撃力(+50)",
         effect_glen: "TEC Pwr(+50)"
@@ -4197,18 +4202,18 @@ const lang = Object.freeze({
     "LG0L": {
         name_en: "S7:Zenith Impact",
         name_jp: "S7:瞬撃の極",
-        name_glen: "*S7:Zenith Impact",
+        name_glen: "S7:Supreme Perfection",
         effect_en: "Gain a 10% chance to stun the enemy with a Just Attack.",
         effect_jp: "ジャストアタック時に10%の確率で対象をスタンさせる。",
-        effect_glen: "Gain a 10% chance to stun the enemy with a Just Attack."
+        effect_glen: "Gain a 10% chance to stun enemies with Perfect Attacks."
     },
     "LG0M": {
         name_en: "S7:Increased Efficiency",
         name_jp: "S7:薬効増大",
-        name_glen: "*S7:Increased Efficiency",
+        name_glen: "S7:Medicinal Potentiation",
         effect_en: "Boost the effect of recovery items by 30%.",
         effect_jp: "回復アイテムの効果を30％上昇させる。",
-        effect_glen: "Boost the effect of recovery items by 30%."
+        effect_glen: "Boosts the effect of recovery items by 30%."
     },
     "LG0N": {
         name_en: "S7:Mind Merge",
@@ -4229,23 +4234,23 @@ const lang = Object.freeze({
     "LH0A": {
         name_en: "S8:Sky Dance's Boon",
         name_jp: "S8:舞空の援",
-        name_glen: "*S8:Sky Dance's Boon",
+        name_glen: "S8:Skydance Support",
         effect_en: "Activates Shifta and Deband every 10 seconds when you stay in the air for longer than 2 seconds.",
         effect_jp: "2秒間、滞空状態が続くと、10秒間ごとにシフタ、デバンド発動。",
-        effect_glen: "Activates Shifta and Deband every 10 seconds when you stay in the air for longer than 2 seconds."
+        effect_glen: "Activates Shifta and Deband after staying in the air for 2 seconds, and then every 10 seconds afterwards."
     },
     "LH0B": {
         name_en: "S8:Strong Potency",
         name_jp: "S8:服薬強身",
-        name_glen: "*S8:Strong Potency",
+        name_glen: "S8:Mighty Medication",
         effect_en: "Makes you temporarily invincible after drinking a -mate item.",
         effect_jp: "自身でメイト系アイテム使用時、一定時間無敵。",
-        effect_glen: "Makes you temporarily invincible after drinking a -mate item."
+        effect_glen: "Makes you temporarily invincible while drinking a -mate item."
     },
     "LH0C": {
         name_en: "S8:S-ATK Up",
         name_jp: "S8:打撃上昇",
-        name_glen: "*S8:MEL Pwr Up",
+        name_glen: "S8:Fortified Melee",
         effect_en: "S-ATK(+30)",
         effect_jp: "打撃力(+30)",
         effect_glen: "MEL Pwr(+30)"
@@ -4253,7 +4258,7 @@ const lang = Object.freeze({
     "LH0D": {
         name_en: "S8:R-ATK Up",
         name_jp: "S8:射撃上昇",
-        name_glen: "*S8:RNG Pwr Up",
+        name_glen: "S8:Fortified Ranged",
         effect_en: "R-ATK(+30)",
         effect_jp: "射撃力(+30)",
         effect_glen: "RNG Pwr(+30)"
@@ -4261,7 +4266,7 @@ const lang = Object.freeze({
     "LH0E": {
         name_en: "S8:T-ATK Up",
         name_jp: "S8:法撃上昇",
-        name_glen: "*S8:TEC Pwr Up",
+        name_glen: "S8:Fortified Technique",
         effect_en: "T-ATK(+30)",
         effect_jp: "法撃力(+30)",
         effect_glen: "TEC Pwr(+30)"
@@ -4269,7 +4274,7 @@ const lang = Object.freeze({
     "LH0F": {
         name_en: "S8:HP Up",
         name_jp: "S8:活器上昇",
-        name_glen: "*S8:HP Up",
+        name_glen: "S8:Fortified Life Vessel",
         effect_en: "HP(+40)",
         effect_jp: "HP(+40)",
         effect_glen: "HP(+40)"
@@ -4277,7 +4282,7 @@ const lang = Object.freeze({
     "LH0G": {
         name_en: "S8:PP Up",
         name_jp: "S8:輝器上昇",
-        name_glen: "*S8:PP Up",
+        name_glen: "S8:Fortified Photon V",
         effect_en: "PP(+4)",
         effect_jp: "PP(+4)",
         effect_glen: "PP(+4)"
@@ -4285,7 +4290,7 @@ const lang = Object.freeze({
     "LH0H": {
         name_en: "S8:HP Up 2",
         name_jp: "S8:活器上昇2",
-        name_glen: "*S8:HP Up 2",
+        name_glen: "S8:Fortified Life Vessel 2",
         effect_en: "HP(+60)",
         effect_jp: "HP(+60)",
         effect_glen: "HP(+60)"
@@ -4293,7 +4298,7 @@ const lang = Object.freeze({
     "LH0I": {
         name_en: "S8:PP Up 2",
         name_jp: "S8:輝器上昇2",
-        name_glen: "*S8:PP Up 2",
+        name_glen: "S8:Fortified Photon V 2",
         effect_en: "PP(+6)",
         effect_jp: "PP(+6)",
         effect_glen: "PP(+6)"
@@ -4445,7 +4450,7 @@ const lang = Object.freeze({
     "RB33": {
         name_en: "Greuzoras Soul",
         name_jp: "グリュゾラス・ソール",
-        name_glen: "Greuzoras Soul",
+        name_glen: "Gryzorus Soul",
         effect_en: "R-ATK(+35),<br>DEX(+5),<br>PP(+3)",
         effect_jp: "射撃力(+35),<br>技量(+5),<br>PP(+3)",
         effect_glen: "RNG Pwr(+35),<br>DEX(+5),<br>PP(+3)"
@@ -4501,7 +4506,7 @@ const lang = Object.freeze({
     "RC32": {
         name_en: "Duvals Soul",
         name_jp: "ドゥバルス・ソール",
-        name_glen: "Duvals Soul",
+        name_glen: "Deubarz Soul",
         effect_en: "T-ATK(+35),<br>DEX(+5),<br>HP(+20),<br>PP(+1)",
         effect_jp: "法撃力(+35),<br>技量(+5),<br>HP(+20),<br>PP(+1)",
         effect_glen: "TEC Pwr(+35),<br>DEX(+5),<br>HP(+20),<br>PP(+1)"
@@ -4733,7 +4738,7 @@ const lang = Object.freeze({
     "RP22": {
         name_en: "Izane Kazuchi Soul",
         name_jp: "イザネカヅチ・ソール",
-        name_glen: "*Izane Kazuchi Soul",
+        name_glen: "Izanekazuchi Soul",
         effect_en: "S-ATK(+20),<br>R-ATK(+20),<br>T-ATK(+20),<br>PP(+2)",
         effect_jp: "打撃力(+20),<br>射撃力(+20),<br>法撃力(+20),<br>PP(+2)",
         effect_glen: "MEL Pwr(+20),<br>RNG Pwr(+20),<br>TEC Pwr(+20),<br>PP(+2)"
@@ -4853,7 +4858,7 @@ const lang = Object.freeze({
     "SH30": {
         name_en: "Magi The Soul",
         name_jp: "マギー・ジ・ソール",
-        name_glen: "Magia Di Soul",
+        name_glen: "Magi Di Soul",
         effect_en: "T-ATK(+35),<br>PP(+3)",
         effect_jp: "法撃力(+35),<br>PP(+3)",
         effect_glen: "TEC Pwr(+35),<br>PP(+3)"
@@ -4869,7 +4874,7 @@ const lang = Object.freeze({
     "SI01": {
         name_en: "Ex Act Soul",
         name_jp: "イクスアクト・ソール",
-        name_glen: "*Ex Act Soul",
+        name_glen: "Ex Acto Soul",
         effect_en: "S-ATK(+30), S-DEF(+20), R-DEF(+20), T-DEF(+20), HP(+20), PP(+2)",
         effect_jp: "打撃力(+30),打撃防御(+20),射撃防御(+20),法撃防御(+20),HP(+20),PP(+2)",
         effect_glen: "MEL Pwr(+30), MEL Def(+20), RNG Def(+20), TEC Def(+20), HP(+20), PP(+2)"
@@ -4877,7 +4882,7 @@ const lang = Object.freeze({
     "SI02": {
         name_en: "Ex Till Soul",
         name_jp: "イクスティル・ソール",
-        name_glen: "*Ex Till Soul",
+        name_glen: "Ex Tir Soul",
         effect_en: "R-ATK(+30), S-DEF(+20), R-DEF(+20), T-DEF(+20), HP(+20), PP(+2)",
         effect_jp: "射撃力(+30),打撃防御(+20),射撃防御(+20),法撃防御(+20),HP(+20),PP(+2)",
         effect_glen: "RNG Pwr(+30), MEL Def(+20), RNG Def(+20), TEC Def(+20), HP(+20), PP(+2)"
@@ -4885,7 +4890,7 @@ const lang = Object.freeze({
     "SI03": {
         name_en: "Ex Magi Soul",
         name_jp: "イクスマギー・ソール",
-        name_glen: "*Ex Magi Soul",
+        name_glen: "Ex Magi Soul",
         effect_en: "T-ATK(+30), S-DEF(+20), R-DEF(+20), T-DEF(+20), HP(+20), PP(+2)",
         effect_jp: "法撃力(+30),打撃防御(+20),射撃防御(+20),法撃防御(+20),HP(+20),PP(+2)",
         effect_glen: "TEC Pwr(+30), MEL Def(+20), RNG Def(+20), TEC Def(+20), HP(+20), PP(+2)"
@@ -4893,7 +4898,7 @@ const lang = Object.freeze({
     "SI04": {
         name_en: "Ex Ares Soul",
         name_jp: "イクスアレス・ソール",
-        name_glen: "*Ex Ares Soul",
+        name_glen: "Ex Alles Soul",
         effect_en: "S-ATK(+20), R-ATK(+20), T-ATK(+20), S-DEF(+20), R-DEF(+20), T-DEF(+20), HP(+50), PP(+2)",
         effect_jp: "打撃力(+20),射撃力(+20),法撃力(+20),打撃防御(+20),射撃防御(+20),法撃防御(+20),HP(+50),PP(+2)",
         effect_glen: "MEL Pwr(+20), RNG Pwr(+20), TEC Pwr(+20), MEL Def(+20), RNG Def(+20), TEC Def(+20), HP(+50), PP(+2)"
@@ -4973,7 +4978,7 @@ const lang = Object.freeze({
     "TK02": {
         name_en: "Elder Reverie",
         name_jp: "エルダー・レヴリー",
-        name_glen: "*Elder Reverie",
+        name_glen: "Elder Reverie",
         effect_en: "S-ATK(+40),<br>R-ATK(+20),<br>T-ATK(+20),<br>PP(-2)",
         effect_jp: "打撃力(+40),<br>射撃力(+20),<br>法撃力(+20),<br>PP(-2)",
         effect_glen: "MEL Pwr(+40),<br>RNG Pwr(+20),<br>TEC Pwr(+20),<br>PP(-2)"
@@ -4981,7 +4986,7 @@ const lang = Object.freeze({
     "TK03": {
         name_en: "Loser Reverie",
         name_jp: "ルーサー・レヴリー",
-        name_glen: "*Luther Reverie",
+        name_glen: "Luther Reverie",
         effect_en: "S-ATK(+20),<br>R-ATK(+20),<br>T-ATK(+40),<br>HP(-20)",
         effect_jp: "打撃力(+20),<br>射撃力(+20),<br>法撃力(+40),<br>HP(-20)",
         effect_glen: "MEL Pwr(+20),<br>RNG Pwr(+20),<br>TEC Pwr(+40),<br>HP(-20)"
@@ -4989,7 +4994,7 @@ const lang = Object.freeze({
     "TK04": {
         name_en: "Apprezina Reverie",
         name_jp: "アプレジナ・レヴリー",
-        name_glen: "*Apprentice Reverie",
+        name_glen: "Appregina Reverie",
         effect_en: "S-ATK(+20),<br>R-ATK(+40),<br>T-ATK(+20),<br>HP(-10),<br>PP(-1)",
         effect_jp: "打撃力(+20),<br>射撃力(+40),<br>法撃力(+20),<br>HP(-10),<br>PP(-1)",
         effect_glen: "MEL Pwr(+20),<br>RNG Pwr(+40),<br>TEC Pwr(+20),<br>HP(-10),<br>PP(-1)"
@@ -4997,7 +5002,7 @@ const lang = Object.freeze({
     "TK05": {
         name_en: "Double Reverie",
         name_jp: "ダブル・レヴリー",
-        name_glen: "*Gemini Reverie",
+        name_glen: "Gemini Reverie",
         effect_en: "S-ATK(-20),<br>R-ATK(-20),<br>T-ATK(-20),<br>HP(+50),<br>PP(+5)",
         effect_jp: "打撃力(-20),<br>射撃力(-20),<br>法撃力(-20),<br>HP(+50),<br>PP(+5)",
         effect_glen: "MEL Pwr(-20),<br>RNG Pwr(-20),<br>TEC Pwr(-20),<br>HP(+50),<br>PP(+5)"
@@ -5005,7 +5010,7 @@ const lang = Object.freeze({
     "TK06": {
         name_en: "Persona Reverie",
         name_jp: "ペルソナ・レヴリー",
-        name_glen: "*Persona Reverie",
+        name_glen: "Persona Reverie",
         effect_en: "S-ATK(+40),R-ATK(+40),T-ATK(+40),S-DEF(-20),R-DEF(-20),T-DEF(-20)",
         effect_jp: "打撃力(+40),射撃力(+40),法撃力(+40),打撃防御(-20),射撃防御(-20),法撃防御(-20)",
         effect_glen: "MEL Pwr(+40),RNG Pwr(+40),TEC Pwr(+40),MEL Def(-20),RNG Def(-20),TEC Def(-20)"
@@ -5013,7 +5018,7 @@ const lang = Object.freeze({
     "TK10": {
         name_en: "Mana Reverie",
         name_jp: "マナ・レヴリー",
-        name_glen: "*Mana Reverie",
+        name_glen: "Mana Reverie",
         effect_en: "S-ATK(+50),R-ATK(+50),T-ATK(+50),HP(+20),PP(+4)",
         effect_jp: "打撃力(+50),射撃力(+50),法撃力(+50),HP(+20),PP(+4)",
         effect_glen: "MEL Pwr(+50),RNG Pwr(+50),TEC Pwr(+50),HP(+20),PP(+4)"
@@ -5021,7 +5026,7 @@ const lang = Object.freeze({
     "TJ01": {
         name_en: "Omega Memoria",
         name_jp: "オメガ・メモリア",
-        name_glen: "*Omega Memoria",
+        name_glen: "Omega Memoria",
         effect_en: "ALL(+15),<br>HP(+15),<br>PP(+2)",
         effect_jp: "ALL(+15),<br>HP(+15),<br>PP(+2)",
         effect_glen: "ALL(+15),<br>HP(+15),<br>PP(+2)"
@@ -5069,7 +5074,7 @@ const lang = Object.freeze({
     "TM01": {
         name_en: "Crack I",
         name_jp: "クラックI",
-        name_glen: "*Crack I",
+        name_glen: "Crack I",
         effect_en: "S-ATK(+3), R-ATK(+3), T-ATK(+3), S-DEF(+5), R-DEF(+5), T-DEF(+5), HP(+5), PP(+1)",
         effect_jp: "打撃力(+3),射撃力(+3),法撃力(+3),打撃防御(+5),射撃防御(+5),法撃防御(+5),HP(+5),PP(+1)",
         effect_glen: "MEL Pwr(+3), RNG Pwr(+3), TEC Pwr(+3), MEL Def(+5), RNG Def(+5), TEC Def(+5), HP(+5), PP(+1)"
@@ -5077,7 +5082,7 @@ const lang = Object.freeze({
     "TM02": {
         name_en: "Crack II",
         name_jp: "クラックII",
-        name_glen: "*Crack II",
+        name_glen: "Crack II",
         effect_en: "S-ATK(+5), R-ATK(+5), T-ATK(+5), S-DEF(+10), R-DEF(+10), T-DEF(+10), HP(+10), PP(+1)",
         effect_jp: "打撃力(+5),射撃力(+5),法撃力(+5),打撃防御(+10),射撃防御(+10),法撃防御(+10),HP(+10),PP(+1)",
         effect_glen: "MEL Pwr(+5), RNG Pwr(+5), TEC Pwr(+5), MEL Def(+10), RNG Def(+10), TEC Def(+10), HP(+10), PP(+1)"
@@ -5085,7 +5090,7 @@ const lang = Object.freeze({
     "TM03": {
         name_en: "Crack III",
         name_jp: "クラックIII",
-        name_glen: "*Crack III",
+        name_glen: "Crack III",
         effect_en: "S-ATK(+10), R-ATK(+10), T-ATK(+10), S-DEF(+15), R-DEF(+15), T-DEF(+15), HP(+15), PP(+1)",
         effect_jp: "打撃力(+10),射撃力(+10),法撃力(+10),打撃防御(+15),射撃防御(+15),法撃防御(+15),HP(+15),PP(+1)",
         effect_glen: "MEL Pwr(+10), RNG Pwr(+10), TEC Pwr(+10), MEL Def(+15), RNG Def(+15), TEC Def(+15), HP(+15), PP(+1)"
@@ -5093,7 +5098,7 @@ const lang = Object.freeze({
     "TM04": {
         name_en: "Crack IV",
         name_jp: "クラックIV",
-        name_glen: "*Crack IV",
+        name_glen: "Crack IV",
         effect_en: "S-ATK(+15), R-ATK(+15), T-ATK(+15), S-DEF(+30), R-DEF(+30), T-DEF(+30), HP(+30), PP(+2)",
         effect_jp: "打撃力(+15),射撃力(+15),法撃力(+15),打撃防御(+30),射撃防御(+30),法撃防御(+30),HP(+30),PP(+2)",
         effect_glen: "MEL Pwr(+15), RNG Pwr(+15), TEC Pwr(+15), MEL Def(+30), RNG Def(+30), TEC Def(+30), HP(+30), PP(+2)"
@@ -5101,7 +5106,7 @@ const lang = Object.freeze({
     "TM05": {
         name_en: "Crack V",
         name_jp: "クラックV",
-        name_glen: "*Crack V",
+        name_glen: "Crack V",
         effect_en: "S-ATK(+30), R-ATK(+30), T-ATK(+30), S-DEF(+50), R-DEF(+50), T-DEF(+50), HP(+50), PP(+2)",
         effect_jp: "打撃力(+30),射撃力(+30),法撃力(+30),打撃防御(+50),射撃防御(+50),法撃防御(+50),HP(+50),PP(+2)",
         effect_glen: "MEL Pwr(+30), RNG Pwr(+30), TEC Pwr(+30), MEL Def(+50), RNG Def(+50), TEC Def(+50), HP(+50), PP(+2)"
@@ -5109,7 +5114,7 @@ const lang = Object.freeze({
     "TN01": {
         name_en: "Ange Glare",
         name_jp: "アンジュール・グレア",
-        name_glen: "*Ange Glare",
+        name_glen: "Angele Glare",
         effect_en: "S-ATK(+30), S-DEF(+40), R-DEF(+20), T-DEF(+20)",
         effect_jp: "打撃力(+30),打撃防御(+40),射撃防御(+20),法撃防御(+20)",
         effect_glen: "MEL Pwr(+30), MEL Def(+40), RNG Def(+20), TEC Def(+20)"
@@ -5205,7 +5210,7 @@ const lang = Object.freeze({
     "LP01": {
         name_en: "Lesser Power I",
         name_jp: "レッサー・パワーⅠ",
-        name_glen: "*Lesser Might I",
+        name_glen: "Lesser Might I",
         effect_en: "S-ATK(+5)",
         effect_jp: "打撃力(+5)",
         effect_glen: "MEL Pwr(+5)"
@@ -5213,7 +5218,7 @@ const lang = Object.freeze({
     "LP02": {
         name_en: "Lesser Power II",
         name_jp: "レッサー・パワーⅡ",
-        name_glen: "*Lesser Might II",
+        name_glen: "Lesser Might II",
         effect_en: "S-ATK(+15)",
         effect_jp: "打撃力(+15)",
         effect_glen: "MEL Pwr(+15)"
@@ -5221,7 +5226,7 @@ const lang = Object.freeze({
     "LP03": {
         name_en: "Lesser Power III",
         name_jp: "レッサー・パワーⅢ",
-        name_glen: "*Lesser Might III",
+        name_glen: "Lesser Might III",
         effect_en: "S-ATK(+25)",
         effect_jp: "打撃力(+25)",
         effect_glen: "MEL Pwr(+25)"
@@ -5229,7 +5234,7 @@ const lang = Object.freeze({
     "LP04": {
         name_en: "Lesser Power IV",
         name_jp: "レッサー・パワーⅣ",
-        name_glen: "*Lesser Might IV",
+        name_glen: "Lesser Might IV",
         effect_en: "S-ATK(+30)",
         effect_jp: "打撃力(+30)",
         effect_glen: "MEL Pwr(+30)"
@@ -5237,7 +5242,7 @@ const lang = Object.freeze({
     "LP05": {
         name_en: "Lesser Power V",
         name_jp: "レッサー・パワーⅤ",
-        name_glen: "*Lesser Might V",
+        name_glen: "Lesser Might V",
         effect_en: "S-ATK(+35)",
         effect_jp: "打撃力(+35)",
         effect_glen: "MEL Pwr(+35)"
@@ -5245,7 +5250,7 @@ const lang = Object.freeze({
     "LS01": {
         name_en: "Lesser Shoot I",
         name_jp: "レッサー・シュートⅠ",
-        name_glen: "*Lesser Precision I",
+        name_glen: "Lesser Precision I",
         effect_en: "R-ATK(+5)",
         effect_jp: "射撃力(+5)",
         effect_glen: "RNG Pwr(+5)"
@@ -5253,7 +5258,7 @@ const lang = Object.freeze({
     "LS02": {
         name_en: "Lesser Shoot II",
         name_jp: "レッサー・シュートⅡ",
-        name_glen: "*Lesser Precision II",
+        name_glen: "Lesser Precision II",
         effect_en: "R-ATK(+15)",
         effect_jp: "射撃力(+15)",
         effect_glen: "RNG Pwr(+15)"
@@ -5261,7 +5266,7 @@ const lang = Object.freeze({
     "LS03": {
         name_en: "Lesser Shoot III",
         name_jp: "レッサー・シュートⅢ",
-        name_glen: "*Lesser Precision III",
+        name_glen: "Lesser Precision III",
         effect_en: "R-ATK(+25)",
         effect_jp: "射撃力(+25)",
         effect_glen: "RNG Pwr(+25)"
@@ -5269,7 +5274,7 @@ const lang = Object.freeze({
     "LS04": {
         name_en: "Lesser Shoot IV",
         name_jp: "レッサー・シュートⅣ",
-        name_glen: "*Lesser Precision IV",
+        name_glen: "Lesser Precision IV",
         effect_en: "R-ATK(+30)",
         effect_jp: "射撃力(+30)",
         effect_glen: "RNG Pwr(+30)"
@@ -5277,7 +5282,7 @@ const lang = Object.freeze({
     "LS05": {
         name_en: "Lesser Shoot V",
         name_jp: "レッサー・シュートⅤ",
-        name_glen: "*Lesser Precision V",
+        name_glen: "Lesser Precision V",
         effect_en: "R-ATK(+35)",
         effect_jp: "射撃力(+35)",
         effect_glen: "RNG Pwr(+35)"
@@ -5285,7 +5290,7 @@ const lang = Object.freeze({
     "LT01": {
         name_en: "Lesser Technique I",
         name_jp: "レッサー・テクニックⅠ",
-        name_glen: "*Lesser Casting I",
+        name_glen: "Lesser Casting I",
         effect_en: "T-ATK(+5)",
         effect_jp: "法撃力(+5)",
         effect_glen: "TEC Pwr(+5)"
@@ -5293,7 +5298,7 @@ const lang = Object.freeze({
     "LT02": {
         name_en: "Lesser Technique II",
         name_jp: "レッサー・テクニックⅡ",
-        name_glen: "*Lesser Casting II",
+        name_glen: "Lesser Casting II",
         effect_en: "T-ATK(+15)",
         effect_jp: "法撃力(+15)",
         effect_glen: "TEC Pwr(+15)"
@@ -5301,7 +5306,7 @@ const lang = Object.freeze({
     "LT03": {
         name_en: "Lesser Technique III",
         name_jp: "レッサー・テクニックⅢ",
-        name_glen: "*Lesser Casting III",
+        name_glen: "Lesser Casting III",
         effect_en: "T-ATK(+25)",
         effect_jp: "法撃力(+25)",
         effect_glen: "TEC Pwr(+25)"
@@ -5309,7 +5314,7 @@ const lang = Object.freeze({
     "LT04": {
         name_en: "Lesser Technique IV",
         name_jp: "レッサー・テクニックⅣ",
-        name_glen: "*Lesser Casting IV",
+        name_glen: "Lesser Casting IV",
         effect_en: "T-ATK(+30)",
         effect_jp: "法撃力(+30)",
         effect_glen: "TEC Pwr(+30)"
@@ -5317,7 +5322,7 @@ const lang = Object.freeze({
     "LT05": {
         name_en: "Lesser Technique V",
         name_jp: "レッサー・テクニックⅤ",
-        name_glen: "*Lesser Casting V",
+        name_glen: "Lesser Casting V",
         effect_en: "T-ATK(+35)",
         effect_jp: "法撃力(+35)",
         effect_glen: "TEC Pwr(+35)"
@@ -5325,7 +5330,7 @@ const lang = Object.freeze({
     "LM01": {
         name_en: "Lesser Stamina I",
         name_jp: "レッサー・スタミナⅠ",
-        name_glen: "*Lesser Stamina I",
+        name_glen: "Lesser Stamina I",
         effect_en: "HP(+15)",
         effect_jp: "HP(+15)",
         effect_glen: "HP(+15)"
@@ -5333,7 +5338,7 @@ const lang = Object.freeze({
     "LM02": {
         name_en: "Lesser Stamina II",
         name_jp: "レッサー・スタミナⅡ",
-        name_glen: "*Lesser Stamina II",
+        name_glen: "Lesser Stamina II",
         effect_en: "HP(+35)",
         effect_jp: "HP(+35)",
         effect_glen: "HP(+35)"
@@ -5341,7 +5346,7 @@ const lang = Object.freeze({
     "LM03": {
         name_en: "Lesser Stamina III",
         name_jp: "レッサー・スタミナⅢ",
-        name_glen: "*Lesser Stamina III",
+        name_glen: "Lesser Stamina III",
         effect_en: "HP(+45)",
         effect_jp: "HP(+45)",
         effect_glen: "HP(+45)"
@@ -5349,7 +5354,7 @@ const lang = Object.freeze({
     "LM04": {
         name_en: "Lesser Stamina IV",
         name_jp: "レッサー・スタミナⅣ",
-        name_glen: "*Lesser Stamina IV",
+        name_glen: "Lesser Stamina IV",
         effect_en: "HP(+55)",
         effect_jp: "HP(+55)",
         effect_glen: "HP(+55)"
@@ -5357,7 +5362,7 @@ const lang = Object.freeze({
     "LM05": {
         name_en: "Lesser Stamina V",
         name_jp: "レッサー・スタミナⅤ",
-        name_glen: "*Lesser Stamina V",
+        name_glen: "Lesser Stamina V",
         effect_en: "HP(+65)",
         effect_jp: "HP(+65)",
         effect_glen: "HP(+65)"
@@ -5365,7 +5370,7 @@ const lang = Object.freeze({
     "LR01": {
         name_en: "Lesser Spirita I",
         name_jp: "レッサー・スピリタⅠ",
-        name_glen: "*Lesser Spirit I",
+        name_glen: "Lesser Spirit I",
         effect_en: "PP(+1)",
         effect_jp: "PP(+1)",
         effect_glen: "PP(+1)"
@@ -5373,7 +5378,7 @@ const lang = Object.freeze({
     "LR02": {
         name_en: "Lesser Spirita II",
         name_jp: "レッサー・スピリタⅡ",
-        name_glen: "*Lesser Spirit II",
+        name_glen: "Lesser Spirit II",
         effect_en: "PP(+2)",
         effect_jp: "PP(+2)",
         effect_glen: "PP(+2)"
@@ -5381,7 +5386,7 @@ const lang = Object.freeze({
     "LR03": {
         name_en: "Lesser Spirita III",
         name_jp: "レッサー・スピリタⅢ",
-        name_glen: "*Lesser Spirit III",
+        name_glen: "Lesser Spirit III",
         effect_en: "PP(+3)",
         effect_jp: "PP(+3)",
         effect_glen: "PP(+3)"
@@ -5389,7 +5394,7 @@ const lang = Object.freeze({
     "LR04": {
         name_en: "Lesser Spirita IV",
         name_jp: "レッサー・スピリタⅣ",
-        name_glen: "*Lesser Spirit IV",
+        name_glen: "Lesser Spirit IV",
         effect_en: "PP(+4)",
         effect_jp: "PP(+4)",
         effect_glen: "PP(+4)"
@@ -5397,7 +5402,7 @@ const lang = Object.freeze({
     "LR05": {
         name_en: "Lesser Spirita V",
         name_jp: "レッサー・スピリタⅤ",
-        name_glen: "*Lesser Spirit V",
+        name_glen: "Lesser Spirit V",
         effect_en: "PP(+5)",
         effect_jp: "PP(+5)",
         effect_glen: "PP(+5)"
@@ -5405,7 +5410,7 @@ const lang = Object.freeze({
     "LP06": {
         name_en: "EV Power HP",
         name_jp: "EV・パワーHP",
-        name_glen: "*EV Might HP",
+        name_glen: "EV Might HP",
         effect_en: "S-ATK(+35),<br>HP(+60)",
         effect_jp: "打撃力(+35),<br>HP(+60)",
         effect_glen: "MEL Pwr(+35),<br>HP(+60)"
@@ -5413,7 +5418,7 @@ const lang = Object.freeze({
     "LP07": {
         name_en: "EV Power PP",
         name_jp: "EV・パワーPP",
-        name_glen: "*EV Might PP",
+        name_glen: "EV Might PP",
         effect_en: "S-ATK(+35),<br>PP(+4)",
         effect_jp: "打撃力(+35),<br>PP(+4)",
         effect_glen: "MEL Pwr(+35),<br>PP(+4)"
@@ -5421,7 +5426,7 @@ const lang = Object.freeze({
     "LS06": {
         name_en: "EV Shoot HP",
         name_jp: "EV・シュートHP",
-        name_glen: "*EV Precision HP",
+        name_glen: "EV Precision HP",
         effect_en: "R-ATK(+35),<br>HP(+60)",
         effect_jp: "射撃力(+35),<br>HP(+60)",
         effect_glen: "RNG Pwr(+35),<br>HP(+60)"
@@ -5429,7 +5434,7 @@ const lang = Object.freeze({
     "LS07": {
         name_en: "EV Shoot PP",
         name_jp: "EV・シュートPP",
-        name_glen: "*EV Precision PP",
+        name_glen: "EV Precision PP",
         effect_en: "R-ATK(+35),<br>PP(+4)",
         effect_jp: "射撃力(+35),<br>PP(+4)",
         effect_glen: "RNG Pwr(+35),<br>PP(+4)"
@@ -5437,7 +5442,7 @@ const lang = Object.freeze({
     "LT06": {
         name_en: "EV Technique HP",
         name_jp: "EV・テクニックHP",
-        name_glen: "*EV Casting HP",
+        name_glen: "EV Casting HP",
         effect_en: "T-ATK(+35),<br>HP(+60)",
         effect_jp: "法撃力(+35),<br>HP(+60)",
         effect_glen: "TEC Pwr(+35),<br>HP(+60)"
@@ -5445,7 +5450,7 @@ const lang = Object.freeze({
     "LT07": {
         name_en: "EV Technique PP",
         name_jp: "EV・テクニックPP",
-        name_glen: "*EV Casting PP",
+        name_glen: "EV Casting PP",
         effect_en: "T-ATK(+35),<br>PP(+4)",
         effect_jp: "法撃力(+35),<br>PP(+4)",
         effect_glen: "TEC Pwr(+35),<br>PP(+4)"
@@ -5493,7 +5498,7 @@ const lang = Object.freeze({
     "TD06": {
         name_en: "Latan Fever",
         name_jp: "ラタン・フィーバー",
-        name_glen: "Rattan Fever",
+        name_glen: "Lantern Fever",
         effect_en: "T-ATK(+10),<br>DEX(+5),<br>PP(+2)",
         effect_jp: "法撃力(+10),<br>技量(+5),<br>PP(+2)",
         effect_glen: "TEC Pwr(+10),<br>DEX(+5),<br>PP(+2)"
@@ -5517,7 +5522,7 @@ const lang = Object.freeze({
     "TD09": {
         name_en: "Noiya Fever",
         name_jp: "ノイヤ・フィーバー",
-        name_glen: "*Noiya Fever",
+        name_glen: "Noiya Fever",
         effect_en: "R-ATK(+10),<br>DEX(+5),<br>HP(+5),<br>PP(+1)",
         effect_jp: "射撃力(+10),<br>技量(+5),<br>HP(+5),<br>PP(+1",
         effect_glen: "RNG Pwr(+10),<br>DEX(+5),<br>HP(+5),<br>PP(+1)"
@@ -5541,7 +5546,7 @@ const lang = Object.freeze({
     "TD0C": {
         name_en: "Sonic Fever",
         name_jp: "ソニック・フィーバー",
-        name_glen: "*Sonic Fever",
+        name_glen: "Sonic Fever",
         effect_en: "S-ATK(+10),<br>R-DEF(+10),<br>HP(+5),<br>PP(+1)",
         effect_jp: "打撃力(+10),<br>射撃防御(+10),<br>HP(+5),<br>PP(+1)",
         effect_glen: "MEL Pwr(+10),<br>RNG Def(+10),<br>HP(+5),<br>PP(+1)"
@@ -5549,7 +5554,7 @@ const lang = Object.freeze({
     "TD0D": {
         name_en: "Sansan Fever",
         name_jp: "サンサン・フィーバー",
-        name_glen: "*Sansan Fever",
+        name_glen: "Sumsum Fever",
         effect_en: "S-ATK(+5),<br>R-ATK(+5),<br>T-ATK(+5),<br>HP(+5),<br>PP(+1)",
         effect_jp: "打撃力(+5),<br>射撃力(+5),<br>法撃力(+5),<br>HP(+5),<br>PP(+1)",
         effect_glen: "MEL Pwr(+5),<br>RNG Pwr(+5),<br>TEC Pwr(+5),<br>HP(+5),<br>PP(+1)"
@@ -5557,7 +5562,7 @@ const lang = Object.freeze({
     "TD0E": {
         name_en: "Luna Fever",
         name_jp: "ルーナ・フィーバー",
-        name_glen: "*Luna Fever",
+        name_glen: "Luna Fever",
         effect_en: "T-ATK(+10),<br>HP(+10),<br>PP(+1)",
         effect_jp: "法撃力(+10),<br>HP(+10),<br>PP(+1)",
         effect_glen: "TEC Pwr(+10),<br>HP(+10),<br>PP(+1)"
@@ -5653,7 +5658,7 @@ const lang = Object.freeze({
     "ID01": {
         name_en: "Divine Will",
         name_jp: "ディバインウィル",
-        name_glen: "*Divine Will",
+        name_glen: "Divine Will",
         effect_en: "S-ATK(+20), R-ATK(+20), T-ATK(+20), PP(+5)",
         effect_jp: "打撃力(+20),射撃力(+20),法撃力(+20),PP(+5)",
         effect_glen: "MEL Pwr(+20), RNG Pwr(+20), TEC Pwr(+20), PP(+5)"
@@ -5661,7 +5666,7 @@ const lang = Object.freeze({
     "ID02": {
         name_en: "Divine Order",
         name_jp: "ディバイン・オーダー",
-        name_glen: "*Divine Order",
+        name_glen: "Divine Order",
         effect_en: "S-ATK(+50), R-ATK(+50), T-ATK(+50), HP(+20), PP(+10)",
         effect_jp: "打撃力(+50),射撃力(+50),法撃力(+50),HP(+20),PP(+10)",
         effect_glen: "MEL Pwr(+50), RNG Pwr(+50), TEC Pwr(+50), HP(+20), PP(+10)"
@@ -5669,7 +5674,7 @@ const lang = Object.freeze({
     "IE01": {
         name_en: "Exceed Energy",
         name_jp: "イクシード・エナジー",
-        name_glen: "*Exceed Energy",
+        name_glen: "Exceed Energy",
         effect_en: "S-ATK(+50), R-ATK(+50), T-ATK(+50), DEX(+20), S-DEF(+20), R-DEF(+20), T-DEF(+20), HP(+20), PP(+5)",
         effect_jp: "打撃力(+50),射撃力(+50),法撃力(+50),技量(+20),打撃防御(+20),射撃防御(+20),法撃防御(+20),HP(+20),PP(+5)",
         effect_glen: "MEL Pwr(+50), RNG Pwr(+50), TEC Pwr(+50), DEX(+20), MEL Def(+20), RNG Def(+20), TEC Def(+20), HP(+20), PP(+5)"
@@ -5685,7 +5690,7 @@ const lang = Object.freeze({
     "YA05": {
         name_en: "Sentence Arma",
         name_jp: "センテンス・アルマ",
-        name_glen: "Sentence Deftness",
+        name_glen: "Sentence Arma",
         effect_en: "S-ATK(+20),<br>HP(+20),<br>PP(+3)",
         effect_jp: "打撃力(+20),<br>HP(+20),<br>PP(+3)",
         effect_glen: "MEL Pwr(+20),<br>HP(+20),<br>PP(+3)"
@@ -5701,7 +5706,7 @@ const lang = Object.freeze({
     "YA15": {
         name_en: "Sentence Tiro",
         name_jp: "センテンス・ティロ",
-        name_glen: "Sentence Tiro",
+        name_glen: "Sentence Tyro",
         effect_en: "R-ATK(+20),<br>HP(+20),<br>PP(+3)",
         effect_jp: "射撃力(+20),<br>HP(+20),<br>PP(+3)",
         effect_glen: "RNG Pwr(+20),<br>HP(+20),<br>PP(+3)"
@@ -5717,7 +5722,7 @@ const lang = Object.freeze({
     "YA25": {
         name_en: "Sentence Magia",
         name_jp: "センテンス・マギア",
-        name_glen: "*Sentence Magia",
+        name_glen: "Sentence Magia",
         effect_en: "T-ATK(+20),<br>HP(+20),<br>PP(+3)",
         effect_jp: "法撃力(+20),<br>HP(+20),<br>PP(+3)",
         effect_glen: "TEC Pwr(+20),<br>HP(+20),<br>PP(+3)"
@@ -5741,15 +5746,15 @@ const lang = Object.freeze({
     "YB51": {
         name_en: "Phrase Decay",
         name_jp: "フレイズ・ディケイ",
-        name_glen: "*Phrase Decay",
+        name_glen: "Phrase Decay",
         effect_en: "Boosts damage inflicted to enemies<br>affected by Jellen by 5%.",
         effect_jp: "ジェルン状態の敵への威力+5%。",
-        effect_glen: "Boosts damage inflicted to enemies<br>affected by Jellen by 5%."
+        effect_glen: "Increase damage inflicted to enemies affected by Jellen by 5%."
     },
     "YB01": {
         name_en: "Phrase Recovery",
         name_jp: "フレイズ・レスポンス",
-        name_glen: "*Phrase Recovery",
+        name_glen: "Phrase Recovery",
         effect_en: "+5% PP Recovery Rate.",
         effect_jp: "攻撃時PP回復+5%。",
         effect_glen: "+5% PP Recovery Rate."
@@ -5765,10 +5770,10 @@ const lang = Object.freeze({
     "YB21": {
         name_en: "Phrase Response",
         name_jp: "フレイズ・レスポンス",
-        name_glen: "*Phrase Response",
+        name_glen: "Phrase Response",
         effect_en: "+5% ATK PP Recovery.",
         effect_jp: "攻撃時PP回復+5%。",
-        effect_glen: "+5% ATK PP Recovery."
+        effect_glen: "Increases normal attack PP recovery by 5%"
     },
     "YB31": {
         name_en: "Phrase Chase",
@@ -5885,7 +5890,7 @@ const lang = Object.freeze({
     "VH11": {
         name_en: "Omega Buster",
         name_jp: "オメガバスター",
-        name_glen: "*Omega Buster",
+        name_glen: "Omega Buster",
         effect_en: "Boosts damage against Demons by 3%.",
         effect_jp: "魔物へのダメージは10％増加する。",
         effect_glen: "Boosts damage against Demons by 3%."
@@ -5893,47 +5898,47 @@ const lang = Object.freeze({
     "PA01": {
         name_en: "Ripper/Ltn. Weak",
         name_jp: "リーパー／雷弱点",
-        name_glen: "*Ripper/Ltn. Weak",
+        name_glen: "*Reaper: Weak to Lighting",
         effect_en: "Boost damage against enemies weak to Lightning. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "雷弱点のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
-        effect_glen: "Boost damage against enemies weak to Lightning. Effect is reduced as the Weapon Rarity increases."
+        effect_glen: "Increases damage against enemies weak to Lightning. Effect is reduced as the Weapon Rarity increases."
     },
     "PB02": {
         name_en: "Ripper/Fire Weak",
         name_jp: "リーパー／火弱点",
-        name_glen: "*Ripper/Fire Weak",
+        name_glen: "*Reaper: Weak to Fire",
         effect_en: "Boost damage against enemies weak to Fire. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "火弱点のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
-        effect_glen: "Boost damage against enemies weak to Fire. Effect is reduced as the Weapon Rarity increases."
+        effect_glen: "Increases damage against enemies weak to Fire. Effect is reduced as the Weapon Rarity increases."
     },
     "PC03": {
         name_en: "Ripper/Ice Weak",
         name_jp: "リーパー／氷弱点",
-        name_glen: "*Ripper/Ice Weak",
+        name_glen: "*Reaper: Weak to Ice",
         effect_en: "Boost damage against enemies weak to Ice. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "氷弱点のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
-        effect_glen: "Boost damage against enemies weak to Ice. Effect is reduced as the Weapon Rarity increases."
+        effect_glen: "Increases damage against enemies weak to Ice. Effect is reduced as the Weapon Rarity increases."
     },
     "PD04": {
         name_en: "Ripper/Wind Weak",
         name_jp: "リーパー／風弱点",
-        name_glen: "*Ripper/Wind Weak",
+        name_glen: "*Reaper: Weak to Wind",
         effect_en: "Boost damage against enemies weak to Wind. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "風弱点のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
-        effect_glen: "Boost damage against enemies weak to Wind. Effect is reduced as the Weapon Rarity increases."
+        effect_glen: "Increases damage against enemies weak to Wind. Effect is reduced as the Weapon Rarity increases."
     },
     "PE05": {
         name_en: "Ripper/Light Weak",
         name_jp: "リーパー／光弱点",
-        name_glen: "*Ripper/Light Weak",
+        name_glen: "Reaper: Weak to Light",
         effect_en: "Boost damage against enemies weak to Light. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "光弱点のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
-        effect_glen: "Boost damage against enemies weak to Light. Effect is reduced as the Weapon Rarity increases."
+        effect_glen: "Increases damage against enemies weak to Light. Effect is reduced as Weapon Rarity increases."
     },
     "PF06": {
         name_en: "Ripper/Dark Weak",
         name_jp: "リーパー／闇弱点",
-        name_glen: "*Ripper/Dark Weak",
+        name_glen: "*Reaper: Weak to Dark",
         effect_en: "Boost damage against enemies weak to Dark. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "闇弱点のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against enemies weak to Dark. Effect is reduced as the Weapon Rarity increases."
@@ -5941,7 +5946,7 @@ const lang = Object.freeze({
     "VQ01": {
         name_en: "Slayer/Armor Type",
         name_jp: "スレイヤー／機甲種",
-        name_glen: "*Slayer/Deftnessor Type",
+        name_glen: "*Slayer: Mechs",
         effect_en: "Boost damage against Lillipa Mechs. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "機甲種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Lillipa Mechs. Effect is reduced as the Weapon Rarity increases."
@@ -5949,7 +5954,7 @@ const lang = Object.freeze({
     "VQ02": {
         name_en: "Slayer/Beast Type",
         name_jp: "スレイヤー／野獣種",
-        name_glen: "*Slayer/Beast Type",
+        name_glen: "*Slayer: Beast",
         effect_en: "Boost damage against Naberius Natives. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "野獣種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Naberius Natives. Effect is reduced as the Weapon Rarity increases."
@@ -5957,7 +5962,7 @@ const lang = Object.freeze({
     "PJ13": {
         name_en: "Slayer/Ocean Type",
         name_jp: "スレイヤー／海王種",
-        name_glen: "*Slayer/Ocean Type",
+        name_glen: "*Slayer: Oceanic",
         effect_en: "Boost damage against Oceanids. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "海王種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Oceanids. Effect is reduced as the Weapon Rarity increases."
@@ -5965,7 +5970,7 @@ const lang = Object.freeze({
     "PK14": {
         name_en: "Slayer/Kuronite Type",
         name_jp: "スレイヤー／黒の民",
-        name_glen: "*Slayer/Kuronite Type",
+        name_glen: "*Slayer: Kuronite",
         effect_en: "Boost damage against Kuronites. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "黒の民のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Kuronites. Effect is reduced as the Weapon Rarity increases."
@@ -5973,7 +5978,7 @@ const lang = Object.freeze({
     "PL15": {
         name_en: "Slayer/Phantoms Type",
         name_jp: "スレイヤー／幻創種",
-        name_glen: "*Slayer/Phantoms Type",
+        name_glen: "*Slayer: Phantoms",
         effect_en: "Boost damage against Phantoms. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "幻創種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Phantoms. Effect is reduced as the Weapon Rarity increases."
@@ -5981,15 +5986,15 @@ const lang = Object.freeze({
     "PM16": {
         name_en: "Slayer/Darkers",
         name_jp: "スレイヤー／ダーカー",
-        name_glen: "*Slayer/Darkers",
+        name_glen: "Slayer: Falspawn",
         effect_en: "Boost damage against Darkers. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "ダーカー種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
-        effect_glen: "Boost damage against Darkers. Effect is reduced as the Weapon Rarity increases."
+        effect_glen: "Increase damage against Falspawn.<br>Effect is reduced as the Weapon Rarity increases."
     },
     "PN17": {
         name_en: "Slayer/Dragonkin",
         name_jp: "スレイヤー／龍族種",
-        name_glen: "*Slayer/Dragonkin",
+        name_glen: "*Slayer: Dragonkin",
         effect_en: "Boost damage against Dragonkin. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "龍族種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Dragonkin. Effect is reduced as the Weapon Rarity increases."
@@ -5997,7 +6002,7 @@ const lang = Object.freeze({
     "PO18": {
         name_en: "Slayer/Luminmech",
         name_jp: "スレイヤー／閃機種",
-        name_glen: "*Slayer/Luminmech",
+        name_glen: "*Slayer: Luminmech",
         effect_en: "Boost damage against Luminmech. Effect is reduced as the Weapon Rarity increases.",
         effect_jp: "閃機種のエネミーを攻撃時威力が上昇。ただし武器のレアリティが高くなるほど威力の上昇量は減少。",
         effect_glen: "Boost damage against Luminmech. Effect is reduced as the Weapon Rarity increases."
@@ -6021,7 +6026,7 @@ const lang = Object.freeze({
     "VJ03": {
         name_en: "Reverie Catalyst",
         name_jp: "レヴリー・カタリスト",
-        name_glen: "*Reverie Catalyst",
+        name_glen: "Reverie Catalyst",
         effect_en: "HP(+10),<br>PP(+1)",
         effect_jp: "HP(+10),<br>PP(+1)",
         effect_glen: "HP(+10),<br>PP(+1)"
@@ -6053,15 +6058,15 @@ const lang = Object.freeze({
     "VO01": {
         name_en: "Guidance Trainer",
         name_jp: "錬成の導き",
-        name_glen: "*Guidance Trainer",
+        name_glen: "Augment Guidance",
         effect_en: "Increase Special Ability Addition success rate by 5%.",
         effect_jp: "特殊能力の成功率を5％上昇させる。",
-        effect_glen: "Increase Augment Addition success rate by 5%."
+        effect_glen: "Increases the probability of Augments successfully affixed to this equipment by 5%."
     },
     "VK05": {
         name_en: "NT Weapon Booster",
         name_jp: "ＮＴウェポンブースト",
-        name_glen: "*Weapon Booster",
+        name_glen: "Weapon Booster",
         effect_en: "Adds 800 EXP to NT weapon grinds.",
         effect_jp: "新世武器強化時の経験値が800増加する。",
         effect_glen: "Weapon Enhancement EXP +800."
@@ -6101,7 +6106,7 @@ const lang = Object.freeze({
     "XD01": {
         name_en: "Sentence Receptor",
         name_jp: "センテンスレセプター",
-        name_glen: "*Sentence Receptor",
+        name_glen: "Sentence Receptor",
         effect_en: "Boosts transfer of Sentence affixes.<br>ALL(+10)",
         effect_jp: "センテンス系特殊能力の合成成功率を大幅に上昇。<br>ALL(+10)",
         effect_glen: "Boosts transfer of Sentence affixes.<br>ALL(+10)"
@@ -6125,7 +6130,7 @@ const lang = Object.freeze({
     "XG01": {
         name_en: "Mark Receptor",
         name_jp: "マークレセプター",
-        name_glen: "*Mark Receptor",
+        name_glen: "Mark Receptor",
         effect_en: "Allows transfer Mark-type ability.<br>ALL(+10)",
         effect_jp: "マーク系特殊能力の合成成功率を大幅に上昇。<br>ALL(+10)",
         effect_glen: "Allows transfer Mark-type ability.<br>ALL(+10)"
@@ -6261,7 +6266,7 @@ const lang = Object.freeze({
     "XI61": {
         name_en: "Grand Stamina",
         name_jp: "グランド・スタミナ",
-        name_glen: "*Grand Stamina",
+        name_glen: "Grand Stamina",
         effect_en: "HP(+100),PP(+6)",
         effect_jp: "HP(+100),PP(+6)",
         effect_glen: "HP(+100),PP(+6)"
@@ -6293,7 +6298,7 @@ const lang = Object.freeze({
     "XI62": {
         name_en: "Grand Power",
         name_jp: "グランド・パワー",
-        name_glen: "*Grand Might",
+        name_glen: "Grand Might",
         effect_en: "S-ATK(+60),HP(+20),PP(+5)",
         effect_jp: "打撃力(+60),HP(+20),PP(+5)",
         effect_glen: "MEL Pwr(+60),HP(+20),PP(+5)"
@@ -6325,7 +6330,7 @@ const lang = Object.freeze({
     "XI63": {
         name_en: "Grand Shoot",
         name_jp: "グランド・シュート",
-        name_glen: "*Grand Precision",
+        name_glen: "Grand Precision",
         effect_en: "R-ATK(+60),HP(+20),PP(+5)",
         effect_jp: "射撃力(+60),HP(+20),PP(+5)",
         effect_glen: "RNG Pwr(+60),HP(+20),PP(+5)"
@@ -6357,7 +6362,7 @@ const lang = Object.freeze({
     "XI64": {
         name_en: "Grand Technique",
         name_jp: "グランド・テクニック",
-        name_glen: "*Grand Casting",
+        name_glen: "Grand Casting",
         effect_en: "T-ATK(+60),HP(+20),PP(+5)",
         effect_jp: "法撃力(+50),HP(+20),PP(+5)",
         effect_glen: "TEC Pwr(+60),HP(+20),PP(+5)"
@@ -6365,7 +6370,7 @@ const lang = Object.freeze({
     "XI60": {
         name_en: "Grace Spirita",
         name_jp: "グランド・スピリタ",
-        name_glen: "Graceful Spirit",
+        name_glen: "Grand Spirit",
         effect_en: "PP(+15)",
         effect_jp: "PP(+15)",
         effect_glen: "PP(+15)"
