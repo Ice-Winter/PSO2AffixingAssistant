@@ -3,7 +3,7 @@
   # PSO2 Affixing Assistant
   Effortless affixing solutions to PSO2 problems
 
-  ## [Use the Global Translation version of the Affix Assistant Here](https://corvous.github.io/pso2affixingassistant/)
+  ## [Use the Global Translation version of the Affix Assistant Here](https://corvous.github.io/PSO2AffixingAssistant/)
   #### Affix Assistant is developed by Malulleybovo while the global translations are translated by Cor Vous and Ice Winter
   #### [You can go and found more of Malulleybovo work on their github such as their Symbol Art Editor here](https://www.github.com/malulleybovo)
   
