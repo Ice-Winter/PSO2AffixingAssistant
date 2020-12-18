@@ -85,7 +85,7 @@
   3) A fix to the bug you found will come soon! Thanks for reporting!
   
   ### Found a Global Translation mistake or discoverd a augment that has been greyed out but is in the global verison of PSO2?
-  Then you can leave a issue report on the global translation github and it will soon be resolve
+  Then you can leave a issue report on the global translation github and it will soon be resolve.<br>
   If you found a augment that has been greyed out in this verison of the affix assistant then also leave a screenshot of that augment to verify it
   
   ### Contribute
