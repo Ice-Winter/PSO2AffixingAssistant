@@ -4389,6 +4389,62 @@ const lang = Object.freeze({
         effect_jp: "チェイントリガー開始時PPが回復し、60秒間威力3%上昇。双機銃限定",
 		effect_glen: "On Chain Trigger activation, recover PP and increase Power by 3% for 60 seconds. Twin Machineguns only."
     },
+	"LE0H": {
+        name_en: "S5:Mysterious Purpose",
+        name_jp: "S5:妙の巧志",
+		name_glen: "S5:Skillful Adept Will",
+        effect_en: "Increase Critical Hit Rate by 20%. On a Critical Hit, deal an additional 2% damage and recover 1% of damage dealt as HP (30 MAX).",
+        effect_jp: "クリティカル率が20%上昇。発生時に威力2%上昇、与ダメージの1%をHP回復(上限30)",
+		effect_glen: "Increase Critical Hit Rate by 20%. On a Critical Hit, deal an additional 2% damage and recover 1% of damage dealt as HP (30 MAX)."
+    },
+    "LE0P": {
+        name_en: "S5:Calming Expanse",
+        name_jp: "S5:静心拡域",
+		name_glen: "*S5:Calming Expanse",
+        effect_en: "Adds an extra wide-area<br>attack and a chance to<br>stun to normal attacks.<br>Assault Rifles only.",
+        effect_jp: "通常攻撃に範囲攻撃が追加され確率でスタン付与。威力2%上昇。長銃限定。",
+		effect_glen: "Adds an extra wide-area<br>attack and a chance to<br>stun to normal attacks.<br>Assault Rifles only."
+    },
+    "LE0Q": {
+        name_en: "S5:Area Support",
+        name_jp: "S5:領域加勢",
+		name_glen: "*S5:Area Support",
+        effect_en: "Gain additional bonus<br>effects to Critical<br>Field and EPPR when<br>either are active.",
+        effect_jp: "クリティカルフィールドとエレメンタルPPリストレイトFの効果が有効時、フィールドごとに追加効果が発生する。",
+		effect_glen: "Gain additional bonus<br>effects to Critical<br>Field and EPPR when<br>either are active."
+    },
+    "LE0O": {
+        name_en: "S5:Calming Quartet",
+        name_jp: "S5:静心四連",
+		name_glen: "*S5:Calming Quartet",
+        effect_en: "Reduces the power of<br>normal attacks by 67%,<br>but makes each normal<br>attack fire 4 shots.<br>Launchers only.",
+        effect_jp: "通常攻撃の威力が67％低下する代わりに攻撃が4発に変化。",
+		effect_glen: "Reduces the power of<br>normal attacks by 67%,<br>but makes each normal<br>attack fire 4 shots.<br>Launchers only."
+    },
+    "LE96": {
+        name_en: "S5:Aegis Balance",
+        name_jp: "S5:堅守の秤",
+		name_glen: "*S5:Aegis Balance",
+        effect_en: "Increase Power by 4%. Reduce damage taken by 25% but consume 20 PP when taking damage. Force only.",
+        effect_jp: "威力が4%上昇。被ダメージ時PPを20消費してダメージを25%軽減する。フォース限定。",
+		effect_glen: "Increase Power by 4%. Reduce damage taken by 25% but consume 20 PP when taking damage. Force only."
+    },
+    "LE0R": {
+        name_en: "S5:Swift Radiance",
+        name_jp: "S5:回避輝与",
+		name_glen: "*S5:Swift Radiance",
+        effect_en: "Stop Natural PP Regeneration. Increase Active PP Recovery by 50% and restore 100 PP upon successfully evading an attack with Sway or Step. Increase Power by 2%. Knuckles only.",
+        effect_jp: "PP自然回復が停止。攻撃時PP回復量が50%上昇、回避成功時PPが100回復。威力2%上昇。鋼拳限定。",
+		effect_glen: "Stop Natural PP Regeneration. Increase Active PP Recovery by 50% and restore 100 PP upon successfully evading an attack with Sway or Step. Increase Power by 2%. Knuckles only."
+    },
+    "LE0N": {
+        name_en: "S5:Chained Radiance",
+        name_jp: "S5:連鎖輝与",
+		name_glen: "*S5:Chained Radiance",
+        effect_en: "On Chain Trigger activation, recover PP and increase Power by 3% for 60 seconds. Twin Machineguns only.",
+        effect_jp: "チェイントリガー開始時PPが回復し、60秒間威力3%上昇。双機銃限定",
+		effect_glen: "On Chain Trigger activation, recover PP and increase Power by 3% for 60 seconds. Twin Machineguns only."
+    },
     "LF0A": {
         name_en: "S6:Heroic Howl",
         name_jp: "S6:英雄咆哮",
@@ -6584,7 +6640,7 @@ const lang = Object.freeze({
     "VJ04": {
         name_en: "Glare Catalyst",
         name_jp: "グレア・カタリスト",
-		name_glen: "Glare Catalyst",
+		    name_glen: "Glare Catalyst",
         effect_en: "HP(+10),<br>PP(+1)",
         effect_jp: "HP(+10),<br>PP(+1)",
 		effect_glen: "HP(+10),<br>PP(+1)"
