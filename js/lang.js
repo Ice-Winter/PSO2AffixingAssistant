@@ -6584,7 +6584,7 @@ const lang = Object.freeze({
     "VJ04": {
         name_en: "Glare Catalyst",
         name_jp: "グレア・カタリスト",
-		name_glen: "Glare Catalyst",
+		    name_glen: "Glare Catalyst",
         effect_en: "HP(+10),<br>PP(+1)",
         effect_jp: "HP(+10),<br>PP(+1)",
 		effect_glen: "HP(+10),<br>PP(+1)"
