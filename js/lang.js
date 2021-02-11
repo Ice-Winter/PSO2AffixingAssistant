@@ -4592,7 +4592,7 @@ const lang = Object.freeze({
     "LG0E": {
         name_en: "S7:HP Up",
         name_jp: "S7:活器上昇",
-        name_glen: "*S7:Fortified Life Vessel",
+        name_glen: "S7:Fortified Life Vessel",
         effect_en: "HP(+40)",
         effect_jp: "HP(+40)",
         effect_glen: "HP(+40)"
