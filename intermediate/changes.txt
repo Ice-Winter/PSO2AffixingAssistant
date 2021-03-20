@@ -3256,6 +3256,10 @@
       "en": "{replace with english name for S1追加:錬成の志2}",
       "jp": "S1追加:錬成の志2"
     },
+    "S3 Add: Calming Exhilaration": {
+      "en": "S3 Add: Calming Exhilaration",
+      "jp": "S3追加:静心活与"
+    },
     "{replace with english name for S5追加:終撃応与}": {
       "en": "{replace with english name for S5追加:終撃応与}",
       "jp": "S5追加:終撃応与"
