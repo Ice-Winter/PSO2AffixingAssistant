@@ -2339,7 +2339,7 @@ const lang = Object.freeze({
     "HM01": {
         name_en: "Light Resist I",
         name_jp: "ライトレジストⅠ",
-        name_glen: "Light Resist I",
+        name_glen: "Radiant Ward I",
         effect_en: "Light Resist(+3)",
         effect_jp: "光耐性(+3)",
         effect_glen: "Light Resist(+3)"
@@ -2347,7 +2347,7 @@ const lang = Object.freeze({
     "HM02": {
         name_en: "Light Resist II",
         name_jp: "ライトレジストⅡ",
-        name_glen: "Light Resist II",
+        name_glen: "Radiant Ward II",
         effect_en: "Light Resist(+4)",
         effect_jp: "光耐性(+4)",
         effect_glen: "Light Resist(+4)"
@@ -2355,7 +2355,7 @@ const lang = Object.freeze({
     "HM03": {
         name_en: "Light Resist III",
         name_jp: "ライトレジストⅢ",
-        name_glen: "Light Resist III",
+        name_glen: "Radiant Ward III",
         effect_en: "Light Resist(+5)",
         effect_jp: "光耐性(+5)",
         effect_glen: "Light Resist(+5)"
@@ -2363,7 +2363,7 @@ const lang = Object.freeze({
     "HM04": {
         name_en: "Light Resist IV",
         name_jp: "ライトレジストⅣ",
-        name_glen: "Light Resist IV",
+        name_glen: "Radiant Ward IV",
         effect_en: "Light Resist(+6)",
         effect_jp: "光耐性(+6)",
         effect_glen: "Light Resist(+6)"
@@ -2371,7 +2371,7 @@ const lang = Object.freeze({
     "HM05": {
         name_en: "Light Resist V",
         name_jp: "ライトレジストⅤ",
-        name_glen: "Light Resist V",
+        name_glen: "Radiant Ward V",
         effect_en: "Light Resist(+7)",
         effect_jp: "光耐性(+7)",
         effect_glen: "Light Resist(+7)"
