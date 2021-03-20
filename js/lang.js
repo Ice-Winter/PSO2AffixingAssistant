@@ -6654,7 +6654,7 @@ const lang = Object.freeze({
         name_glen: "Gift Receptor",
         effect_en: "Allows transfer of Lucky Rise, EXP Boost, and Meseta Fever.",
         effect_jp: "ギフト系特殊能力の引き継ぎが可能になる",
-        effect_glen: "Greatly increases the Transfer rate of Gift-type Augments[Lucky Charm, EXP Boost, and Meseta Fever].<br>ALL(+10)"
+        effect_glen: "Greatly increases the Transfer rate of Gift-type Augments.<br>Lucky Charm | EXP Boost | Meseta Fever<br>ALL(+10)"
     },
     "XD01": {
         name_en: "Sentence Receptor",
